@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity
         implements GestureDetector.OnGestureListener,
         GestureDetector.OnDoubleTapListener {
 
- 
+    private TextView txtMessage;
+    private GestureDetectorCompat GD;    //must instantiate the gesture detector
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
