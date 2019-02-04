@@ -14,10 +14,12 @@ import android.widget.VideoView;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-public class MathModule1_Part1 extends AppCompatActivity {
+public class MathModule1_Part1 extends AppCompatActivity
+{
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_math_module1__part1);
         final String completedModules[] = {"Basic Ratios","Equivalent Ratios","Ratios with Double Number Lines","Ratios with Tape Diagrams"};
@@ -43,5 +45,16 @@ public class MathModule1_Part1 extends AppCompatActivity {
                 startActivity(i);
             }
         });
+    }
+
+    @Override protected void onResume()
+    {
+        super.onResume();
+        VideoView vvIntro = findViewById(R.id.vvIntro);
+        Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.ratiosandpropotions);
+        vvIntro.setVideoPath(uri.toString());
+        vvIntro.requestFocus();
+        vvIntro.start();
+
     }
 }

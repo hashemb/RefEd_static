@@ -61,7 +61,9 @@ public class Login extends AppCompatActivity
         {
             @Override public void onClick(View v)
             {
-                Signin();
+                Intent next = new Intent(getApplicationContext(), HomeScreen.class);
+                startActivity(next);
+
             }
         });
     }
@@ -82,33 +84,7 @@ public class Login extends AppCompatActivity
 
     }
 
-    private void Signin()
-    {
-        String checkUsername = edtUsername.getText().toString()+"@makeFakedomain.com";
-        String checkPassword = edtPassword.getText().toString();
 
-        progressBar.setVisibility(View.VISIBLE);
-        mAuth.signInWithEmailAndPassword(checkUsername,checkPassword)
-                .addOnCompleteListener(new OnCompleteListener<AuthResult>()
-                {
-                    @Override public void onComplete(@NonNull Task<AuthResult> task)
-                    {
-                        progressBar.setVisibility(View.INVISIBLE);
-                        if(task.isSuccessful())
-                        {
-                            //TEMPORARILY CHANGED TO DASHBOARD FOR DEMO
-
-                            Intent welcome = new Intent(getApplicationContext(),UserDashboard.class);
-                            welcome.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                            welcome.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                            startActivity(welcome);
-                        }
-                        else {
-                            Toast.makeText(getApplicationContext(),task.getException().getMessage(),Toast.LENGTH_LONG).show();
-                        }
-                    }
-                });
-    }
 
     public void onBackPressed(){
         finish();

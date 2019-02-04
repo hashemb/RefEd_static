@@ -32,24 +32,27 @@ import com.google.firebase.database.ValueEventListener;
 
 import org.w3c.dom.Text;
 
+import static com.example.vaibh.refed.R.id.drawer_layout;
+
 public class UserDashboard extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
 
     //ImageView imgAvatar;
     private FirebaseAuth mAuth;
     String uid, imageName;
     ImageView imgMath, imgScience;
     TextView txtName, txtWelcome;
-    VideoView vvintro;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    //VideoView VideoView;
+
+
+    @Override protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user_dashboard);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setContentView(R.layout.activity_home_screen);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
@@ -69,10 +72,10 @@ public class UserDashboard extends AppCompatActivity
         View header=navigationView.getHeaderView(0);
 
         txtName = header.findViewById(R.id.txtName);
-        ImageView imgAvatar = header.findViewById(R.id.imgAvatar);
+        //ImageView imgAvatar = header.findViewById(R.id.imgAvatar);
         imgMath = findViewById(R.id.imgMath);
         imgScience = findViewById(R.id.imgScience);
-        final VideoView videoview = (VideoView) findViewById(R.id.vvIntro);
+        final VideoView videoview = findViewById(R.id.vvIntro);
 
         videoview.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             @Override
@@ -85,7 +88,7 @@ public class UserDashboard extends AppCompatActivity
 
         videoview.setVideoURI(uri);
         videoview.requestFocus();
-        imgAvatar.setImageResource(R.drawable.profile);
+        //imgAvatar.setImageResource(R.drawable.profile);
         videoview.start();
         txtWelcome = findViewById(R.id.txtWelcome);
 
@@ -131,7 +134,7 @@ public class UserDashboard extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -184,7 +187,7 @@ public class UserDashboard extends AppCompatActivity
 
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
