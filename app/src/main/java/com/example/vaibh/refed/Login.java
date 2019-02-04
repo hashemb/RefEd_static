@@ -16,15 +16,16 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class Login extends AppCompatActivity {
+public class Login extends AppCompatActivity
+{
 
     private Button btnLogin, signup;
     private EditText edtUsername, edtPassword;
     private TextView txtWelcome;
     ProgressBar progressBar;
     FirebaseAuth mAuth;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    @Override protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
@@ -38,34 +39,42 @@ public class Login extends AppCompatActivity {
 
 
         mAuth = FirebaseAuth.getInstance();
-        signup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        signup.setOnClickListener(new View.OnClickListener()
+        {
+            @Override public void onClick(View v)
+            {
                 Intent i = new Intent(getApplicationContext(),SignUp.class);
                 startActivity(i);
             }
-        });
 
-        btnLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        });
+    }
+
+    @Override protected void onStart()
+    {
+        super.onStart();
+        btnLogin.setOnClickListener(new View.OnClickListener()
+        {
+            @Override public void onClick(View v)
+            {
                 Signin();
             }
         });
-
-
-}
-    private void Signin(){
+    }
+    private void Signin()
+    {
         String checkUsername = edtUsername.getText().toString()+"@makeFakedomain.com";
         String checkPassword = edtPassword.getText().toString();
 
         progressBar.setVisibility(View.VISIBLE);
         mAuth.signInWithEmailAndPassword(checkUsername,checkPassword)
-                .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
+                .addOnCompleteListener(new OnCompleteListener<AuthResult>()
+                {
+                    @Override public void onComplete(@NonNull Task<AuthResult> task)
+                    {
                         progressBar.setVisibility(View.INVISIBLE);
-                        if(task.isSuccessful()){
+                        if(task.isSuccessful())
+                        {
                             //TEMPORARILY CHANGED TO DASHBOARD FOR DEMO
 
                             Intent welcome = new Intent(getApplicationContext(),UserDashboard.class);
@@ -73,16 +82,17 @@ public class Login extends AppCompatActivity {
                             welcome.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                             startActivity(welcome);
                         }
-                        else{
+                        else {
                             Toast.makeText(getApplicationContext(),task.getException().getMessage(),Toast.LENGTH_LONG).show();
                         }
                     }
-                });}
+                });
+    }
 
     public void onBackPressed(){
         finish();
     }
 
-    }
+}
 
 
