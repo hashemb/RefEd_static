@@ -24,14 +24,14 @@ public class MathModule1_Part1 extends AppCompatActivity
         setContentView(R.layout.activity_math_module1__part1);
         final String completedModules[] = {"Basic Ratios","Equivalent Ratios","Ratios with Double Number Lines","Ratios with Tape Diagrams"};
 
-        CustomAdapterAchievements achievementAdapter = new CustomAdapterAchievements(this, completedModules);
-
-        ListView listModules = (ListView) findViewById(R.id.lvParts);
         VideoView vvIntro = findViewById(R.id.vvIntro);
         Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.ratiosandpropotions);
         vvIntro.setVideoPath(uri.toString());
         vvIntro.requestFocus();
         vvIntro.start();
+
+        CustomAdapterAchievements achievementAdapter = new CustomAdapterAchievements(this, completedModules);
+        ListView listModules = (ListView) findViewById(R.id.lvParts);
 
         listModules.setAdapter(achievementAdapter);
 
@@ -40,7 +40,7 @@ public class MathModule1_Part1 extends AppCompatActivity
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String module = String.valueOf(parent.getItemAtPosition(position));
                 Toast.makeText(getApplicationContext(),module,Toast.LENGTH_LONG).show();
-                Intent i = new Intent(getApplicationContext(),Activity_Math.class);
+                Intent i = new Intent(getApplicationContext(),MathModule1_Part1.class);
                 i.putExtra("Name",completedModules[position]);
                 startActivity(i);
             }

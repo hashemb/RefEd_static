@@ -2,11 +2,13 @@ package com.example.vaibh.refed;
 
 import android.app.Fragment;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.RadioButton;
+import android.widget.*;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -22,29 +24,46 @@ public class Activity_Math extends AppCompatActivity {
     private Fragment frag;
     public static String moduleName;
 
+
+    VideoView mathModVid;
+    String mathMods[] = {"Ratios and Proportional Relationships","The Number System",
+            "Expressions and Equations","Geometry","Statistics and Probability"};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity__math);
 
-        Context context = Activity_Math.this;
-        extra = getIntent().getExtras();
-        moduleName = extra.getString("Name");
-        Log.i("TESTFRAG",moduleName);
-
-        c = Activity_Math.this;
-
-        FragmentQuestions myObj = new FragmentQuestions();
-        Bundle bundle = new Bundle();
-        bundle.putString("Name",moduleName);
-        myObj.setArguments(bundle);
-        Log.i("TESTFRAG",moduleName + "sent");
-        //String json = loadJSONFromAsset("Math_Part_1_Section_1");
+        ListView listModules = findViewById(R.id.lvParts);
+        CustomAdapterAchievements achievementAdapter = new CustomAdapterAchievements(this, mathMods);
+        listModules.setAdapter(achievementAdapter);
 
 
+        listModules.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String module = String.valueOf(parent.getItemAtPosition(position));
+                Toast.makeText(getApplicationContext(),module,Toast.LENGTH_LONG).show();
+                Intent i = new Intent(getApplicationContext(),MathModule1_Part1.class);
+                i.putExtra("Name",mathMods[position]);
+                startActivity(i);
+            }
+        });
 
+    }
 
+    @Override protected void onStart()
+    {
+        super.onStart();
+        mathModVid = findViewById(R.id.mathModVid);
+        playVideo(mathModVid);
+    }
 
+    public void playVideo(View v)
+    {
+        Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.math_mod_intro);
+        mathModVid.setVideoPath(uri.toString());
+        mathModVid.requestFocus();
+        mathModVid.start();
     }
 
     /*public String loadJSONFromAsset(String fileName) {

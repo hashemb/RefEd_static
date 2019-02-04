@@ -42,7 +42,7 @@ public class ModulesPage extends AppCompatActivity {
         vv2 = findViewById(R.id.videoView2);
         list.setAdapter(adapter);
 
-        Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.part1_intro_video);
+        Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.math_mod_intro);
         vv2.setVideoPath(uri.toString());
         vv2.requestFocus();
         vv2.start();

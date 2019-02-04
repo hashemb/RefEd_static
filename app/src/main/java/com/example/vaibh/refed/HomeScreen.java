@@ -41,7 +41,7 @@ public class HomeScreen extends AppCompatActivity
         {
             @Override public void onClick(View v)
             {
-                Intent openMath = new Intent(getApplicationContext(), MathModule1_Part1.class);
+                Intent openMath = new Intent(getApplicationContext(), Activity_Math.class);
                 startActivity(openMath);
             }
         });
