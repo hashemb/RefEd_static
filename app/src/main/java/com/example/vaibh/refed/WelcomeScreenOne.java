@@ -62,7 +62,8 @@ public class WelcomeScreenOne extends AppCompatActivity {
 
         currentUser_read.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
+            public void onDataChange(DataSnapshot dataSnapshot)
+            {
 
 
                 if(dataSnapshot.child("Name").exists()){
@@ -95,7 +96,8 @@ public class WelcomeScreenOne extends AppCompatActivity {
             }
 
             @Override
-            public void onCancelled(DatabaseError databaseError) {
+            public void onCancelled(DatabaseError databaseError)
+            {
 
             }
         });
@@ -103,14 +105,18 @@ public class WelcomeScreenOne extends AppCompatActivity {
 
 
         //Select a Host Country from Drop down
-        mltHost.setOnClickListener(new View.OnClickListener() {
+        mltHost.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v)
+            {
 
                 final CountryPicker picker = CountryPicker.newInstance("Select Country");  // dialog title
-                picker.setListener(new CountryPickerListener() {
+                picker.setListener(new CountryPickerListener()
+                {
                     @Override
-                    public void onSelectCountry(String name, String code, String dialCode, int flagDrawableResID) {
+                    public void onSelectCountry(String name, String code, String dialCode, int flagDrawableResID)
+                    {
                         // Implement your code here
                         hostName = name;
                         mltHost.setText(hostName);
@@ -124,13 +130,17 @@ public class WelcomeScreenOne extends AppCompatActivity {
 
 
         //Select a Home Country from Drop down
-        mltHome.setOnClickListener(new View.OnClickListener() {
+        mltHome.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v)
+            {
                 final CountryPicker picker = CountryPicker.newInstance("Select Country");  // dialog title
-                picker.setListener(new CountryPickerListener() {
+                picker.setListener(new CountryPickerListener()
+                {
                     @Override
-                    public void onSelectCountry(String name, String code, String dialCode, int flagDrawableResID) {
+                    public void onSelectCountry(String name, String code, String dialCode, int flagDrawableResID)
+                    {
                         // Implement your code here
                         homeName = name;
                         mltHome.setText(homeName);
@@ -143,14 +153,17 @@ public class WelcomeScreenOne extends AppCompatActivity {
 
         //OnClick listener on button to store user data onto Firebase
 
-        btnNext.setOnClickListener(new View.OnClickListener() {
+        btnNext.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v)
+            {
 
 
                 name = edtName.getText().toString();
                 age = edtAge.getText().toString();
-                if(name.isEmpty() || age.isEmpty() || mltHost.getText().toString().isEmpty() || mltHome.getText().toString().isEmpty()){
+                if(name.isEmpty() || age.isEmpty() || mltHost.getText().toString().isEmpty() || mltHome.getText().toString().isEmpty())
+                {
                     Toast.makeText(getApplicationContext(),"Please enter all fields",Toast.LENGTH_LONG).show();
                 }
                 else {
@@ -176,16 +189,16 @@ public class WelcomeScreenOne extends AppCompatActivity {
 
     }
 
-    @Override
-    public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
+    @Override public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState)
+    {
         super.onSaveInstanceState(outState, outPersistentState);
 
         // Need to Implement
 
     }
 
-    @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+    @Override protected void onRestoreInstanceState(Bundle savedInstanceState)
+    {
         super.onRestoreInstanceState(savedInstanceState);
 
         //Need to Implement

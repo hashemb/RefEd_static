@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.util.Log;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -24,6 +25,8 @@ public class Login extends AppCompatActivity
     private TextView txtWelcome;
     ProgressBar progressBar;
     FirebaseAuth mAuth;
+
+    // Activity gets created
     @Override protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
@@ -50,6 +53,7 @@ public class Login extends AppCompatActivity
         });
     }
 
+    // Activity is visible
     @Override protected void onStart()
     {
         super.onStart();
@@ -61,6 +65,23 @@ public class Login extends AppCompatActivity
             }
         });
     }
+
+   // Activity is paused
+    @Override protected void onPause()
+    {
+        super.onPause();
+        Toast.makeText(getApplicationContext(),  "Login Successful!", Toast.LENGTH_SHORT).show();
+        Log.d("Login", "onStop() is about to be called.");
+    }
+
+    // Activity is stopped and is no longer visible
+    @Override protected void onStop()
+    {
+        super.onStop();
+        Log.d("Login", "The welcome activity is about to start.");
+
+    }
+
     private void Signin()
     {
         String checkUsername = edtUsername.getText().toString()+"@makeFakedomain.com";
