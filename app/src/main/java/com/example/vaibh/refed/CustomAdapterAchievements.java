@@ -25,6 +25,7 @@ class CustomAdapterAchievements extends ArrayAdapter<String>{
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
+
         LayoutInflater achievementInflator = LayoutInflater.from(getContext());
         View customView = achievementInflator.inflate(R.layout.customachievements, parent, false);
 

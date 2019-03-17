@@ -24,6 +24,7 @@
          <activity android:name=".SignUp" />
          <activity android:name=".Avatars" />
         <activity android:name=".HomeScreen" />
+        <activity android:name=".LangSelect" />
         <activity
             android:name=".UserDashboard"
             android:theme="@style/AppTheme.NoActionBar">
@@ -32,6 +33,7 @@
         <activity android:name=".ModulesPage" />
         <activity android:name=".Activity_Math" />
         <activity android:name=".MathModule1_Part1"></activity>
+        <activity android:name="BRatio1" />
     </application>
 
 </manifest>

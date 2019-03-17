@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vaibh.refed.FragmentQuestions">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/txtSubPart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="24dp"
+        android:text="RefEd"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal|center"
+        android:text="1.The table below shows the amount of games available at a local school. "
+        android:textSize="18sp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rdgChoices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="80dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/ChoiceA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4/3" />
+
+        <RadioButton
+            android:id="@+id/ChoiceB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3/4" />
+
+        <RadioButton
+            android:id="@+id/ChoiceC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3/2" />
+
+        <RadioButton
+            android:id="@+id/ChoiceD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5/3" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/basic_r1" />
+
+    <TextView
+        android:id="@+id/txtHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgImage"
+        android:layout_centerHorizontal="true"
+        android:text="Select a Choice" />
+</RelativeLayout>

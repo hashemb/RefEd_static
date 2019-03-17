@@ -26,7 +26,7 @@ public class Activity_Math extends AppCompatActivity {
 
 
     VideoView mathModVid;
-    String mathMods[] = {"Ratios and Proportional Relationships","The Number System",
+    final String mathMods[] = {"Ratios and Proportional Relationships","The Number System",
             "Expressions and Equations","Geometry","Statistics and Probability"};
 
     @Override
@@ -45,6 +45,9 @@ public class Activity_Math extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),module,Toast.LENGTH_LONG).show();
                 Intent i = new Intent(getApplicationContext(),MathModule1_Part1.class);
                 i.putExtra("Name",mathMods[position]);
+                Bundle b = new Bundle();
+                b.putStringArray("Array", mathMods);
+                i.putExtras(b);
                 startActivity(i);
             }
         });
