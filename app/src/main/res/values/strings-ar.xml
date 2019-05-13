@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Activity_login -->
+    <string name="welcomeAR">Welcome</string>
+    <string name="username_promptAr">Enter Your Username</string>
+    <string name="password_promptAr">Enter Your Password</string>
+    <string name="loginAr">Login</string>
+    <string name="signupAr">Sign Up</string>
+
+</resources>

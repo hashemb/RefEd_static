@@ -20,7 +20,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="62dp"
             android:ems="10"
-            android:hint="Enter your Username"
+            android:hint= "@string/username_prompt"
             android:inputType="textPersonName"
             />
 
@@ -28,10 +28,10 @@
             android:id="@+id/edtPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/edtUsername"
             android:layout_below="@+id/edtUsername"
+            android:layout_alignStart="@+id/edtUsername"
             android:ems="10"
-            android:hint="Enter your Password"
+            android:hint="@string/password_prompt"
             android:inputType="textPassword" />
 
         <Button
@@ -41,19 +41,19 @@
             android:layout_below="@+id/edtPassword"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="19dp"
-            android:text="Login"
-            android:textColor="@color/Green"
             android:background="@color/paleGreen"
-            />
+            android:text="@string/login"
+            android:textColor="@color/Green" />
 
 
         <Button
             android:id="@+id/btnSignup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/btnLogin"
             android:layout_below="@+id/btnLogin"
-            android:text="Signup" />
+            android:layout_alignStart="@+id/btnLogin"
+            android:text="@string/signup" />
+
         <TextView
             android:id="@+id/txtWelcome"
             android:layout_width="wrap_content"
@@ -61,9 +61,9 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="28dp"
-            android:text="Welcome!"
-            android:textSize="40dp"
+            android:text="@string/welcome"
             android:textColor="@color/white"
+            android:textSize="40dp"
 
             />
 

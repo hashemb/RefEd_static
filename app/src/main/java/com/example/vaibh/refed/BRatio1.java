@@ -23,7 +23,7 @@ public class BRatio1 extends AppCompatActivity {
     @Override protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.basic_ratio_q1);
+        setContentView(R.layout.mod_questions);
     }
 
 }

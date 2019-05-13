@@ -82,5 +82,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imgImage"
         android:layout_centerHorizontal="true"
-        android:text="Select a Choice" />
+        android:text="“What is the ratio of board games to chess games? " />
 </RelativeLayout>

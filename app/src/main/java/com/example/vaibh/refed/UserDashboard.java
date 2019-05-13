@@ -54,7 +54,7 @@ public class UserDashboard extends AppCompatActivity
 
         DrawerLayout drawer = findViewById(drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+                this, drawer, toolbar, 2, 2);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
