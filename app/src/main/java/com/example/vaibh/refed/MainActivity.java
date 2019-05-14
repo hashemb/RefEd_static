@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
         txtMessage.setText("onFling");
-        Intent i = new Intent(getApplicationContext(), Login.class);
+        Intent i = new Intent(getApplicationContext(),LangSelect.class);
         startActivity(i);
         return true;
     }

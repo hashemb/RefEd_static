@@ -32,17 +32,19 @@ public class LangSelect extends AppCompatActivity
 
         btnContinue = findViewById(R.id.btnContinue);
 
+        /*
         mAuth = FirebaseAuth.getInstance();
         if(mAuth.getCurrentUser() == null) {
             finish();
             startActivity(new Intent(this, MainActivity.class));
         }
+        */
 
         btnContinue.setOnClickListener(new View.OnClickListener()
         {
             @Override public void onClick(View v)
             {
-                Intent i = new Intent(getApplicationContext(),SignUp.class);
+                Intent i = new Intent(getApplicationContext(),HomeScreen.class);
                 startActivity(i);
             }
 

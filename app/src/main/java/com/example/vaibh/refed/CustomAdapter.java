@@ -14,9 +14,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 
-public class CustomAdapter extends ArrayAdapter<ModQuestions.DataModel> implements View.OnClickListener{
+public class CustomAdapter extends ArrayAdapter<DataModel> implements View.OnClickListener{
 
-    private ArrayList<ModQuestions.DataModel> dataSet;
+    private ArrayList<DataModel> dataSet;
     Context mContext;
 
     // View lookup cache
@@ -29,7 +29,7 @@ public class CustomAdapter extends ArrayAdapter<ModQuestions.DataModel> implemen
 
 
 
-    public CustomAdapter(ArrayList<ModQuestions.DataModel> data, Context context) {
+    public CustomAdapter(ArrayList<DataModel> data, Context context) {
         super(context, R.layout.row_item, data);
         this.dataSet = data;
         this.mContext=context;
@@ -43,7 +43,7 @@ public class CustomAdapter extends ArrayAdapter<ModQuestions.DataModel> implemen
 
         int position=(Integer) v.getTag();
         Object object= getItem(position);
-        ModQuestions.DataModel dataModel=(ModQuestions.DataModel)object;
+        DataModel dataModel=(DataModel)object;
 
 
 
@@ -69,7 +69,7 @@ public class CustomAdapter extends ArrayAdapter<ModQuestions.DataModel> implemen
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Get the data item for this position
-        ModQuestions.DataModel dataModel = getItem(position);
+        DataModel dataModel = getItem(position);
         // Check if an existing view is being reused, otherwise inflate the view
         ViewHolder viewHolder; // view lookup cache stored in tag
 
@@ -93,10 +93,6 @@ public class CustomAdapter extends ArrayAdapter<ModQuestions.DataModel> implemen
             viewHolder = (ViewHolder) convertView.getTag();
             result=convertView;
         }
-
-        Animation animation = AnimationUtils.loadAnimation(mContext, (position > lastPosition) ? R.anim.up_from_bottom : R.anim.down_from_top);
-        result.startAnimation(animation);
-        lastPosition = position;
 
 
         viewHolder.txtName.setText(dataModel.getName());
