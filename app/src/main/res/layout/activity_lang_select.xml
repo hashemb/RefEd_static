@@ -19,7 +19,7 @@ android:fillViewport="true">
         android:layout_height="60dp"
         android:layout_below="@+id/arQ2"
         android:layout_alignStart="@+id/arQ2"
-        android:layout_marginStart="19dp"
+        android:layout_marginStart="38dp"
         android:layout_marginTop="17dp"
         android:text="ما اللغة التي تتحدثها؟"
         android:textAlignment="textStart"
@@ -32,35 +32,60 @@ android:fillViewport="true">
         android:layout_below="@+id/txtWelcome"
         android:layout_alignStart="@+id/txtWelcome"
         android:layout_alignEnd="@+id/txtWelcome"
-        android:layout_marginStart="-19dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="72dp"
-        android:layout_marginEnd="-40dp"
+        android:layout_marginEnd="-60dp"
         android:text="What language do you speak?"
         android:textAlignment="textStart"
         android:textSize="18sp" />
 
-    <RadioButton
-        android:id="@+id/radBtAr"
-        android:layout_width="92dp"
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radGroup"
+        android:layout_width="388dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/txtWelcome"
+        android:layout_below="@+id/arQ"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="234dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="84dp"
-        android:text="اللغة العربية الفصحى" />
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="39dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radBtEng"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtWelcome"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="radioButtonClickedEng"
+            android:text="English" />
+
+        <RadioButton
+            android:id="@+id/radBtAr"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtWelcome"
+            android:layout_alignEnd="@+id/radBtEng"
+            android:layout_alignParentStart="true"
+            android:onClick="radioButtonClickedAr"
+            android:text="اللغة العربية الفصحى" />
+
+    </RadioGroup>
 
     <Button
         android:id="@+id/btnContinue"
-        android:layout_width="107dp"
-        android:layout_height="wrap_content"
+        android:layout_width="136dp"
+        android:layout_height="75dp"
         android:layout_below="@+id/radBtEng"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="152dp"
-        android:layout_marginTop="57dp"
-        android:layout_marginEnd="304dp"
-        android:text="Continue" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="454dp"
+        android:text="@string/continue1" />
 
     <TextView
         android:id="@+id/txtWelcome"
@@ -71,19 +96,10 @@ android:fillViewport="true">
         android:layout_marginTop="30dp"
         android:includeFontPadding="true"
         android:text="Welcome to RefEd"
-        android:textSize="24sp" />
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
-    <RadioButton
-        android:id="@+id/radBtEng"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/txtWelcome"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="86dp"
-        android:layout_marginTop="217dp"
-        android:layout_marginEnd="213dp"
-        android:text="English" />
+
 
 </RelativeLayout>
 </ScrollView>

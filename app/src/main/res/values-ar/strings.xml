@@ -1,0 +1,1532 @@
+<resources>
+
+    <string name="welcome">Welcome</string>
+    <string name="video">فيديو</string>
+    <string name="video1">فيديو 1</string>
+    <string name="video2">فيديو 2</string>
+    <string name="video3">فيديو 3</string>
+    <string name="finish">يُنهي</string>
+    <string name="correct">صحيح</string>
+    <string name="wrong">خاطئ</string>
+    <string name="hint">تلميح</string>
+    <string name="check">فحص</string>
+
+    <string name="username_prompt">Enter Your Username</string>
+    <string name="password_prompt">Enter Your Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="app_name">RefEd</string>
+    <string name="continue1">استمر</string>
+
+    <string name="math">الرياضيات</string>
+    <string name="topic1">نسب بسيطة</string>
+    <string name="topic2">النسب المتكافئة</string>
+    <string name="topic3">النسب بين اثنين من مستقيم الأعداد.</string>
+    <string name="topic4">النسب مع المخططات الشريطية</string>
+    <string name="topic5">مقارنة المعدلات</string>
+    <string name="topic6">مسائل المعدلات</string>
+    <string name="topic7">أي ما يعادل نسبة المشاكل كلمة</string>
+    <string name="topic8">تحويل الأعداد العشرية إلى نسب المئوية والعكس.</string>
+    <string name="topic9">تحويل النسب المئوية والكسور</string>
+    <string name="topic10">النتائج النسب المئوية - مسائل كلامية.</string>
+    <string name="topic11">مسائل كلامية - النسب المئوية</string>
+    <string name="topic12">ربط الكسور والأعداد العشرية والنسب المئوية</string>
+    <string name="topic13">جمع وطرح الكسور العشرية - مشاكل كلمة</string>
+    <string name="topic14">تقسيم ومضاعفة كسور في مشاكل كلمة</string>
+    <string name="topic15">العامل المشترك الاكبر (القاسم المشترك الأكبر)</string>
+    <string name="topic16">المضاعف المشترك الأصغر</string>
+    <string name="topic17">المضاعف المشترك الأصغر والعامل المشترك الأكبر - مسائل كلامية</string>
+    <string name="topic18">الكسور العشرية السلبية على خط الأعداد</string>
+    <string name="topic19">عدد الأضداد</string>
+    <string name="topic20">ترتيب الأرقام السالبة</string>
+    <string name="topic21">النقاط في المستوي.</string>
+    <string name="topic22">المسافة بين النقاط على المستوي</string>
+    <string name="topic23">ايجاد القيم المطلقة</string>
+    <string name="topic24">مقارنة القيم المطلقة</string>
+    <string name="topic25">مقارنة وترتيب الأعداد النسبية</string>
+    <string name="topic26">عدم المساواة العددية (مسائل كلامية)</string>
+    <string name="topic27">أجزاء من التعابير الجبرية</string>
+    <string name="topic28">تبديل مع واحد واثنين من المتغيرات</string>
+    <string name="topic29">فهم قيمة التعبير</string>
+    <string name="topic30">فهم قيمة التعبير - مع الكسور</string>
+    <string name="topic31">مسائل كلامية</string>
+    <string name="topic32">كتابة عبارات جبرية</string>
+    <string name="topic33">كتابة عبارات جبرية - مسائل كلامية</string>
+    <string name="topic34">خاصية التوزيع على المتغيرات</string>
+    <string name="topic35">الجمع بين الحدود المتماثلة</string>
+    <string name="topic36">التعبيرات المتكافئة: توزيع + مزج</string>
+    <string name="topic37">معادلات الخطوة الواحدة (الجمع والطرح)</string>
+    <string name="topic38">معادلات الخطوة الواحدة (الضرب والقسمة)</string>
+    <string name="topic39">العثور على الأخطاء في المعادلات خطوة واحدة</string>
+    <string name="topic40">معادلات الخطوة الواحدة - مسائل كلامية</string>
+    <string name="topic41">المتراجحات مع المتغيرات</string>
+    <string name="topic42">المتراجحات و الرسوم البيانية</string>
+    <string name="topic43">أجزاء المثلث</string>
+    <string name="topic44">مساحة المثلثات القائمة</string>
+    <string name="topic45">مساحة المثلث الغير قائم</string>
+    <string name="topic46">العثور على الطول المفقود</string>
+    <string name="topic47">مساحة متوازيات الأضلاع</string>
+    <string name="topic48">العثور على طول مفقود عندما تعطى مساحة متوازي الاضلاع</string>
+    <string name="topic49">مساحة شبه المنحرف</string>
+    <string name="topic50">مساحة الأشكال المركبة (أسئلة تحدي) </string>
+    <string name="topic51">تحديد الأشكال الهندسية</string>
+    <string name="topic52b">تحديد الأشكال ثلاثية الأبعاد المتشابهة</string>
+    <string name="topic52c">ايجاد الحجم بضرب القاعدة بالارتفاع</string>
+    <string name="topic52">الحجم بأطوال كسرية</string>
+    <string name="topic53b">مسائل كلامية عن الحجم - مع الكسور والكسور العشرية</string>
+    <string name="topic53">ايجاد مساحة السطح بجمع مساحات الوجوه</string>
+    <string name="topic54">مساحة السطح - مسائل كلامية</string>
+    <string name="topic55">عديد الأوجه</string>
+    <string name="topic56">مقدمة إلى مستوي الاحداثيات</string>
+    <string name="topic57">المساحة والمحيط على مستوي الاحداثيات</string>
+    <string name="topic58">رسم الأشكال الرباعية على مستوي الإحداثيات وحساب الأطوال</string>
+    <string name="topic59">أسئلة الإحصاء (تحديد إذا كان السؤال إحصائياً أم لا)</string>
+    <string name="topic60">مجموعات البيانات</string>
+    <string name="topic61">جداول التكرار</string>
+    <string name="topic62">قراءة الرسومات النقطية</string>
+    <string name="topic63">قراءة رسوم بيانية</string>
+    <string name="topic64">حساب المتوسط الحسابي</string>
+    <string name="topic65">آثار الإزاحة، إضافة وإزالة نقطة بيانات (على المتوسط)</string>
+    <string name="topic66">حساب الوسيط</string>
+    <string name="topic67">تفسير الأرباع</string>
+    <string name="topic68">الانحراف الربيعي</string>
+    <string name="topic69">قراءة مخططات المربع</string>
+    <string name="topic70">خلق مخططات المربع</string>
+    <string name="topic71">مقارنة عرض البيانات</string>
+    <string name="topic72">شكل التوزيعات</string>
+    <string name="topic73">التجمعات، والثغرات، و القمم والقيم المتطرفة</string>
+    <string name="q1">السؤال رقم 1</string>
+    <string name="q2">السؤال رقم 2</string>
+    <string name="q3">السؤال رقم 3</string>
+    <string name="q4">السؤال رقم 4</string>
+    <string name="q5">السؤال رقم 5</string>
+    <string name="q6">السؤال رقم 6</string>
+    <string name="mod1">النسب والعلاقات التناسبية</string>
+    <string name="mod2"> نظام الرقم</string>
+    <string name="mod3">التعبير والمعادلات</string>
+    <string name="mod4">الهندسة</string>
+    <string name="mod5"> الإحصاء والاحتمالات</string>
+    <string name="t1q1">يبين الجدول التالي كمية الألعاب المتوفرة في مدرسة محلية.</string>
+    <string name="t1q1_2">"ما هي نسبة ألعاب الطاولة على العاب الشطرنج؟</string>
+    <string name="hint1">تلميح:عد كمية ألعاب الطاولة وألعاب الشطرنج سيساعدك في العثور على النسبة بينهما.</string>
+    <string name="ans11">03/04</string>
+    <string name="ans12">04/03</string>
+    <string name="ans13">03/02</string>
+    <string name="ans14">05/03</string>
+    <string name="t1q2"> ما هي نسبة كرات القدم إلى كرات السلة؟</string>
+    <string name="hint2">"تلميح:عد كمية  كرات القدم و كرات السلة سيساعدك في العثورعلى نسبة بينهما. "</string>
+    <string name="ans21"> 5-3</string>
+    <string name="ans22">3-5</string>
+    <string name="ans23">5-4</string>
+    <string name="ans24">5-8</string>
+    <string name="t1q3">  نازمين فنانة رائعة. لديها حقيبة مليئة بالأدوات التي تستخدمها بالرسم. في حقيبتها، لديها
+        12 أقلام رصاص ملونة، 5 أقلام ملونة و 10 أوراق. ما هي نسبة أقلام الرصاص إلى الأوراق؟
+    </string>
+    <string name="hint3">تلميح: النسبة هي العلاقة بين كميات من شيئين مختلفين. لحل هذه المسألة، ببساطة انتبه للكميات المعطاة في المسألة.</string>
+    <string name="ans31">12-5</string>
+    <string name="ans32">5-10</string>
+    <string name="ans33">10-12</string>
+    <string name="ans34">12-10</string>
+
+    <string name="t2q2">  حدد 2 النسب التي تعادل 1: 2</string>
+    <string name="hint5">تلميح: لإيجاد النسب المكافئة في هذه المسألة، اضرب كلا الجانبين بنفس العدد.</string>
+    <string name="ans51"> 2: 4</string>
+    <string name="ans52">7: 8</string>
+    <string name="ans53"> 5: 6</string>
+    <string name="ans54">3: 4</string>
+
+    <string name="t2q1">حدد النسبة المكافئة ل 2:3</string>
+    <string name="hint4">تلميح: لإيجاد النسب المكافئة في هذه المسألة، اضرب كلا الجانبين بنفس العدد.</string>
+    <string name="ans41">7:6</string>
+    <string name="ans42">6:9</string>
+    <string name="ans43">4:7</string>
+    <string name="ans44">6:8</string>
+
+    <string name="t2q3"> اختر الإجابة الصحيحة</string>
+    <string name="hint6">تلميح: النسب المكافئة تعبر عن علاقة بين العددين في كلا النسبتين. لأن تقرر ما إذا كانت النسبة مكافئة أو لا، اقسم أو اضرب كلا الجانبين بنفس العدد.</string>
+    <string name="ans61"> 1: 2 ما يعادل 10: 20 </string>
+    <string name="ans62"> 5: 3 ما يعادل 3: 5</string>
+    <string name="ans63"> 4: 6 ما يعادل 2: 4</string>
+    <string name="ans64">6: 3 ما يعادل 30:60</string>
+
+    <string name="t3q1"> مستقيمي الأعداد تظهر أرنب يقفز مرة واحدة مرة كل 5 دقائق.</string>
+    <string name="t3q1_2">كم مرة سوف يقفز الأرنب في 15 دقيقة؟</string>
+    <string name="hint7">تلميح: استنادا إلى مستقيمي الأعداد، الأرنب يقفز مرة واحدة كل 5 دقائق. هذا يعطينا نسبة 1: 5. وبناء على هذه النسبة، فكر في نسبة تعادل 1: 5.
+    </string>
+    <string name="ans71"> سوف يقفز الأرنب مرة واحدة في 15 دقيقة</string>
+    <string name="ans72">سوف يقفز الأرنب مرتين في 15 دقيقة</string>
+    <string name="ans73">سوف يقفز الأرنب ثلاث مرات في 15 دقيقة</string>
+    <string name="ans74">سوف يقفز الأرنب أربع مرات في 15 دقيقة</string>
+    <string name="t3q2">  يظهر مستقيمي الأعداد أن الفتاة تستطيع رسم خمسة دوائر كل 2 دقيقة. كم دائرة سترسم في 10 دقائق؟
+    </string>
+    <string name="hint8">تلميح: استنادا إلى مستقيمي الأعداد، ترسم الفتاة 5 دوائر كل 2 دقيقة. لحل هذه المسألة, اعثر على نسبة تعادل 5: 2.</string>
+    <string name="ans81">سوف ترسم 20 دائرة  في 10 دقائق</string>
+    <string name="ans82">سوف ترسم 5 دوائر في 10 دقائق</string>
+    <string name="ans83">سوف ترسم  50 دائرة  في 10 دقائق</string>
+    <string name="ans84"> سوف ترسم 25 دائرة في 10 دقائق</string>
+    <string name="t3q3">   يظهر مستقيمي الأعداد أن 3 فراولات تكلف 5 $. وبناء على هذه النسبة، ما هي تكلفة 9 فراولات؟</string>
+    <string name="hint9">تلميح: فكر في عدد المجموعات من 3 فراولات لديك في 9 فراولات. ثم، اضرب هذا الرقم بتكلفة مجموعة واحدة من 3 فراولات!
+    </string>
+    <string name="ans91">ستكلف 9 فراولات 15$</string>
+    <string name="ans92">ستكلف 9 فراولات 5 $</string>
+    <string name="ans93"> ستكلف 9 فراولات 10 $</string>
+    <string name="ans94">ستكلف 9 فراولات 30 $</string>
+
+    <string name="t4q1"> يصف الرسم البياني التالي أعداد القمصان الزرقاء والخضراء في خزانة.</string>
+    <string name="t4q1_2">ما هي نسبة المنازل الحمراء للمنازل الصفراء؟</string>
+    <string name="hint10">تلميح: فكر في النسب المكافئة!</string>
+    <string name="ans101">6:4</string>
+    <string name="ans102">7:4</string>
+    <string name="ans103">8:4</string>
+    <string name="ans104">7:3</string>
+
+    <string name="t4q2"> يصف الرسم البياني التالي أعداد المنازل الحمراء والصفراء في الحي.</string>
+    <string name="t4q2_2">ما هي نسبة المنازل الحمراء للمنازل الصفراء؟</string>
+    <string name="hint11">تلميح: فكر في النسب المكافئة!</string>
+    <string name="ans111"> 2: 1</string>
+    <string name="ans112"> 0: 6</string>
+    <string name="ans113">15: 4</string>
+    <string name="ans114">10:15</string>
+
+    <string name="t4q3">  الرسم البياني التالي يبين عدد الدراجات النارية الأرجوانية والرمادية على الطريق.
+أكمل الجدول مع القيم المفقودة اعتمادا على النسب المبينة في الرسم البياني.
+    </string>
+    <string name="hint12">تلميح: الصف الأول في الجدول يظهر لك عدد الدراجات النارية الأرجوانية والرمادية على الطريق. لاستكمال بقية الجدول، فكر في النسب التي تعادلها.
+الأجوبة: 12،10
+    </string>
+
+    <string name="t5q1"> أكمل الجدول لمعرفة كم يكلف أن تأخذ سيارة أجرة في مدن مختلفة.</string>
+    <string name="t5q1_2">اختر الإجابة الصحيحة:</string>
+    <string name="hint13">تلميح: لحساب التكلفة لكل كيلومتر، ببساطة قسم السعر الإجمالي للرحلة بعدد الكيلومترات. ثم، قارن القيم الثلاث لتحديد الإجابة الصحيحة.
+    </string>
+    <string name="ans131"> ركوب سيارة الأجرة الأغلى هو في المدينة " أ "</string>
+    <string name="ans132">  ركوب سيارة الأجرة الأرخص هو في المدينة " ب "</string>
+    <string name="ans133"> مدينة " أ " ومدينة " ج " لديهما نفس تكلفة ركوب سيارة الأجرة </string>
+    <string name="ans134">ركوب سيارة الأجرة الأغلى هو في المدينة " ج "</string>
+
+    <string name="t5q2"> . كان إيما ومحمد وجون يلعبون كرة القدم. سجلت إيما 10 أهداف في 5 مباريات، وسجل محمد 6 أهداف في مبارتين ( 2)
+        وجون سجل 16 هدفا في 4 مباريات. باعتبار كل واحد سجل نفس عدد
+        الأهداف في كل مباراة لعبوها، ما هو الترتيب الصحيح لعدد الأهداف المسجلة في مباراة واحدة من الأصغر إلى الأكبر؟
+    </string>
+    <string name="hint14">تلميح: قسم عدد الأهداف بعدد المباريات لكل واحد لمعرفة كم
+        عدد الأهداف التي سجلها كل واحد في المباراة، رتب الأرقام من الأصغر إلى الأكبر.
+    </string>
+    <string name="ans141">محمد، إيما، جون </string>
+    <string name="ans142"> جون، إيما، محمد</string>
+    <string name="ans143"> محمد، جون، إيما</string>
+    <string name="ans144">جون، محمد، إيما</string>
+
+    <string name="t5q3">   يبين الجدول أدناه المسافات وأوقات السفر للقوارب مختلفة. أي واحد لديه أكبر معدل السرعة؟</string>
+    <string name="hint15">تلميح: اقسم المسافة المقطوعة بمقدار الساعات لمعرفة معدل السرعة.
+    </string>
+    <string name="ans151">قارب " أ " لديه أكبر معدل سرعة</string>
+    <string name="ans152"> القاربين " أ " و"ب" لديهما نفس معدل السرعة</string>
+    <string name="ans153">قارب " ج " لديه أكبر معدل سرعة</string>
+    <string name="ans154">القارب " د " لديه أكبر معدل ​​سرعة</string>
+
+    <string name="t6q1">  صوفيا يمكنها قراءة 18 صفحة في 54 دقيقة.كم عدد الصفحات التي يمكنها قراءتها في 90 دقيقة؟</string>
+    <string name="hint16">تلميح: لحل هذه المشكلة،اقسم 54 دقيقة على 18 صفحة. ثم، اقسم 90 دقيقة على الحل.</string>
+
+    <string name="t6q2">   آمنة يمكنها ركض 2 كم في 16 دقيقة. كم تحتاج من الوقت للركض 10 كيلومترا؟</string>
+    <string name="hint17">تلميح: لحل هذه المسألة، احسب كم تستطيع أن تركض في دقيقة واحدة من خلال تقسيم 16 على 2,
+        ثم اضرب الناتج ب 10 كيلومتر لمعرفة كم تستغرق من الوقت لركض 10 كيلومتر
+    </string>
+
+    <string name="t6q3"> في السوق، 3 تفاحات تكلف $ 1،50. كم تكلف 10 تفاحات؟</string>
+    <string name="hint18">تلميح: لحل المسألة، احسب تكلفة تفاحة واحدة بقسمة تكلفة 3 تفاحات على 3. ثم اضرب بـ 10.</string>
+    <string name="ans181"> كلفة 10 تفاحات 5 $</string>
+    <string name="ans182">كلفة 10 تفاحات 4 $</string>
+    <string name="ans183"> كلفة 10 تفاحات $ 3.50</string>
+    <string name="ans184">كلفة 10 تفاحات $ 5.50</string>
+
+    <string name="t7q1">اختر الإجابات الصحيحة عن نسبة النقاط للعيون في هذه الخنفساء.</string>
+    <string name="hint19">تلميح: لحل هذه المسألة، عد البقع والعيون. ثم حدد نسبتهم وأي نسبة مكافئة لهم. يمكنك اختيار أكثر من إجابة واحدة.
+    </string>
+    <string name="ans191">هناك 8 نقاط لكل عينين  .</string>
+    <string name="ans192">هناك 5 نقاط لكل عينين.</string>
+    <string name="ans193">هناك 16 نقطة مقابل كل 4 عيون.</string>
+    <string name="ans194"> هناك 16 نقطة مقابل كل 10 عيون.</string>
+
+    <string name="t7q2"> جون هو عداء جيد جدا. ويمكنه ركض 5 كيلومترات في 20 دقيقة. اختر الإجابات الصحيحة اعتمادا على هذه النسبة:</string>
+    <string name="hint20">تلميح: لحل هذه المشكلة، فكر في الخيارات التي تمثل نسبة 05:20 مضروبة بالعدد نفسه في كلا الجانبين. يمكنك اختيار أكثر من إجابة واحدة.
+    </string>
+    <string name="ans201">جون يمكنه ركض 10 كيلومترات في 40 دقيقة.</string>
+    <string name="ans202">جون يمكنه ركض 20 كيلومترا في 40 دقيقة.</string>
+    <string name="ans203">جون يمكنه ركض 30 كيلومترا في 120 دقيقة.</string>
+    <string name="ans204">جون يمكنه ركض 15 كيلومترا في 60 دقيقة.</string>
+
+    <string name="t7q3"> 3.دعت آمنة الضيوف لتناول البسكويت وشرب الشاي في منزلها. هي تحتاج أن تخبز 5 بسكويت لكل 10
+        ضيوف و تحتاج 2 لتر من الشاي لكل 4 ضيوف. إذا أتى 20 ضيف إلى منزلها، كم من البسكويت و الشاي ستحتاج إلى الإعداد؟</string>
+    <string name="ans211">سوف تحتاج أمنة إلى 10 بسكويت و 10 لترا من الشاي.</string>
+    <string name="ans212">سوف تحتاج أمنة إلى 20 بسكويت و 10 لترا من الشاي.</string>
+    <string name="ans213">سوف تحتاج آمنة إلى 15 بسكويت و 20 لترا من الشاي.</string>
+    <string name="ans214"> سوف تحتاج آمنة إلى 10 بسكويت و 20 لترا من الشاي.</string>
+
+    <string name="t8q1">صل الأعداد العشرية التالية بالنسب المئوية الخاصة بهم:</string>
+    <string name="hint22">تلميح: ضرب العدد العشري بـ 100 يحوله إلى النسبة المئوية التي يمثلها.</string>
+    <string name="ans221"> 53٪</string>
+    <string name="ans222">62٪</string>
+    <string name="ans223">5٪</string>
+    <string name="ans224">0.3٪</string>
+
+    <string name="t8q2"> أكمل الجدول أدناه لتحويل النسب المئوية إلى كسور عشرية، والعكس.</string>
+    <string name="hint23">تلميح:  ضرب العدد عشري بـ 100 يحوله إلى النسبة المئوية التي يمثلها. تقسيم النسبة المئوية على 100 يحولها إلى عدد عشري.</string>
+
+    <string name="t8q3"> Amena invited guests to eat biscuits and drink tea in her house.
+        She needs to bake 5 biscuits for every 10 guests and she needs 2 liters of tea for every 4 guests.
+        If 20 guests come to her house, how many biscuits and liters of tea will she need to prepare?
+    </string>
+    <string name="hint24">To solve this problem, think about which options represent the ratio 5:20 multiplied by the same number on both sides. You can select more than one answer.
+    </string>
+    <string name="ans241">Amena will need 10 biscuits and 10 liters of tea.</string>
+    <string name="ans242">Amena will need 20 biscuits and 10 liters of tea.</string>
+    <string name="ans243">Amena will need 15 biscuits and 20 liters of tea.</string>
+    <string name="ans244">Amena will need 10 biscuits and 20 liters of tea.</string>
+
+    <string name="t8q4">  ربط النسب المئوية التالية إلى العشرية الخاصة بهم.</string>
+    <string name="hint25">تلميح: ضرب عدد عشري بـ 100 يحوله إلى نسبته المئوية.</string>
+    <string name="ans251">0.54</string>
+    <string name="ans252">.99</string>
+    <string name="ans253">.86</string>
+    <string name="ans254">.004</string>
+
+
+
+    <string name="t9q1">أكمل الجدول لتحويل النسب المئوية التالية إلى كسور والعكس.</string>
+    <string name="hint26">تلميح: ل"المائة" تعني 100، لذلك يمكنك تحويل النسبة المئوية الى كسر باستخدام 100 كمقام والنسبة المئوية في البسط.</string>
+
+    <string name="t9q2"> الآن، اتخذ نفس النسب المئوية من التمرين السابق وحولها إلى كسور في أبسط أشكالها. تنبيه التحدي !!</string>
+    <string name="hint27">تلميح: لتحويلها إلى كسور بأبسط شكل، فكر في عامل مشترك بين الرقمين واقسمهم بهذا العامل إلى أن يصبحا لا يقسمون بأي عامل مشترك.
+    </string>
+
+    <string name="t9q3">تلميح: لتحويلها إلى كسور بأبسط شكل، فكر في عامل مشترك بين الرقمين واقسمهم بهذا العامل إلى أن يصبحا لا يقسمون بأي عامل مشترك.</string>
+    <string name="hint28">تلميح: يمكنك تحويل النسبة المئوية الى كسر باستخدام 100 كمقام والنسبة
+        المئوية كبسط. لتحويلها إلى كسور بأبسط شكل، فكر في عامل مشترك بين الرقمين واقسمهما من قبل هذا العامل حتى يصبحا لا يقسمان بنفس العامل.
+    </string>
+    <string name="ans281">7/20</string>
+    <string name="ans282">1/4</string>
+    <string name="ans283">35/100</string>
+    <string name="ans284">1/2</string>
+
+    <string name="t10q1">اكتب الإجابات الصحيحة:</string>
+    <string name="hint29">تلميح: اضرب العدد بالنسبة المئوية.
+على سبيل المثال: 80٪ من 60
+80/100 × 60 = 48
+    </string>
+
+    <string name="t10q2">1 هو كم بالمئة من 3؟</string>
+    <string name="hint30">تلميح: فكر بـ 3 كأنها الكمية كلها. نحن بحاجة لمعرفة النسبة المئوية كم الكمية كلها, التي يشكلها الـ</string>
+
+    <string name="t10q3">5 هي 25% من أي عدد ؟ </string>
+
+    <string name="t11q1">كان يلعب جون وأمينة الشطرنج معا. لعبوا 14 مباراة في المجموع، وفازت أمينة 9 مباريات. ما هي النسبة المئوية للمباريات التي فازتها أمينة؟</string>
+    <string name="hint32">تلميح: تقسيم عدد المباريات التي فازت من إجمالي المباريات التي خاضتها. سيكون لديك عدد عشري. ثم، حول العدد العشري إلى كسر.</string>
+    <string name="ans321">فازت أمينة تقريبا 65٪ من مباريات الشطرنج.</string>
+    <string name="ans322">فازت أمينة تقريبا 60٪ من مباريات الشطرنج.</string>
+    <string name="ans323">فازت أمينة تقريبا 50٪ من مباريات الشطرنج.</string>
+    <string name="ans324"> فازت أمينة بالضبط 70٪ من مباريات الشطرنج.</string>
+
+    <string name="t11q2"> محمد كان يقرأ كتابا عن الطيور و عاداتها المختلفة. ويشتمل الكتاب على
+        350 صفحة، لكنه كان مثيرا للاهتمام لدرجة أن محمد قرأ 70٪ من الكتاب في يومين! كم عدد الصفحات التي بقيت؟
+    </string>
+    <string name="hint33">تلميح: احسب 70٪ من 350. ثم اطرح العدد الناتج من 350 لمعرفة عدد الصفحات المتبقية .</string>
+    <string name="ans331"> تبقى 100 صفحة</string>
+    <string name="ans332">تبقى 88 صفحة</string>
+    <string name="ans333">تبقى 215 صفحة</string>
+    <string name="ans334"> تبقى 105 صفحات</string>
+
+    <string name="t11q3">هذا الصباح، أكمل جون 50٪ من واجبات الرياضيات المنزلية. عمل على 25 مسألة رياضيات. ما هو العدد الإجمالي من مسائل الرياضيات في واجبات جون المنزلية؟</string>
+    <string name="hint34">تلميح: إذا كانت 25 مسألة تمثل 50٪، فكر في عدد المسائل التي تمثل 100٪.</string>
+    <string name="ans341"> العدد الإجمالي لمسائل الرياضيات هو 50.</string>
+    <string name="ans342">العدد الإجمالي لمسائل الرياضيات 45.</string>
+    <string name="ans343"> العدد الإجمالي لمسائل الرياضيات 30.</string>
+    <string name="ans344"> العدد الإجمالي لمسائل الرياضيات هو 100.</string>
+
+    <string name="t12q1">عبر عن المناطق المظللة التالية من حيث الكسور و الأعداد العشرية والنسبة المئوية.</string>
+    <string name="hint35">تلميح: في الكسر، عدد المناطق المظللة سيكون البسط وعدد إجمالي المناطق سيكون المقام.للعثور
+        على العدد العشري، اقسم البسط على المقام. للعثور على النسبة المئوية ، اضرب العدد العشري بـ 100.
+    </string>
+
+    <string name="t12q2"> كان لهذه البيتز 8ا شرائح في المجموع،عبر عن عدد الشرائح التي أكلت بكسر و عدد عشري ونسبة مئوية.</string>
+    <string name="hint36">تلميح: العدد الإجمالي للشرائح يمثل 100٪، وهو مقام الكسر. كمية الشرائح المأكولة تمثل بسط الكسر.</string>
+
+    <string name="t13q1">أحست أمينة بالعطش وهي تمشي إلى المخيم وقررت أن تشتري قنينة ماء, وكلفتها 1,75$ ودفعت 5$, كم ستتلقى فكة؟</string>
+    <string name="hint37">تلميح: للإجابة على هذا السؤال، اطرح المبلغ الإجمالي الذي قدمته أمينة من تكلفة زجاجة المياه.</string>
+    <string name="ans371">تلقت $ 3.</string>
+    <string name="ans372"> تلقت $ 3،25.</string>
+    <string name="ans373">تلقت $ 3،15.</string>
+    <string name="ans374"> تلقت $ 2،75.</string>
+
+    <string name="t13q2"> محمد وأمينة كانوا يتنافسون لمعرفة من يركض أسرع. بنوا مسارا طوله 200 متر وطلبوا من صديق آخر
+        أن يقيس الوقت. أنهى محمد السباق في 57،81 ثانية. و أنهت أمينة السباق في 56،75 ثانية. بكم ثانية كانت أمينة أسرع من محمد ؟
+    </string>
+    <string name="hint38">تلميح: للإجابة على هذا السؤال ، احسب الفرق بين أوقاتهم في الثواني.</string>
+    <string name="ans381">  كانت أمينة 0،05 ثانية أسرع.</string>
+    <string name="ans382"> كانت أمينة 1 ثانية أسرع.</string>
+    <string name="ans383"> كانت أمينة 2 ثانية أسرع.</string>
+    <string name="ans384">كانت أمينة 1،06 ثانية أسرع.</string>
+
+    <string name="t13q3"> بعد ان لعب كرة القدم مع أصدقائه، كان جون في طريق عودته إلى منزله وتذكر أن
+        والده طلب منه التوقف عند خيمة بائع وشراء خمسة موزات وسبعة حبات بطاطا. كلف كيس من خمسة موزات $ 1،05 وكيس من سبعة حبات بطاطا كلف $ 1،35. كم أنفق جون في المجموع؟
+    </string>
+    <string name="hint39">تلميح: لحل هذه المشكلة، اضرب تكلفة الموز بمقدار الموز الذي اشتراه جون، واضرب تكلفة البطاطا بمقدار البطاطا التي اشتراها، واجمع كل القيم.</string>
+    <string name="ans391">نفق $ 2،35 في المجموع.</string>
+    <string name="ans392"> أنفق $ 1،40 في المجموع.</string>
+    <string name="ans393"> أنفق $ 2،40 في المجموع.</string>
+    <string name="ans394"> أنفق $ 3،35 في المجموع.</string>
+
+    <string name="t13q4"> كان  والد محمد يطهو العشاء وأدرك أنه قد نفد من الحمص، و طلب من محمد أن يذهب إلى الخيمة وشراء 0،25 كيلوغراما من الحمص. في الخيمة الأولى، كيلوغرام واحد من
+        الحمص تكلفته $ 5،67. أما  في الخيمة الثانية كيلوغرام الحمص تكلفته $ 4،35. بكم يختلف سعر الحمص في الخيمة الثانية عن الخيمة الأولى؟
+    </string>
+    <string name="hint40">تلميح: احسب الفرق بين تكلفة كيلوغرام واحد من الحمص في الخيمة الأولى وتكلفة كيلوغرام واحد من الحمص في الخيمة الثانية.</string>
+    <string name="ans401"> الخيمة الأولى أغلى بـ 1,32 $ من الخيمة الثانية.</string>
+    <string name="ans402"> الخيمة الأولى أغلى بـ1 $ من الخيمة الثانية.</string>
+    <string name="ans403"> الخيمة الأولى أغلى بـ 2,31 $ من الخيمة الثانية.</string>
+    <string name="ans404">الخيمة الأولى أغلى بـ 1,62 $ من الخيمة الثانية.</string>
+
+    <string name="t14q1">والد إيما لديه دراجة نارية حمراء مع ⅗ من الوقود. و يستخدم 1/15 من الخزان يوميا. كم من الأيام سيبقى لديه وقود في الخزان ؟</string>
+    <string name="hint41">تلميح: اقسم المبلغ الإجمالي من الوقود بمقدار الاستهلاك في اليوم الواحد.</string>
+    <string name="ans411"> سيبقى لديه الوقود لـ 9 أيام. </string>
+    <string name="ans412"> سيبقى لديه الوقود لـ5 أيام.</string>
+    <string name="ans413">سيبقى لديه الوقود لـ 10 أيام.</string>
+    <string name="ans414"> سيبقى لديه الوقود لـ 7 أيام.</string>
+
+    <string name="t14q2"> جون يريد أن يقرأ ثلاثيته المفضلة مجدداً, يقرأ  ⅓ كتاب كل أسبوع. ما عدد الأسابيع التي سيستغرقها لقراءة كل الكتب؟</string>
+    <string name="hint42">تلميح:  الثلاثية هي ثلاثة كتب. اقسم عدد الكتب بكمية الكتب التي يقرأها كل أسبوع لمعرفة عدد الأسابيع التي سيستغرقها لقراءة جميع الكتب.</string>
+    <string name="ans421"> سوف يستغرق 6 أسابيع لقراءة  ثلاثيته المفضلة.</string>
+    <string name="ans422"> سوف يستغرق 8 أسابيع لقراءة  ثلاثيته المفضلة.</string>
+    <string name="ans423">سوف يستغرق 4 أسابيع لقراءة  ثلاثيته المفضلة.</string>
+    <string name="ans424"> سوف يستغرق 9 أسابيع لقراءة  ثلاثيته المفضلة.</string>
+
+    <string name="t14q3"> قرر محمد أنه سوف يحسن مهاراته باللغة الانجليزية من خلال تعلم 50 كلمة جديدة كل أسبوع،
+        وهي ⅙ من إجمالي الكلمات التي يريد أن يتعلمها. كم عدد الكلمات التي يريد أن يتعلمها في المجموع؟
+    </string>
+    <string name="hint43">تلميح: اضرب عدد الكلمات محمد التي سيتعلمها كل أسبوع في إجمالي الأسابيع التي سوف يكرسها لتحسين مهاراته باللغة الإنجليزية.</string>
+    <string name="ans431"> يريد أن يتعلم 300 كلمة في المجموع.</string>
+    <string name="ans432"> يريد أن يتعلم 150 كلمة في المجموع.</string>
+    <string name="ans433"> يريد أن يتعلم 250 كلمة في المجموع.</string>
+    <string name="ans434"> يريد أن يتعلم 350 كلمة في المجموع.</string>
+
+    <string name="t15q1">العامل المشترك الأكبر (ع.م.أ) بين عددين هو القاسم المشترك الأكبر بين مقامات الكسور. على سبيل المثال، القاسم المشترك
+        الأكبر بين 8 و 12 هو 4، والقاسم المشترك الأكبر بين 24 و 54 هو 6. هل تستطيع أن تجد العامل المشترك الأكبر للأعداد التالية؟
+    </string>
+
+    <string name="t16q1">المضاعف المشترك الأصغر (LCM) هو أصغر عدد إيجابي من مضاعفات الرقم اثنين أو أكثر. على سبيل المثال، المضاعف المشترك الأصغر بين 3 و
+        5 هو 15، وذلك لأن 15 هو من مضاعفات الرقم (3) وأيضا من مضاعفات الرقم 5، والمضاعف المشترك الأصغر بين 2 و 10 هو 10،
+        وذلك لأن 10 هو من مضاعفات الرقم (2) وأيضا من مضاعفات 10. هل تستطيع أن تجد م.م.أ من الأزواج التالية؟
+    </string>
+
+    <string name="t17q1">قررت أنت وأصدقائك أن تذهبوا إلى ساحة الرياضة ولعب كرة السلة. في المجموع، لديك 25 فتى و35
+        فتاة. من أجل التأكد من الجميع سيلعب، عليك أن تشكل عدة فرق من نفس الحجم. إذا قمت بإنشاء أكبر عدد من الفرق المحتملة، كم عدد الفتيات في كل فريق؟
+    </string>
+    <string name="hint46">لحل هذه المشكلة، والعثور على أكبر عدد من الفرق المحتملة، ابحث عن أكبر عامل مشترك ما بين 25 و 35. ثم اقسم العدد الإجمالي للفتيات من قبل أكبر عامل مشترك.</string>
+
+    <string name="t17q2"> في اليوم الأول من المدرسة في البلاد الجديدة التي سافرت إليها، أعطاك معلمك حقيبة مليئة بالحلوى! فيها 15 لوزة مغطاة بالشوكولاته و
+        18 علكة. عندما تعود إلى المنزل، تقرر أن تتبادل الحلوى مع أصدقائك عن طريق إعداد أكياس حلوى لهم. إذا كنت ستضع كل
+        الحلوى بنفس الكمية من كل نوع من الحلوى في كل كيس، كم عدد الأكياس التي يمكنك أن تملؤها؟
+    </string>
+    <string name="hint47">تلميح: لمعرفة عدد القطع من كل نوع من الحلوى، اعثر على العامل المشترك الأكبر بين 15 و 18.</string>
+
+    <string name="t17q3"> محمد يلعب كرة القدم في الميدان كل أربعة أيام ,وأمينة تلعب كرة القدم في نفس المكان كل خمسة أيام
+        . إذا كان كل منهما قد لعب في نفس الوقت من اليوم وكلاهما لعب البارحة، ما عدد الأيام حتى يذهبا إلى ملعب كرة القدم في نفس اليوم مرة أخرى؟
+    </string>
+    <string name="hint48">تلميح: لمعرفة متى سيلعبان كرة القدم في نفس اليوم مرة أخرى، اعثر على المضاعف المشترك الأصغر ما بين 4 و 5.</string>
+    <string name="ans481">  سوف يلعبان كرة القدم في نفس اليوم مرة أخرى بعد 4 أيام.</string>
+    <string name="ans482"> سوف يلعبان كرة القدم في نفس اليوم مرة أخرى بعد 10 أيام.</string>
+    <string name="ans483"> سوف يلعبان كرة القدم في نفس اليوم مرة أخرى بعد 16 أيام.</string>
+    <string name="ans484"> سوف يلعبان كرة القدم في نفس اليوم مرة أخرى بعد 20 أيام.</string>
+
+    <string name="t18q1">يمكن للأرقام أن تكون إيجابية أو سلبية. على مستقيم الأعداد، الأرقام بعد 0 إيجابية، والأرقام قبل 0 سلبية. ما العدد الذي تمثله النقطة الخضراء على الخط؟</string>
+    <string name="hint49">تلميح: ما العدد بين -4 و -2؟</string>
+
+    <string name="t18q2"> اختر الجواب الذي يمثل النقاط الخضراء والزرقاء والصفراء على خط الأعداد بالترتيب الصحيح.</string>
+    <string name="hint50">تلميح: فكر بالأرقام المطلوبة لإكمال مستقيم الأعداد.</string>
+    <string name="ans501">2، -2،5</string>
+    <string name="ans502">-2،2،5</string>
+    <string name="ans503">-1،2،5</string>
+    <string name="ans504">2،2،5</string>
+
+    <string name="t18q3"> ما العدد الذي تمثله النقطة الوردية على المستقيم؟</string>
+    <string name="hint51">تلميح: يظهر هذا المستقيم مضاعفات 5. ما مضاعفات 5 التي أعلى من -15 وأصغر من -5؟ تذكر أنه كلما كانت الأرقام السالبة أبعد من الصفر،كلما أصبحوا أصغر.</string>
+    <string name="ans511">-4</string>
+    <string name="ans512"> -14</string>
+    <string name="ans513"> -10</string>
+    <string name="ans514">4</string>
+
+    <string name="t19q1">Connect the following decimals to their percents.</string>
+    <string name="hint52">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans521">53%</string>
+    <string name="ans522">62%</string>
+    <string name="ans523">5%</string>
+    <string name="ans524">0.3%</string>
+
+    <string name="t20q1">ما هو الترتيب الصحيح للأرقام من الأقل إلى أعظم؟</string>
+    <string name="hint53">تلميح: تذكر, كلما ابتعدت الأرقام السالبة من 0، كلما أصبحوا أصغر. مثال: -10 أصغر من -7.</string>
+    <string name="ans531">a</string>
+    <string name="ans532">b</string>
+    <string name="ans533">c</string>
+    <string name="ans534">d</string>
+
+    <string name="t20q2">. ما هو الترتيب الصحيح للأرقام أدناه من الأكبر إلى الأقل؟</string>
+    <string name="hint54">تلميح: تذكر, كلما ابتعدت الأرقام السالبة من 0، كلما أصبحوا أصغر. مثال: -10 أصغر من -7.</string>
+    <string name="ans541">a</string>
+    <string name="ans542">b</string>
+    <string name="ans543">c</string>
+    <string name="ans544">d</string>
+
+    <string name="t21q1">يحدد النظام الديكارتي تنسيق كل نقطة على المستوي من خلال زوج من
+        الإحداثيات، التي يتم التعبير عنها في شكل (x,y)
+        "X" يشير إلى نقطة على السطر الأفقي و "Y" يشير إلى نقطة على الخط العمودي.
+    </string>
+    <string name="t21_2_q1">في الشكل، هناك 4 نقاط، كل منها توصف بواسطة زوج من الإحداثيات.</string>
+    <string name="t21_3_q1">اختر زوج الإحداثيات المتمثلة في المستوي أدناه:</string>
+    <string name="hint55">تلميح: تذكر أن الرقم الأول في الزوج يشير إلى محور X (خط أفقي)، ويشير الرقم الثاني في الزوج إلى المحور Y (خط عمودي).</string>
+    <string name="ans551">(3،3)</string>
+    <string name="ans552">(4،4)</string>
+    <string name="ans553">(3،5)</string>
+    <string name="ans554">(3،4) </string>
+
+    <string name="t21q2">Connect the following decimals to their percents.</string>
+    <string name="hint56">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans561">53%</string>
+    <string name="ans562">62%</string>
+    <string name="ans563">5%</string>
+    <string name="ans564">0.3%</string>
+
+    <string name="t21q3">Connect the following decimals to their percents.</string>
+    <string name="hint57">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans571">53%</string>
+    <string name="ans572">62%</string>
+    <string name="ans573">5%</string>
+    <string name="ans574">0.3%</string>
+
+    <string name="t22q1">Connect the following decimals to their percents.</string>
+    <string name="hint58">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans581">53%</string>
+    <string name="ans582">62%</string>
+    <string name="ans583">5%</string>
+    <string name="ans584">0.3%</string>
+
+    <string name="t22q2">Connect the following decimals to their percents.</string>
+    <string name="hint59">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans591">53%</string>
+    <string name="ans592">62%</string>
+    <string name="ans593">5%</string>
+    <string name="ans594">0.3%</string>
+
+    <string name="t22q3">Connect the following decimals to their percents.</string>
+    <string name="hint60">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans601">53%</string>
+    <string name="ans602">62%</string>
+    <string name="ans603">5%</string>
+    <string name="ans604">0.3%</string>
+
+    <string name="t23q1">Connect the following decimals to their percents.</string>
+    <string name="hint61">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans611">53%</string>
+    <string name="ans612">62%</string>
+    <string name="ans613">5%</string>
+    <string name="ans614">0.3%</string>
+
+    <string name="t24q1">Connect the following decimals to their percents.</string>
+    <string name="hint62">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans621">53%</string>
+    <string name="ans622">62%</string>
+    <string name="ans623">5%</string>
+    <string name="ans624">0.3%</string>
+
+    <string name="t25q1">Connect the following decimals to their percents.</string>
+    <string name="hint63">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans631">53%</string>
+    <string name="ans632">62%</string>
+    <string name="ans633">5%</string>
+    <string name="ans634">0.3%</string>
+
+    <string name="t26q1">Connect the following decimals to their percents.</string>
+    <string name="hint64">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans641">53%</string>
+    <string name="ans642">62%</string>
+    <string name="ans643">5%</string>
+    <string name="ans644">0.3%</string>
+
+    <string name="t26q2">Connect the following decimals to their percents.</string>
+    <string name="hint65">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans651">53%</string>
+    <string name="ans652">62%</string>
+    <string name="ans653">5%</string>
+    <string name="ans654">0.3%</string>
+
+    <string name="t26q3">Connect the following decimals to their percents.</string>
+    <string name="hint66">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans661">53%</string>
+    <string name="ans662">62%</string>
+    <string name="ans663">5%</string>
+    <string name="ans664">0.3%</string>
+
+    <string name="t27q1">Connect the following decimals to their percents.</string>
+    <string name="hint67">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans671">53%</string>
+    <string name="ans672">62%</string>
+    <string name="ans673">5%</string>
+    <string name="ans674">0.3%</string>
+
+    <string name="t27q2">Connect the following decimals to their percents.</string>
+    <string name="hint68">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans681">53%</string>
+    <string name="ans682">62%</string>
+    <string name="ans683">5%</string>
+    <string name="ans684">0.3%</string>
+
+    <string name="t27q3">Connect the following decimals to their percents.</string>
+    <string name="hint69">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans691">53%</string>
+    <string name="ans692">62%</string>
+    <string name="ans693">5%</string>
+    <string name="ans694">0.3%</string>
+
+    <string name="t28q1">Connect the following decimals to their percents.</string>
+    <string name="hint70">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans701">53%</string>
+    <string name="ans702">62%</string>
+    <string name="ans703">5%</string>
+    <string name="ans704">0.3%</string>
+
+    <string name="t28q2">Connect the following decimals to their percents.</string>
+    <string name="hint71">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans711">53%</string>
+    <string name="ans712">62%</string>
+    <string name="ans713">5%</string>
+    <string name="ans714">0.3%</string>
+
+    <string name="t28q3">Connect the following decimals to their percents.</string>
+    <string name="hint72">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans721">53%</string>
+    <string name="ans722">62%</string>
+    <string name="ans723">5%</string>
+    <string name="ans724">0.3%</string>
+
+    <string name="t28q4">Connect the following decimals to their percents.</string>
+    <string name="hint73">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans731">53%</string>
+    <string name="ans732">62%</string>
+    <string name="ans733">5%</string>
+    <string name="ans734">0.3%</string>
+
+    <string name="t28q5">Connect the following decimals to their percents.</string>
+    <string name="hint74">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans741">53%</string>
+    <string name="ans742">62%</string>
+    <string name="ans743">5%</string>
+    <string name="ans744">0.3%</string>
+
+    <string name="t29q1">Connect the following decimals to their percents.</string>
+    <string name="hint75">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans751">53%</string>
+    <string name="ans752">62%</string>
+    <string name="ans753">5%</string>
+    <string name="ans754">0.3%</string>
+
+    <string name="t29q2">Connect the following decimals to their percents.</string>
+    <string name="hint76">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans761">53%</string>
+    <string name="ans762">62%</string>
+    <string name="ans763">5%</string>
+    <string name="ans764">0.3%</string>
+
+    <string name="t29q3">Connect the following decimals to their percents.</string>
+    <string name="hint77">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans771">53%</string>
+    <string name="ans772">62%</string>
+    <string name="ans773">5%</string>
+    <string name="ans774">0.3%</string>
+
+    <string name="t30q1">Connect the following decimals to their percents.</string>
+    <string name="hint78">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans781">53%</string>
+    <string name="ans782">62%</string>
+    <string name="ans783">5%</string>
+    <string name="ans784">0.3%</string>
+
+    <string name="t30q2">Connect the following decimals to their percents.</string>
+    <string name="hint79">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans791">53%</string>
+    <string name="ans792">62%</string>
+    <string name="ans793">5%</string>
+    <string name="ans794">0.3%</string>
+
+    <string name="t30q3">Connect the following decimals to their percents.</string>
+    <string name="hint80">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans801">53%</string>
+    <string name="ans802">62%</string>
+    <string name="ans803">5%</string>
+    <string name="ans804">0.3%</string>
+
+    <string name="t31q1">Connect the following decimals to their percents.</string>
+    <string name="hint81">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans811">53%</string>
+    <string name="ans812">62%</string>
+    <string name="ans813">5%</string>
+    <string name="ans814">0.3%</string>
+
+    <string name="t31q2">Connect the following decimals to their percents.</string>
+    <string name="hint82">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans821">53%</string>
+    <string name="ans822">62%</string>
+    <string name="ans823">5%</string>
+    <string name="ans824">0.3%</string>
+
+    <string name="t31q3">Connect the following decimals to their percents.</string>
+    <string name="hint83">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans831">53%</string>
+    <string name="ans832">62%</string>
+    <string name="ans833">5%</string>
+    <string name="ans834">0.3%</string>
+
+    <string name="t31q4">Connect the following decimals to their percents.</string>
+    <string name="hint84">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans841">53%</string>
+    <string name="ans842">62%</string>
+    <string name="ans843">5%</string>
+    <string name="ans844">0.3%</string>
+
+    <string name="t32q1">Connect the following decimals to their percents.</string>
+    <string name="hint85">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans851">53%</string>
+    <string name="ans852">62%</string>
+    <string name="ans853">5%</string>
+    <string name="ans854">0.3%</string>
+
+    <string name="t33q1">Connect the following decimals to their percents.</string>
+    <string name="hint86">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans861">53%</string>
+    <string name="ans862">62%</string>
+    <string name="ans863">5%</string>
+    <string name="ans864">0.3%</string>
+
+    <string name="t33q2">Connect the following decimals to their percents.</string>
+    <string name="hint87">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans871">53%</string>
+    <string name="ans872">62%</string>
+    <string name="ans873">5%</string>
+    <string name="ans874">0.3%</string>
+
+    <string name="t33q3">Connect the following decimals to their percents.</string>
+    <string name="hint88">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans881">53%</string>
+    <string name="ans882">62%</string>
+    <string name="ans883">5%</string>
+    <string name="ans884">0.3%</string>
+
+    <string name="t33q4">Connect the following decimals to their percents.</string>
+    <string name="hint89">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans891">53%</string>
+    <string name="ans892">62%</string>
+    <string name="ans893">5%</string>
+    <string name="ans894">0.3%</string>
+
+    <string name="t34q1">Connect the following decimals to their percents.</string>
+    <string name="hint90">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans901">53%</string>
+    <string name="ans902">62%</string>
+    <string name="ans903">5%</string>
+    <string name="ans904">0.3%</string>
+
+    <string name="t34q2">Connect the following decimals to their percents.</string>
+    <string name="hint91">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans911">53%</string>
+    <string name="ans912">62%</string>
+    <string name="ans913">5%</string>
+    <string name="ans914">0.3%</string>
+
+    <string name="t34q3">Connect the following decimals to their percents.</string>
+    <string name="hint92">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans921">53%</string>
+    <string name="ans922">62%</string>
+    <string name="ans923">5%</string>
+    <string name="ans924">0.3%</string>
+
+    <string name="t34q4">Connect the following decimals to their percents.</string>
+    <string name="hint93">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans931">53%</string>
+    <string name="ans932">62%</string>
+    <string name="ans933">5%</string>
+    <string name="ans934">0.3%</string>
+
+    <string name="t35q1">Connect the following decimals to their percents.</string>
+    <string name="hint94">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans941">53%</string>
+    <string name="ans942">62%</string>
+    <string name="ans943">5%</string>
+    <string name="ans944">0.3%</string>
+
+    <string name="t35q2">Connect the following decimals to their percents.</string>
+    <string name="hint95">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans951">53%</string>
+    <string name="ans952">62%</string>
+    <string name="ans953">5%</string>
+    <string name="ans954">0.3%</string>
+
+    <string name="t35q3">Connect the following decimals to their percents.</string>
+    <string name="hint96">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans961">53%</string>
+    <string name="ans962">62%</string>
+    <string name="ans963">5%</string>
+    <string name="ans964">0.3%</string>
+
+    <string name="t35q4">Connect the following decimals to their percents.</string>
+    <string name="hint97">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans971">53%</string>
+    <string name="ans972">62%</string>
+    <string name="ans973">5%</string>
+    <string name="ans974">0.3%</string>
+
+    <string name="t36q1">Connect the following decimals to their percents.</string>
+    <string name="hint98">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans981">53%</string>
+    <string name="ans982">62%</string>
+    <string name="ans983">5%</string>
+    <string name="ans984">0.3%</string>
+
+    <string name="t36q2">Connect the following decimals to their percents.</string>
+    <string name="hint99">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans991">53%</string>
+    <string name="ans992">62%</string>
+    <string name="ans993">5%</string>
+    <string name="ans994">0.3%</string>
+
+    <string name="t37q1">Connect the following decimals to their percents.</string>
+    <string name="hint100">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1001">53%</string>
+    <string name="ans1002">62%</string>
+    <string name="ans1003">5%</string>
+    <string name="ans1004">0.3%</string>
+
+    <string name="t38q1">Connect the following decimals to their percents.</string>
+    <string name="hint101">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1011">53%</string>
+    <string name="ans1012">62%</string>
+    <string name="ans1013">5%</string>
+    <string name="ans1014">0.3%</string>
+
+    <string name="t39q1">Connect the following decimals to their percents.</string>
+    <string name="hint102">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1021">53%</string>
+    <string name="ans1022">62%</string>
+    <string name="ans1023">5%</string>
+    <string name="ans1024">0.3%</string>
+
+    <string name="t40q1">Connect the following decimals to their percents.</string>
+    <string name="hint103">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1031">53%</string>
+    <string name="ans1032">62%</string>
+    <string name="ans1033">5%</string>
+    <string name="ans1034">0.3%</string>
+
+    <string name="t40q2">Connect the following decimals to their percents.</string>
+    <string name="hint104">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1041">53%</string>
+    <string name="ans1042">62%</string>
+    <string name="ans1043">5%</string>
+    <string name="ans1044">0.3%</string>
+
+    <string name="t40q3">Connect the following decimals to their percents.</string>
+    <string name="hint105">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1051">53%</string>
+    <string name="ans1052">62%</string>
+    <string name="ans1053">5%</string>
+    <string name="ans1054">0.3%</string>
+
+    <string name="t40q4">Connect the following decimals to their percents.</string>
+    <string name="hint106">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1061">53%</string>
+    <string name="ans1062">62%</string>
+    <string name="ans1063">5%</string>
+    <string name="ans1064">0.3%</string>
+
+    <string name="t40q5">Connect the following decimals to their percents.</string>
+    <string name="hint107">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1071">53%</string>
+    <string name="ans1072">62%</string>
+    <string name="ans1073">5%</string>
+    <string name="ans1074">0.3%</string>
+
+    <string name="t41q1">Connect the following decimals to their percents.</string>
+    <string name="hint108">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1081">53%</string>
+    <string name="ans1082">62%</string>
+    <string name="ans1083">5%</string>
+    <string name="ans1084">0.3%</string>
+
+    <string name="t41q2">Connect the following decimals to their percents.</string>
+    <string name="hint109">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1091">53%</string>
+    <string name="ans1092">62%</string>
+    <string name="ans1093">5%</string>
+    <string name="ans1094">0.3%</string>
+
+    <string name="t41q3">Connect the following decimals to their percents.</string>
+    <string name="hint110">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1101">53%</string>
+    <string name="ans1102">62%</string>
+    <string name="ans1103">5%</string>
+    <string name="ans1104">0.3%</string>
+
+    <string name="t41q4">Connect the following decimals to their percents.</string>
+    <string name="hint111">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1111">53%</string>
+    <string name="ans1112">62%</string>
+    <string name="ans1113">5%</string>
+    <string name="ans1114">0.3%</string>
+
+    <string name="t41q5">Connect the following decimals to their percents.</string>
+    <string name="hint112">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1121">53%</string>
+    <string name="ans1122">62%</string>
+    <string name="ans1123">5%</string>
+    <string name="ans1124">0.3%</string>
+
+    <string name="t42q1">Connect the following decimals to their percents.</string>
+    <string name="hint113">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1131">53%</string>
+    <string name="ans1132">62%</string>
+    <string name="ans1133">5%</string>
+    <string name="ans1134">0.3%</string>
+
+    <string name="t42q2">Connect the following decimals to their percents.</string>
+    <string name="hint114">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1141">53%</string>
+    <string name="ans1142">62%</string>
+    <string name="ans1143">5%</string>
+    <string name="ans1144">0.3%</string>
+
+    <string name="t42q3">Connect the following decimals to their percents.</string>
+    <string name="hint115">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1151">53%</string>
+    <string name="ans1152">62%</string>
+    <string name="ans1153">5%</string>
+    <string name="ans1154">0.3%</string>
+
+    <string name="t43q1">Connect the following decimals to their percents.</string>
+    <string name="hint116">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1161">53%</string>
+    <string name="ans1162">62%</string>
+    <string name="ans1163">5%</string>
+    <string name="ans1164">0.3%</string>
+
+    <string name="t43q2">Connect the following decimals to their percents.</string>
+    <string name="hint117">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1171">53%</string>
+    <string name="ans1172">62%</string>
+    <string name="ans1173">5%</string>
+    <string name="ans1174">0.3%</string>
+
+    <string name="t44q1">Connect the following decimals to their percents.</string>
+    <string name="hint118">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1181">53%</string>
+    <string name="ans1182">62%</string>
+    <string name="ans1183">5%</string>
+    <string name="ans1184">0.3%</string>
+
+    <string name="t44q2">Connect the following decimals to their percents.</string>
+    <string name="hint119">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1191">53%</string>
+    <string name="ans1192">62%</string>
+    <string name="ans1193">5%</string>
+    <string name="ans1194">0.3%</string>
+
+    <string name="t44q3">Connect the following decimals to their percents.</string>
+    <string name="hint120">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1201">53%</string>
+    <string name="ans1202">62%</string>
+    <string name="ans1203">5%</string>
+    <string name="ans1204">0.3%</string>
+
+    <string name="t45q1">Connect the following decimals to their percents.</string>
+    <string name="hint121">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1211">53%</string>
+    <string name="ans1212">62%</string>
+    <string name="ans1213">5%</string>
+    <string name="ans1214">0.3%</string>
+
+    <string name="t45q2">Connect the following decimals to their percents.</string>
+    <string name="hint122">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1221">53%</string>
+    <string name="ans1222">62%</string>
+    <string name="ans1223">5%</string>
+    <string name="ans1224">0.3%</string>
+
+    <string name="t45q3">Connect the following decimals to their percents.</string>
+    <string name="hint123">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1231">53%</string>
+    <string name="ans1232">62%</string>
+    <string name="ans1233">5%</string>
+    <string name="ans1234">0.3%</string>
+
+    <string name="t46q1">Connect the following decimals to their percents.</string>
+    <string name="hint124">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1241">53%</string>
+    <string name="ans1242">62%</string>
+    <string name="ans1243">5%</string>
+    <string name="ans1244">0.3%</string>
+
+    <string name="t46q2">Connect the following decimals to their percents.</string>
+    <string name="hint125">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1251">53%</string>
+    <string name="ans1252">62%</string>
+    <string name="ans1253">5%</string>
+    <string name="ans1254">0.3%</string>
+
+    <string name="t46q3">Connect the following decimals to their percents.</string>
+    <string name="hint126">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1261">53%</string>
+    <string name="ans1262">62%</string>
+    <string name="ans1263">5%</string>
+    <string name="ans1264">0.3%</string>
+
+    <string name="t47q1">Connect the following decimals to their percents.</string>
+    <string name="hint127">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1271">53%</string>
+    <string name="ans1272">62%</string>
+    <string name="ans1273">5%</string>
+    <string name="ans1274">0.3%</string>
+
+    <string name="t47q2">Connect the following decimals to their percents.</string>
+    <string name="hint128">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1281">53%</string>
+    <string name="ans1282">62%</string>
+    <string name="ans1283">5%</string>
+    <string name="ans1284">0.3%</string>
+
+    <string name="t47q3">Connect the following decimals to their percents.</string>
+    <string name="hint129">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1291">53%</string>
+    <string name="ans1292">62%</string>
+    <string name="ans1293">5%</string>
+    <string name="ans1294">0.3%</string>
+
+    <string name="t48q1">Connect the following decimals to their percents.</string>
+    <string name="hint130">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1301">53%</string>
+    <string name="ans1302">62%</string>
+    <string name="ans1303">5%</string>
+    <string name="ans1304">0.3%</string>
+
+    <string name="t48q2">Connect the following decimals to their percents.</string>
+    <string name="hint131">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1311">53%</string>
+    <string name="ans1312">62%</string>
+    <string name="ans1313">5%</string>
+    <string name="ans1314">0.3%</string>
+
+    <string name="t49q1">Connect the following decimals to their percents.</string>
+    <string name="hint132">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1321">53%</string>
+    <string name="ans1322">62%</string>
+    <string name="ans1323">5%</string>
+    <string name="ans1324">0.3%</string>
+
+    <string name="t49q2">Connect the following decimals to their percents.</string>
+    <string name="hint133">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1331">53%</string>
+    <string name="ans1332">62%</string>
+    <string name="ans1333">5%</string>
+    <string name="ans1334">0.3%</string>
+
+    <string name="t49q3">Connect the following decimals to their percents.</string>
+    <string name="hint134">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1341">53%</string>
+    <string name="ans1342">62%</string>
+    <string name="ans1343">5%</string>
+    <string name="ans1344">0.3%</string>
+
+    <string name="t50q1">Connect the following decimals to their percents.</string>
+    <string name="hint135">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1351">53%</string>
+    <string name="ans1352">62%</string>
+    <string name="ans1353">5%</string>
+    <string name="ans1354">0.3%</string>
+
+    <string name="t50q2">Connect the following decimals to their percents.</string>
+    <string name="hint136">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1361">53%</string>
+    <string name="ans1362">62%</string>
+    <string name="ans1363">5%</string>
+    <string name="ans1364">0.3%</string>
+
+    <string name="t51q1">Connect the following decimals to their percents.</string>
+    <string name="hint137">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1371">53%</string>
+    <string name="ans1372">62%</string>
+    <string name="ans1373">5%</string>
+    <string name="ans1374">0.3%</string>
+
+    <string name="t52q1">Connect the following decimals to their percents.</string>
+    <string name="hint138">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1381">53%</string>
+    <string name="ans1382">62%</string>
+    <string name="ans1383">5%</string>
+    <string name="ans1384">0.3%</string>
+
+    <string name="t52q2">Connect the following decimals to their percents.</string>
+    <string name="hint139">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1391">53%</string>
+    <string name="ans1392">62%</string>
+    <string name="ans1393">5%</string>
+    <string name="ans1394">0.3%</string>
+
+    <string name="t52bq1">Connect the following decimals to their percents.</string>
+    <string name="hint140">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1401">53%</string>
+    <string name="ans1402">62%</string>
+    <string name="ans1403">5%</string>
+    <string name="ans1404">0.3%</string>
+
+    <string name="t52bq2">Connect the following decimals to their percents.</string>
+    <string name="hint141">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1411">53%</string>
+    <string name="ans1412">62%</string>
+    <string name="ans1413">5%</string>
+    <string name="ans1414">0.3%</string>
+
+    <string name="t52bq3">Connect the following decimals to their percents.</string>
+    <string name="hint142">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1421">53%</string>
+    <string name="ans1422">62%</string>
+    <string name="ans1423">5%</string>
+    <string name="ans1424">0.3%</string>
+
+    <string name="t52cq1">Connect the following decimals to their percents.</string>
+    <string name="hint143">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1431">53%</string>
+    <string name="ans1432">62%</string>
+    <string name="ans1433">5%</string>
+    <string name="ans1434">0.3%</string>
+
+    <string name="t52cq2">Connect the following decimals to their percents.</string>
+    <string name="hint144">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1441">53%</string>
+    <string name="ans1442">62%</string>
+    <string name="ans1443">5%</string>
+    <string name="ans1444">0.3%</string>
+
+    <string name="t53q1">Connect the following decimals to their percents.</string>
+    <string name="hint145">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1451">53%</string>
+    <string name="ans1452">62%</string>
+    <string name="ans1453">5%</string>
+    <string name="ans1454">0.3%</string>
+
+    <string name="t53bq1">Connect the following decimals to their percents.</string>
+    <string name="hint146">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1461">53%</string>
+    <string name="ans1462">62%</string>
+    <string name="ans1463">5%</string>
+    <string name="ans1464">0.3%</string>
+
+    <string name="t53bq2">Connect the following decimals to their percents.</string>
+    <string name="hint147">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1471">53%</string>
+    <string name="ans1472">62%</string>
+    <string name="ans1473">5%</string>
+    <string name="ans1474">0.3%</string>
+
+    <string name="t54q1">Connect the following decimals to their percents.</string>
+    <string name="hint148">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1481">53%</string>
+    <string name="ans1482">62%</string>
+    <string name="ans1483">5%</string>
+    <string name="ans1484">0.3%</string>
+
+    <string name="t54q2">Connect the following decimals to their percents.</string>
+    <string name="hint149">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1491">53%</string>
+    <string name="ans1492">62%</string>
+    <string name="ans1493">5%</string>
+    <string name="ans1494">0.3%</string>
+
+    <string name="t55q1">Connect the following decimals to their percents.</string>
+    <string name="hint150">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1501">53%</string>
+    <string name="ans1502">62%</string>
+    <string name="ans1503">5%</string>
+    <string name="ans1504">0.3%</string>
+
+    <string name="t55q2">Connect the following decimals to their percents.</string>
+    <string name="hint151">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1511">53%</string>
+    <string name="ans1512">62%</string>
+    <string name="ans1513">5%</string>
+    <string name="ans1514">0.3%</string>
+
+    <string name="t56q1">Connect the following decimals to their percents.</string>
+    <string name="hint152">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1521">53%</string>
+    <string name="ans1522">62%</string>
+    <string name="ans1523">5%</string>
+    <string name="ans1524">0.3%</string>
+
+    <string name="t57q1">Connect the following decimals to their percents.</string>
+    <string name="hint153">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1531">53%</string>
+    <string name="ans1532">62%</string>
+    <string name="ans1533">5%</string>
+    <string name="ans1534">0.3%</string>
+
+    <string name="t57q2">Connect the following decimals to their percents.</string>
+    <string name="hint154">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1541">53%</string>
+    <string name="ans1542">62%</string>
+    <string name="ans1543">5%</string>
+    <string name="ans1544">0.3%</string>
+
+    <string name="t58q1">Connect the following decimals to their percents.</string>
+    <string name="hint155">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1551">53%</string>
+    <string name="ans1552">62%</string>
+    <string name="ans1553">5%</string>
+    <string name="ans1554">0.3%</string>
+
+    <string name="t58q2">Connect the following decimals to their percents.</string>
+    <string name="hint156">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1561">53%</string>
+    <string name="ans1562">62%</string>
+    <string name="ans1563">5%</string>
+    <string name="ans1564">0.3%</string>
+
+    <string name="t59q1">Connect the following decimals to their percents.</string>
+    <string name="hint157">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1571">53%</string>
+    <string name="ans1572">62%</string>
+    <string name="ans1573">5%</string>
+    <string name="ans1574">0.3%</string>
+
+    <string name="t59q2">Connect the following decimals to their percents.</string>
+    <string name="hint158">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1581">53%</string>
+    <string name="ans1582">62%</string>
+    <string name="ans1583">5%</string>
+    <string name="ans1584">0.3%</string>
+
+    <string name="t60q1">Connect the following decimals to their percents.</string>
+    <string name="hint159">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1591">53%</string>
+    <string name="ans1592">62%</string>
+    <string name="ans1593">5%</string>
+    <string name="ans1594">0.3%</string>
+
+    <string name="t60q2">Connect the following decimals to their percents.</string>
+    <string name="hint160">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1601">53%</string>
+    <string name="ans1602">62%</string>
+    <string name="ans1603">5%</string>
+    <string name="ans1604">0.3%</string>
+
+    <string name="t60q3">Connect the following decimals to their percents.</string>
+    <string name="hint161">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1611">53%</string>
+    <string name="ans1612">62%</string>
+    <string name="ans1613">5%</string>
+    <string name="ans1614">0.3%</string>
+
+    <string name="t60q4">Connect the following decimals to their percents.</string>
+    <string name="hint162">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1621">53%</string>
+    <string name="ans1622">62%</string>
+    <string name="ans1623">5%</string>
+    <string name="ans1624">0.3%</string>
+
+    <string name="t60q5">Connect the following decimals to their percents.</string>
+    <string name="hint163">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1631">53%</string>
+    <string name="ans1632">62%</string>
+    <string name="ans1633">5%</string>
+    <string name="ans1634">0.3%</string>
+
+    <string name="t60q6">Connect the following decimals to their percents.</string>
+    <string name="hint164">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1641">53%</string>
+    <string name="ans1642">62%</string>
+    <string name="ans1643">5%</string>
+    <string name="ans1644">0.3%</string>
+
+    <string name="t61q1">Connect the following decimals to their percents.</string>
+    <string name="hint165">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1651">53%</string>
+    <string name="ans1652">62%</string>
+    <string name="ans1653">5%</string>
+    <string name="ans1654">0.3%</string>
+
+    <string name="t61q2">Connect the following decimals to their percents.</string>
+    <string name="hint166">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1661">53%</string>
+    <string name="ans1662">62%</string>
+    <string name="ans1663">5%</string>
+    <string name="ans1664">0.3%</string>
+
+    <string name="t61q3">Connect the following decimals to their percents.</string>
+    <string name="hint167">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1671">53%</string>
+    <string name="ans1672">62%</string>
+    <string name="ans1673">5%</string>
+    <string name="ans1674">0.3%</string>
+
+    <string name="t61q4">Connect the following decimals to their percents.</string>
+    <string name="hint168">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1681">53%</string>
+    <string name="ans1682">62%</string>
+    <string name="ans1683">5%</string>
+    <string name="ans1684">0.3%</string>
+
+    <string name="t62q1">Connect the following decimals to their percents.</string>
+    <string name="hint169">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1691">53%</string>
+    <string name="ans1692">62%</string>
+    <string name="ans1693">5%</string>
+    <string name="ans1694">0.3%</string>
+
+    <string name="t62q2">Connect the following decimals to their percents.</string>
+    <string name="hint170">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1711">53%</string>
+    <string name="ans1712">62%</string>
+    <string name="ans1713">5%</string>
+    <string name="ans1714">0.3%</string>
+
+    <string name="t62q3">Connect the following decimals to their percents.</string>
+    <string name="hint172">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1721">53%</string>
+    <string name="ans1722">62%</string>
+    <string name="ans1723">5%</string>
+    <string name="ans1724">0.3%</string>
+
+    <string name="t62q4">Connect the following decimals to their percents.</string>
+    <string name="hint173">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1731">53%</string>
+    <string name="ans1732">62%</string>
+    <string name="ans1733">5%</string>
+    <string name="ans1734">0.3%</string>
+
+    <string name="t63q1">Connect the following decimals to their percents.</string>
+    <string name="hint174">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1741">53%</string>
+    <string name="ans1742">62%</string>
+    <string name="ans1743">5%</string>
+    <string name="ans1744">0.3%</string>
+
+    <string name="t63q2">Connect the following decimals to their percents.</string>
+    <string name="hint175">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1751">53%</string>
+    <string name="ans1752">62%</string>
+    <string name="ans1753">5%</string>
+    <string name="ans1754">0.3%</string>
+
+    <string name="t63q3">Connect the following decimals to their percents.</string>
+    <string name="hint176">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1761">53%</string>
+    <string name="ans1762">62%</string>
+    <string name="ans1763">5%</string>
+    <string name="ans1764">0.3%</string>
+
+    <string name="t64q1">Connect the following decimals to their percents.</string>
+    <string name="hint177">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1771">53%</string>
+    <string name="ans1772">62%</string>
+    <string name="ans1773">5%</string>
+    <string name="ans1774">0.3%</string>
+
+    <string name="t64q2">Connect the following decimals to their percents.</string>
+    <string name="hint178">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1781">53%</string>
+    <string name="ans1782">62%</string>
+    <string name="ans1783">5%</string>
+    <string name="ans1784">0.3%</string>
+
+    <string name="t64q3">Connect the following decimals to their percents.</string>
+    <string name="hint179">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1791">53%</string>
+    <string name="ans1792">62%</string>
+    <string name="ans1793">5%</string>
+    <string name="ans1794">0.3%</string>
+
+    <string name="t64q4">Connect the following decimals to their percents.</string>
+    <string name="hint180">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1801">53%</string>
+    <string name="ans1802">62%</string>
+    <string name="ans1803">5%</string>
+    <string name="ans1804">0.3%</string>
+
+    <string name="t65q1">Connect the following decimals to their percents.</string>
+    <string name="hint181">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1811">53%</string>
+    <string name="ans1812">62%</string>
+    <string name="ans1813">5%</string>
+    <string name="ans1814">0.3%</string>
+
+    <string name="t65q2">Connect the following decimals to their percents.</string>
+    <string name="hint182">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1821">53%</string>
+    <string name="ans18222">62%</string>
+    <string name="ans1823">5%</string>
+    <string name="ans1824">0.3%</string>
+
+    <string name="t65q3">Connect the following decimals to their percents.</string>
+    <string name="hint183">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1831">53%</string>
+    <string name="ans1832">62%</string>
+    <string name="ans1833">5%</string>
+    <string name="ans1834">0.3%</string>
+
+    <string name="t65q4">Connect the following decimals to their percents.</string>
+    <string name="hint184">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1841">53%</string>
+    <string name="ans1842">62%</string>
+    <string name="ans1843">5%</string>
+    <string name="ans1844">0.3%</string>
+
+    <string name="t66q1">Connect the following decimals to their percents.</string>
+    <string name="hint185">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1851">53%</string>
+    <string name="ans1852">62%</string>
+    <string name="ans1853">5%</string>
+    <string name="ans1854">0.3%</string>
+
+    <string name="t66q2">Connect the following decimals to their percents.</string>
+    <string name="hint186">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1861">53%</string>
+    <string name="ans1862">62%</string>
+    <string name="ans1863">5%</string>
+    <string name="ans1864">0.3%</string>
+
+    <string name="t66q3">Connect the following decimals to their percents.</string>
+    <string name="hint187">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1871">53%</string>
+    <string name="ans1872">62%</string>
+    <string name="ans1873">5%</string>
+    <string name="ans1874">0.3%</string>
+
+    <string name="t66q4">Connect the following decimals to their percents.</string>
+    <string name="hint188">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1881">53%</string>
+    <string name="ans1882">62%</string>
+    <string name="ans1883">5%</string>
+    <string name="ans1884">0.3%</string>
+
+    <string name="t67q1">Connect the following decimals to their percents.</string>
+    <string name="hint189">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1891">53%</string>
+    <string name="ans1892">62%</string>
+    <string name="ans1893">5%</string>
+    <string name="ans1894">0.3%</string>
+
+    <string name="t67q2">Connect the following decimals to their percents.</string>
+    <string name="hint190">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1901">53%</string>
+    <string name="ans1902">62%</string>
+    <string name="ans1903">5%</string>
+    <string name="ans1904">0.3%</string>
+
+    <string name="t68q1">Connect the following decimals to their percents.</string>
+    <string name="hint191">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1911">53%</string>
+    <string name="ans1912">62%</string>
+    <string name="ans1913">5%</string>
+    <string name="ans1914">0.3%</string>
+
+    <string name="t68q2">Connect the following decimals to their percents.</string>
+    <string name="hint192">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1921">53%</string>
+    <string name="ans1922">62%</string>
+    <string name="ans1923">5%</string>
+    <string name="ans1924">0.3%</string>
+
+    <string name="t68q3">Connect the following decimals to their percents.</string>
+    <string name="hint193">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1931">53%</string>
+    <string name="ans1932">62%</string>
+    <string name="ans1933">5%</string>
+    <string name="ans1934">0.3%</string>
+
+    <string name="t69q1">Connect the following decimals to their percents.</string>
+    <string name="hint194">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1941">53%</string>
+    <string name="ans1942">62%</string>
+    <string name="ans1943">5%</string>
+    <string name="ans1944">0.3%</string>
+
+    <string name="t69q2">Connect the following decimals to their percents.</string>
+    <string name="hint195">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1951">53%</string>
+    <string name="ans1952">62%</string>
+    <string name="ans1953">5%</string>
+    <string name="ans1954">0.3%</string>
+
+    <string name="t69q3">Connect the following decimals to their percents.</string>
+    <string name="hint196">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1961">53%</string>
+    <string name="ans1962">62%</string>
+    <string name="ans1963">5%</string>
+    <string name="ans1964">0.3%</string>
+
+    <string name="t70q1">Connect the following decimals to their percents.</string>
+    <string name="hint197">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1971">53%</string>
+    <string name="ans1972">62%</string>
+    <string name="ans1973">5%</string>
+    <string name="ans1974">0.3%</string>
+
+    <string name="t71q1">Connect the following decimals to their percents.</string>
+    <string name="hint198">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1981">53%</string>
+    <string name="ans1982">62%</string>
+    <string name="ans1983">5%</string>
+    <string name="ans1984">0.3%</string>
+
+    <string name="t72q2">Connect the following decimals to their percents.</string>
+    <string name="hint199">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans1991">53%</string>
+    <string name="ans1992">62%</string>
+    <string name="ans1993">5%</string>
+    <string name="ans1994">0.3%</string>
+
+    <string name="t72q3">Connect the following decimals to their percents.</string>
+    <string name="hint200">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans2001">53%</string>
+    <string name="ans2002">62%</string>
+    <string name="ans2003">5%</string>
+    <string name="ans2004">0.3%</string>
+
+    <string name="t73q1">Connect the following decimals to their percents.</string>
+    <string name="hint201">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans2011">53%</string>
+    <string name="ans2012">62%</string>
+    <string name="ans2013">5%</string>
+    <string name="ans2014">0.3%</string>
+
+    <string name="t73q2">Connect the following decimals to their percents.</string>
+    <string name="hint202">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans2021">53%</string>
+    <string name="ans2022">62%</string>
+    <string name="ans2023">5%</string>
+    <string name="ans2024">0.3%</string>
+
+    <string name="t73q3">Connect the following decimals to their percents.</string>
+    <string name="hint203">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans2031">53%</string>
+    <string name="ans2032">62%</string>
+    <string name="ans2033">5%</string>
+    <string name="ans2034">0.3%</string>
+
+    <string name="t73q4">Connect the following decimals to their percents.</string>
+    <string name="hint204">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans2041">53%</string>
+    <string name="ans2042">62%</string>
+    <string name="ans2043">5%</string>
+    <string name="ans2044">0.3%</string>
+
+    <string name="t73q5">Connect the following decimals to their percents.</string>
+    <string name="hint205">Multiplying a decimal by 100 converts it to its percent.</string>
+    <string name="ans2051">53%</string>
+    <string name="ans2052">62%</string>
+    <string name="ans2053">5%</string>
+    <string name="ans2054">0.3%</string>
+
+</resources>

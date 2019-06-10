@@ -41,10 +41,10 @@ public class EquivRatio extends AppCompatActivity
 
         ListView listModules = (ListView) findViewById(R.id.lvParts);
         VideoView vvIntro = findViewById(R.id.vvIntro);
-        Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.ratiosandpropotions);
+       /*  Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.ratiosandpropotions);
         vvIntro.setVideoPath(uri.toString());
         vvIntro.requestFocus();
-        vvIntro.start();
+        vvIntro.start(); */
 
         listModules.setAdapter(achievmentAdapter);
 

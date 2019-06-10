@@ -1,39 +1,30 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    android:layout_width="494dp"
     android:layout_height="?android:attr/listPreferredItemHeight"
-    android:padding="6dip" >
+    android:padding="6dip">
 
     <ImageView
         android:id="@+id/imgBadge"
-        android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
-        android:layout_alignParentBottom="true"
+        android:layout_width="66dp"
+        android:layout_height="34dp"
         android:layout_alignParentTop="true"
-        android:layout_marginRight="6dip"
-        android:contentDescription="TODO"
-        android:src="@drawable/check_false" />
-
-    <TextView
-        android:id="@+id/txtScore"
-        android:layout_width="fill_parent"
-        android:layout_height="26dip"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_toRightOf="@id/imgBadge"
-        android:text="Description"
-        android:textSize="12sp" />
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="6dip"
+        android:layout_marginBottom="18dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/book" />
 
     <TextView
         android:id="@+id/txtModuleName"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/txtScore"
-        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="7dp"
         android:layout_toRightOf="@id/imgBadge"
-        android:gravity="center_vertical"
-        android:text="Example application"
+        android:text="جمع وطرح الكسور العشرية - مشاكل كلمة"
+        android:textAlignment="textStart"
         android:textSize="16sp" />
 
 </RelativeLayout>

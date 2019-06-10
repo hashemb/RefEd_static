@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vaibh.refed.Topic1Q1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="520dp"
+        android:layout_height="148dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="37dp"
+        android:gravity="center_horizontal|center"
+        android:text="@string/t1q3"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rdgChoices"
+        android:layout_width="575dp"
+        android:layout_height="138dp"
+        android:layout_below="@+id/buttonHint1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="90dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/ChoiceA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked1"
+            android:text="@string/ans31" />
+
+        <RadioButton
+            android:id="@+id/ChoiceB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked2"
+            android:text="@string/ans32" />
+
+        <RadioButton
+            android:id="@+id/ChoiceC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked3"
+            android:text="@string/ans33" />
+
+        <RadioButton
+            android:id="@+id/ChoiceD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked4"
+            android:text="@string/ans34" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonHint1"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_below="@+id/txtContent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="213dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/hint" />
+
+</RelativeLayout>

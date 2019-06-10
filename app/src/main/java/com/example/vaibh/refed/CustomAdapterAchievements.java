@@ -5,6 +5,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Gravity;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
@@ -16,7 +17,7 @@ import org.w3c.dom.Text;
  * Created by vaibh on 3/16/2018.
  */
 
-class CustomAdapterAchievements extends ArrayAdapter<String>{
+public class CustomAdapterAchievements extends ArrayAdapter<String>{
     public CustomAdapterAchievements(@NonNull Context context,String [] completedModules) {
         super(context,R.layout.customachievements, completedModules);
     }
@@ -32,11 +33,10 @@ class CustomAdapterAchievements extends ArrayAdapter<String>{
         String modName = getItem(position);
 
         TextView moduleName = (TextView) customView.findViewById(R.id.txtModuleName);
-        TextView score = (TextView) customView.findViewById(R.id.txtScore);
         ImageView imgBadge = (ImageView) customView.findViewById(R.id.imgBadge);
 
         moduleName.setText(modName);
-        imgBadge.setImageResource(R.drawable.check_false);
+        imgBadge.setImageResource(R.drawable.book);
 
         return customView;
     }

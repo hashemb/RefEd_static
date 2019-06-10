@@ -7,33 +7,271 @@
     <application
         android:allowBackup="true"
         android:largeHeap="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/refedlogo2"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        
+        <activity android:name=".MainActivity" android:screenOrientation="sensorPortrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Login" />
-        <activity android:name=".WelcomeScreenOne" />
-         <activity android:name=".SignUp" />
-         <activity android:name=".Avatars" />
-        <activity android:name=".HomeScreen" />
-        <activity android:name=".LangSelect" />
+        <activity android:name=".Login" android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".CustomAdapterAchievementsAr" android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".CustomAdapterAchievements" android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".WelcomeScreenOne" android:screenOrientation="sensorPortrait"/>
+         <activity android:name=".SignUp" android:screenOrientation="sensorPortrait"/>
+         <activity android:name=".Avatars" android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".HomeScreen" android:screenOrientation="sensorPortrait"/>
+        <activity android:name=".LangSelect" android:screenOrientation="sensorPortrait"/>
+
         <activity
             android:name=".UserDashboard"
+            android:screenOrientation="sensorPortrait"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".Achievements" />
-        <activity android:name=".ModulesPage" />
-        <activity android:name=".Activity_Math" />
+        <activity android:name=".Achievements" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".ModulesPage" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Activity_Math" android:screenOrientation="sensorPortrait" />
         <activity android:name=".MathModule1_Part1"/>
-        <activity android:name=".BRatio1" />
+        <activity android:name=".BRatio1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic1Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic1Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic1Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic2Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic2Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic2Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic3Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic3Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic3Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic4Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic4Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic4Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic5Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic5Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic5Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic6Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic6Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic6Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic6Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic7Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic7Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic7Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic8Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic8Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic8Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic8Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic8Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic9Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic9Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic9Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic9Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic10Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic10Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic10Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic11Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic11Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic11Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic11Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic12Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic12Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic13Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic13Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic13Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic13Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic13Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic14Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic14Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic14Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic14Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic14Vid2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic14Vid3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic15Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic16Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic17Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic17Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic17Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic18Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic18Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic18Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic19Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic20Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic20Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic21Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic21Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic21Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic21Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic22Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic22Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic22Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic23Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic24Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic25Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic26Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic27Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic27Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic27Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic27Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic28Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic28Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic28Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic28Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic28Q5" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic29Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic29Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic29Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic30Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic30Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic30Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic31Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic31Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic31Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic31Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic31Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic32Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic33Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic33Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic33Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic33Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic34Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic34Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic34Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic34Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic34Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic35Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic35Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic35Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic35Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic36Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic36Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic37Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic37Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic38Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic39Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic40Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic40Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic40Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic40Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic40Q5" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic41Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic41Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic41Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic41Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic41Q5" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic41Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic42Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic42Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic42Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic42Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic43Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic43Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic43Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic44Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic44Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic44Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic45Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic45Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic45Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic46Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic46Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic46Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic47Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic47Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic47Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic47Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic48Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic48Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic49Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic49Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic49Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic49Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic50Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic50Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic50Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic51Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic51Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic51Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic52Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic52Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic52bQ1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic52cQ1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic52cQ2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic53Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic53Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic54Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic54Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic54Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic55Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic55Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic56Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic56Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic57bQ1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic57bQ2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic57Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic57Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic58Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic58Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic59Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic59Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic59Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic59Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic59Q5" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic59Q6" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic60Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic60Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic60Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic60Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic61Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic61Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic61Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic61Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic62Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic62Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic62Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic63Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic63Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic63Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic63Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic63Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic64Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic64Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic64Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic64Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic65Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic65Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic65Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic65Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic65Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic66Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic66Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic67Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic67Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic67Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic67Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic68Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic68Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic68Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic68Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic69Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic69Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic69Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic70Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic70Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic70Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic70Vid1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic71Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic71Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic71Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic71Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic72Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic72Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic72Q3" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic72Q4" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic72Q5" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic72Vid1" android:screenOrientation="sensorPortrait" />
+
     </application>
 
 </manifest>

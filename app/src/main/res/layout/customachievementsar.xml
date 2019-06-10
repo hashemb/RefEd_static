@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip">
+
+    <ImageView
+        android:id="@+id/imgBadge2"
+        android:layout_width="73dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="6dip"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/book" />
+
+    <TextView
+        android:id="@+id/txtModuleName2"
+        android:layout_width="283dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="219dp"
+        android:layout_toEndOf="@+id/imgBadge"
+        android:gravity="center_vertical"
+        android:text="جمع وطرح الكسور العشرية - مشاكل كلمة"
+        android:textAlignment="viewStart"
+        android:textSize="16sp" />
+
+</RelativeLayout>

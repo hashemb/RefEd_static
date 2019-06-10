@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vaibh.refed.Topic1Q1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="586dp"
+        android:layout_height="157dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="14dp"
+        android:gravity="center_horizontal|center"
+        android:text="@string/t21q1"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rdgChoices"
+        android:layout_width="283dp"
+        android:layout_height="136dp"
+        android:layout_below="@+id/buttonHint1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-8dp"
+        android:layout_marginBottom="13dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/ChoiceA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked1"
+            android:text="@string/ans551" />
+
+        <RadioButton
+            android:id="@+id/ChoiceB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked2"
+            android:text="@string/ans552" />
+
+        <RadioButton
+            android:id="@+id/ChoiceC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked3"
+            android:text="@string/ans553" />
+
+        <RadioButton
+            android:id="@+id/ChoiceD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked4"
+            android:text="@string/ans554" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgImage"
+        android:layout_width="214dp"
+        android:layout_height="205dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="164dp"
+        android:src="@drawable/topic21q1_pic1" />
+
+    <Button
+        android:id="@+id/buttonHint1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="271dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="242dp"
+        android:text="@string/hint" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="221dp"
+        android:layout_height="195dp"
+        android:layout_below="@+id/imgImage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="182dp"
+        app:srcCompat="@drawable/topic21q1_pic2" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="515dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgImage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="21dp"
+        android:text="@string/t21q1" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="84dp"
+        android:text="@string/t21_3_q1"
+        android:textSize="18sp" />
+
+</RelativeLayout>

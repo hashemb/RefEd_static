@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vaibh.refed.Topic1Q1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="586dp"
+        android:layout_height="157dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="14dp"
+        android:gravity="center_horizontal|center"
+        android:text="@string/t20q1"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rdgChoices"
+        android:layout_width="580dp"
+        android:layout_height="204dp"
+        android:layout_below="@+id/buttonHint1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="130dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/ChoiceA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked1"
+            android:text="@string/ans531" />
+
+        <RadioButton
+            android:id="@+id/ChoiceB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked2"
+            android:text="@string/ans532" />
+
+        <RadioButton
+            android:id="@+id/ChoiceC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked3"
+            android:text="@string/ans533" />
+
+        <RadioButton
+            android:id="@+id/ChoiceD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked4"
+            android:text="@string/ans534" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgImage"
+        android:layout_width="565dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="164dp"
+        android:src="@drawable/topic20q2_pic" />
+
+    <Button
+        android:id="@+id/buttonHint1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="251dp"
+        android:text="@string/hint" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="375dp"
+        android:layout_height="254dp"
+        android:layout_below="@+id/imgImage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="117dp"
+        app:srcCompat="@drawable/topic20q2colors" />
+
+</RelativeLayout>
