@@ -1,6 +1,183 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vaibh.refed.Topic1Q1">
 
-</android.support.constraint.ConstraintLayout>
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="586dp"
+        android:layout_height="157dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="7dp"
+        android:gravity="center_horizontal|center"
+        android:text="@string/t21q3"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/buttonHint1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="284dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="97dp"
+        android:text="@string/hint" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="328dp"
+        android:layout_height="279dp"
+        android:layout_below="@+id/txtContent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="110dp"
+        app:srcCompat="@drawable/topic21q2_pic" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="316dp"
+        android:layout_height="82dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="122dp"
+        app:srcCompat="@drawable/topic21q3_pic2" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView9"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="183dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="130dp"
+        app:srcCompat="@drawable/topic21q3_pic3" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="369dp"
+        android:layout_height="88dp"
+        android:layout_above="@+id/buttonHint1"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="39dp"
+        app:srcCompat="@drawable/topic21q3_pic4" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="31dp"
+        android:layout_height="62dp"
+        android:layout_alignStart="@+id/imageView9"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_alignEnd="@+id/imageView9"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="131dp"
+        android:ems="10"
+        android:hint="X"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignStart="@+id/imageView9"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_alignEnd="@+id/imageView9"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="80dp"
+        android:ems="10"
+        android:hint="Y"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_alignTop="@+id/imageView10"
+        android:layout_alignEnd="@+id/imageView10"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="113dp"
+        android:ems="10"
+        android:hint="X"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_alignTop="@+id/imageView10"
+        android:layout_alignEnd="@+id/imageView10"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="65dp"
+        android:ems="10"
+        android:hint="Y"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="35dp"
+        android:layout_height="58dp"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_alignTop="@+id/imageView11"
+        android:layout_alignEnd="@+id/imageView11"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="156dp"
+        android:ems="10"
+        android:hint="X"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="37dp"
+        android:layout_height="64dp"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_alignTop="@+id/imageView11"
+        android:layout_alignEnd="@+id/imageView11"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="114dp"
+        android:ems="10"
+        android:hint="Y"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

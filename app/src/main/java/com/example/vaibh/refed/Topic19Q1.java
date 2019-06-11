@@ -66,6 +66,7 @@ public class Topic19Q1 extends AppCompatActivity
         pic = findViewById(R.id.imgImage);
         Intent intent1 = getIntent();
         lang = intent1.getStringExtra("Lang");
+
         if (lang.equals("Arabic"))
         {
             pic.setImageResource(R.drawable.topic19q1_pic_ar);

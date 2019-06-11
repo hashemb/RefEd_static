@@ -486,82 +486,82 @@
     <string name="ans553">(3،5)</string>
     <string name="ans554">(3،4) </string>
 
-    <string name="t21q2">Connect the following decimals to their percents.</string>
-    <string name="hint56">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans561">53%</string>
-    <string name="ans562">62%</string>
-    <string name="ans563">5%</string>
-    <string name="ans564">0.3%</string>
+    <string name="t21q2">  أيهم الزوج الذي لم يتم تمثيله في المستوي أدناه؟</string>
+    <string name="hint56">تلميح: تذكر أن الرقم الأول في الزوج يشير إلى محور X (خط أفقي)، ويشير الرقم الثاني في الزوج إلى المحور
+        Y (خط عمودي). في هذه المسألة، انظر في الخيارات للعثور على أزواج الإحداثيات.
+    </string>
+    <string name="ans561">(3،3)</string>
+    <string name="ans562">(3،4)</string>
+    <string name="ans563">(4، -2)</string>
+    <string name="ans564">(-3، -3)</string>
 
-    <string name="t21q3">Connect the following decimals to their percents.</string>
-    <string name="hint57">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans571">53%</string>
-    <string name="ans572">62%</string>
-    <string name="ans573">5%</string>
-    <string name="ans574">0.3%</string>
+    <string name="t21q3">. بناء على المستوي أدناه، استخدم النقاط لكتابة الأزواج لكل نقطة.</string>
+    <string name="hint57">تلميح: تذكر أن الرقم الأول في الزوج يشير إلى محور X (خط أفقي)، ويشير الرقم الثاني في الزوج إلى المحور Y (خط عمودي).</string>
 
-    <string name="t22q1">Connect the following decimals to their percents.</string>
-    <string name="hint58">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans581">53%</string>
-    <string name="ans582">62%</string>
-    <string name="ans583">5%</string>
-    <string name="ans584">0.3%</string>
+    <string name="t22q1">إذا كان هناك نقطة Y في (5،0)، ما النقطة التي تبعد عنها  5 وحدات؟</string>
+    <string name="hint58">تلميح: الخطوة الأولى هي العثورعلى Y. ثم، عد 5 وحدات لكل اتجاه (يمين، يسار، فوق، أسفل) لإيجاد نقطة تبعد 5 وحدات من Y.</string>
+    <string name="ans581">A</string>
+    <string name="ans582">B</string>
+    <string name="ans583">C</string>
+    <string name="ans584">D</string>
 
-    <string name="t22q2">Connect the following decimals to their percents.</string>
-    <string name="hint59">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans591">53%</string>
-    <string name="ans592">62%</string>
-    <string name="ans593">5%</string>
-    <string name="ans594">0.3%</string>
+    <string name="t22q2"> إذا كان هناك نقطة M في (6، -3) ونقطة N تقع في (1 -3،)، ما هي المسافة بين نقطة M و N؟</string>
+    <string name="hint59">تلميح: لاحظ أن كلا من النقطتين تقعان على -3 على Y-المحور. اعثر على المسافة بينهما، وذلك ببساطة بمعرفة الفرق بين 6 و 1.</string>
+    <string name="ans591">المسافة بين نقطة M و N هي 4 وحدات.</string>
+    <string name="ans592"> المسافة بين نقطة M و N هي 6 وحدات.</string>
+    <string name="ans593"> المسافة بين نقطة M و N هي 5 وحدات.</string>
+    <string name="ans594"> المسافة بين نقطة M و N هي 7 وحدات.</string>
 
-    <string name="t22q3">Connect the following decimals to their percents.</string>
-    <string name="hint60">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans601">53%</string>
-    <string name="ans602">62%</string>
-    <string name="ans603">5%</string>
-    <string name="ans604">0.3%</string>
+    <string name="t22q3"> ما هي النقطة التي تبعد 5 وحدات من النقطة (B) و لديها نفس إحداثيات y للنقطة B؟</string>
+    <string name="hint60">تلميح: الإحداثي y للنقطة B هو 3، حتى تتمكن من استبعاد بعض الخيارات. يجب أن تكون احداثية x على بعد 5  وحدات من نقطة B.</string>
+    <string name="ans601">(-5،3)</string>
+    <string name="ans602">(4،3)</string>
+    <string name="ans603">(-4،5)</string>
+    <string name="ans604">(-3،5)</string>
 
-    <string name="t23q1">Connect the following decimals to their percents.</string>
-    <string name="hint61">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans611">53%</string>
-    <string name="ans612">62%</string>
-    <string name="ans613">5%</string>
-    <string name="ans614">0.3%</string>
+    <string name="t23q1">القيمة المطلقة لعدد هي القياس الفعلي له، بغض النظر عن إشارته (موجب او سالب). على سبيل المثال: القيمة المطلقة لل-5 هي 5. وهناك طريقة أخرى للتعبير عن ذلك هو: | -5 | = 5
+استنادا إلى الأرقام التي تم إنشاؤها أدناه، اكتب القيم المطلقة لكل منهما.
+    </string>=
 
-    <string name="t24q1">Connect the following decimals to their percents.</string>
-    <string name="hint62">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans621">53%</string>
-    <string name="ans622">62%</string>
-    <string name="ans623">5%</string>
-    <string name="ans624">0.3%</string>
+    <string name="t24q1"> صنف المقارنات أدناه ب "صح" أو "خطأ".</string>
+    <string name="hint62"> تلميح: إذا كنت تحاول ايجاد قيمة مطلقة، تذكر أن تفكر في قيمة الأرقام بغض النظر عن اشارتهم.&gt;  يعني "أكبر"
+&lt; يعني "أصغر"
+= يعني "يساوي"
+</string>
 
-    <string name="t25q1">Connect the following decimals to their percents.</string>
-    <string name="hint63">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans631">53%</string>
-    <string name="ans632">62%</string>
-    <string name="ans633">5%</string>
-    <string name="ans634">0.3%</string>
+    <string name="t25q1">ما هو الترتيب الصحيح للأرقام من الأقل إلى الأكبر؟</string>
+    <string name="hint63">تلميح: تذكر, كلما ابتعدت الأرقام السالبة من 0، كلما أصبحوا أصغر. مثال: -10 أصغر من -7.</string>
+    <string name="ans631">a</string>
+    <string name="ans632">b</string>
+    <string name="ans633">c</string>
+    <string name="ans634">d</string>
 
-    <string name="t26q1">Connect the following decimals to their percents.</string>
-    <string name="hint64">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans641">53%</string>
-    <string name="ans642">62%</string>
-    <string name="ans643">5%</string>
-    <string name="ans644">0.3%</string>
+    <string name="t26q1">كان لأمينة ومحمد ساعة واحدة لقراءة كتاب جديد. أمينة قرأت ⅕ من كتابها، وقرأ محمد ⅙ من كتابه.
+        إذا كان كل منهما قد قرأ نفس الكتاب, ما الخيار الذي يصف المقارنة بينهما بشكل أفضل؟
+    </string>
+    <string name="hint64">تلميح: كلما كان المقام أكبر،كلما كان الرقم أصغر. على سبيل المثال، ⅓ هو قيمة أصغر من ½.</string>
+    <string name="ans641"> ⅕ &lt; ⅙</string>
+    <string name="ans642">⅕ = ⅙</string>
+    <string name="ans643">⅕ &gt; ⅙</string>
+    <string name="ans644"> لا يمكنني مقارنة القيم دون أن أعرف طول كل كتاب.</string>
 
-    <string name="t26q2">Connect the following decimals to their percents.</string>
-    <string name="hint65">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans651">53%</string>
-    <string name="ans652">62%</string>
-    <string name="ans653">5%</string>
-    <string name="ans654">0.3%</string>
+    <string name="t26q2"> عندما كان جون وإيما يلعبون كرة القدم، سجل جون 6 أهداف وسجلت إيما 4
+        أهداف.ما هو الخيار الذي يقدم أفضل وصف للمقارنة بين كمية الأهداف التي سجلها كل واحد؟
+    </string>
+    <string name="hint65">تلميح: ببساطة فكر في عدد الأهداف الأكبر.</string>
+    <string name="ans651"> جون سجل أهدافا أكثر من إيما.</string>
+    <string name="ans652">سجلت إيما أهدافا أكثر من جون.</string>
+    <string name="ans653"> سجل إيما وجون نفس العدد من الأهداف.</string>
+    <string name="ans654"> لم يسجلا أي أهداف.</string>
 
-    <string name="t26q3">Connect the following decimals to their percents.</string>
-    <string name="hint66">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans661">53%</string>
-    <string name="ans662">62%</string>
-    <string name="ans663">5%</string>
-    <string name="ans664">0.3%</string>
+    <string name="t26q3"> كيف يمكن التعبير عن العبارة أدناه رياضياً؟
+القيمة المطلقة لل-5 أكبر من قيمة الرقم 3.
+    </string>
+    <string name="hint66">.&lt;تلميح: "القيمة المطلقة" اشارتها "| |"، و علامة الاكبر هي </string>
+    <string name="ans661">-5 &gt; 3</string>
+    <string name="ans662">-5 &lt; 3</string>
+    <string name="ans663">|-5| &gt; 3</string>
+    <string name="ans664">|-5| &gt; |-3|</string>
 
     <string name="t27q1">Connect the following decimals to their percents.</string>
     <string name="hint67">Multiplying a decimal by 100 converts it to its percent.</string>

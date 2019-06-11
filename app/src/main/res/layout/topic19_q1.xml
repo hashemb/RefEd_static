@@ -10,12 +10,12 @@
 
     <ImageView
         android:id="@+id/imgImage"
-        android:layout_width="match_parent"
-        android:layout_height="267dp"
+        android:layout_width="518dp"
+        android:layout_height="198dp"
         android:layout_above="@+id/buttonHint1"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="193dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="264dp"
         android:src="@drawable/topic19q1_pic" />
 
     <Button

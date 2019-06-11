@@ -110,6 +110,8 @@
         <activity android:name=".Topic24Q1" android:screenOrientation="sensorPortrait" />
         <activity android:name=".Topic25Q1" android:screenOrientation="sensorPortrait" />
         <activity android:name=".Topic26Q1" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic26Q2" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".Topic26Q3" android:screenOrientation="sensorPortrait" />
         <activity android:name=".Topic27Q1" android:screenOrientation="sensorPortrait" />
         <activity android:name=".Topic27Q2" android:screenOrientation="sensorPortrait" />
         <activity android:name=".Topic27Q3" android:screenOrientation="sensorPortrait" />

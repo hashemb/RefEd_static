@@ -517,81 +517,89 @@ Example: 80% of 60
     <string name="ans554">(3،4) </string>
 
     <string name="t21q2">Which pair is not represented in the coordinate plane below?</string>
-    <string name="hint56">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans561">53%</string>
-    <string name="ans562">62%</string>
-    <string name="ans563">5%</string>
-    <string name="ans564">0.3%</string>
+    <string name="hint56"> remember that the first number in the pair refers to the x-axis (horizontal line)
+        and the second number in the pair refers to the y-axis (vertical line). In this problem, look
+        at the alternatives to find the pairs in the coordinate plane.
+    </string>
+    <string name="ans561">(3،3)</string>
+    <string name="ans562">(3،4)</string>
+    <string name="ans563">(4، -2)</string>
+    <string name="ans564">(-3، -3)</string>
 
-    <string name="t21q3">Connect the following decimals to their percents.</string>
-    <string name="hint57">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans571">53%</string>
-    <string name="ans572">62%</string>
-    <string name="ans573">5%</string>
-    <string name="ans574">0.3%</string>
+    <string name="t21q3">Based on the coordinate plane below, use the dots to write the ordered pairs for each point.</string>
+    <string name="hint57">remember that the first number in the pair refers to the x-axis (horizontal line) and the second number
+        in the pair refers to the y-axis (vertical line).
+    </string>
 
-    <string name="t22q1">Connect the following decimals to their percents.</string>
-    <string name="hint58">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans581">53%</string>
-    <string name="ans582">62%</string>
-    <string name="ans583">5%</string>
-    <string name="ans584">0.3%</string>
 
-    <string name="t22q2">Connect the following decimals to their percents.</string>
-    <string name="hint59">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans591">53%</string>
-    <string name="ans592">62%</string>
-    <string name="ans593">5%</string>
-    <string name="ans594">0.3%</string>
+    <string name="t22q1">If point E is located at (5,0), which point is 5 units from point E?</string>
+    <string name="hint58">the first step is to find point Y. Then, count 5 units to each direction (right, left, up, down, diagonals)
+        to find a point that is 5 units from point Y.
+    </string>
+    <string name="ans581">A</string>
+    <string name="ans582">B</string>
+    <string name="ans583">C</string>
+    <string name="ans584">D</string>
 
-    <string name="t22q3">Connect the following decimals to their percents.</string>
-    <string name="hint60">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans601">53%</string>
-    <string name="ans602">62%</string>
-    <string name="ans603">5%</string>
-    <string name="ans604">0.3%</string>
+    <string name="t22q2">If point M is located at (6,-3) and point N is located at (1, -3), what is the distance between points M and N?</string>
+    <string name="hint59">notice that both points are located on -3 on the Y-axis. To find the distance between them, simply find the difference between 6 and 1 (x coordinates).</string>
+    <string name="ans591">The distance between points M and N is 4 units.</string>
+    <string name="ans592">The distance between points M and N is 6 units.</string>
+    <string name="ans593">The distance between points M and N is 5 units.</string>
+    <string name="ans594">The distance between points M and N is 7 units.</string>
 
-    <string name="t23q1">Connect the following decimals to their percents.</string>
-    <string name="hint61">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans611">53%</string>
-    <string name="ans612">62%</string>
-    <string name="ans613">5%</string>
-    <string name="ans614">0.3%</string>
+    <string name="t22q3">What point is 5 units from point B and also has the same y-coordinate as point B?</string>
+    <string name="hint60">the y-coordinate for point B is 3, so you can eliminate some of the alternatives. The x-coordinate must be 5 units from point B. </string>
+    <string name="ans601">(-5,3)</string>
+    <string name="ans602">(4,3)</string>
+    <string name="ans603">(-4,5)</string>
+    <string name="ans604">(-3,5)</string>
 
-    <string name="t24q1">Connect the following decimals to their percents.</string>
-    <string name="hint62">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans621">53%</string>
-    <string name="ans622">62%</string>
-    <string name="ans623">5%</string>
-    <string name="ans624">0.3%</string>
+    <string name="t23q1">A number’s absolute value is its actual measurement, regardless of its sign.For example: the absolute value
+        of -5 is 5. Another way to express it is: |-5|=5
+Based on the numbers generated below, type in their respective absolute values.
+    </string>
 
-    <string name="t25q1">Connect the following decimals to their percents.</string>
-    <string name="hint63">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans631">53%</string>
-    <string name="ans632">62%</string>
-    <string name="ans633">5%</string>
-    <string name="ans634">0.3%</string>
+    <string name="t24q1">Classify the comparisons below as “true” or “false”.</string>
+    <string name="hint62">If considering an absolute value, remember to think about the numbers’ value regardless of their sign.
+&gt; means “greater”
+&lt; means “smaller”
+= means “equal”
+</string>
 
-    <string name="t26q1">Connect the following decimals to their percents.</string>
-    <string name="hint64">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans641">53%</string>
-    <string name="ans642">62%</string>
-    <string name="ans643">5%</string>
-    <string name="ans644">0.3%</string>
+    <string name="t25q1">What is the correct order of the numbers below from least to greatest?</string>
+    <string name="hint63">Remember the furthest negative numbers are from 0, the smaller they become. Example: -5.5 is smaller than -3.</string>
+    <string name="ans631">a</string>
+    <string name="ans632">b</string>
+    <string name="ans633">c</string>
+    <string name="ans634">d</string>
 
-    <string name="t26q2">Connect the following decimals to their percents.</string>
-    <string name="hint65">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans651">53%</string>
-    <string name="ans652">62%</string>
-    <string name="ans653">5%</string>
-    <string name="ans654">0.3%</string>
+    <string name="t26q1">Amena and Mohammed had one hour to read a new book. Amena read ⅕ of her book,
+        and Mohammed read ⅙ of his book. If they both read the same book, which option best describes the comparison between how much each one read?
+    </string>
+    <string name="hint64"> the largest the fraction’s denominator, the smaller the number is. For example, ⅓ is a smaller value than ½. </string>
+    <string name="ans641">⅕ &lt; ⅙</string>
+    <string name="ans642">⅕ = ⅙</string>
+    <string name="ans643">⅕ &gt; ⅙</string>
+    <string name="ans644">I cannot compare both values without knowing how long the book was.</string>
 
-    <string name="t26q3">Connect the following decimals to their percents.</string>
-    <string name="hint66">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans661">53%</string>
-    <string name="ans662">62%</string>
-    <string name="ans663">5%</string>
-    <string name="ans664">0.3%</string>
+    <string name="t26q2">When John and Emma were playing soccer, John scored 6 goals and Emma
+        scored 4 goals. Which option best describes the comparison between the amount of goals scored by each one?
+    </string>
+    <string name="hint65">simply think about which number of goals is greater.</string>
+    <string name="ans651">John scored more goals than Emma.</string>
+    <string name="ans652">Emma scored more goals than John.</string>
+    <string name="ans653">Emma and John scored the same amount of goals.</string>
+    <string name="ans654">Emma and John did not score any goals.</string>
+
+    <string name="t26q3">How would you express the statement below in mathematical terms?
+The absolute value of -5 is greater than the value of number 3.
+    </string>
+    <string name="hint66">“absolute value” is denoted by “| |”, and the “greater” sign is &gt;</string>
+    <string name="ans661">-5 &gt; 3</string>
+    <string name="ans662">-5 &lt; 3</string>
+    <string name="ans663">|-5| &gt; 3</string>
+    <string name="ans664">|-5| &gt; |-3|</string>
 
     <string name="t27q1">Connect the following decimals to their percents.</string>
     <string name="hint67">Multiplying a decimal by 100 converts it to its percent.</string>
