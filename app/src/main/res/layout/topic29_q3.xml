@@ -19,7 +19,7 @@
         android:layout_marginTop="0dp"
         android:layout_marginEnd="15dp"
         android:gravity="center_horizontal|center"
-        android:text="@string/t30q1"
+        android:text="@string/t29q3"
         android:textSize="24sp"
         android:textStyle="italic" />
 
@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onRadioButtonClicked1"
-            android:text="@string/ans751"
+            android:text="@string/ans761"
             android:textSize="18sp" />
 
         <RadioButton
@@ -49,7 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onRadioButtonClicked2"
-            android:text="@string/ans752"
+            android:text="@string/ans762"
             android:textSize="18sp" />
 
         <RadioButton

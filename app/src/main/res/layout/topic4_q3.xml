@@ -37,7 +37,7 @@
         android:id="@+id/buttonHint1"
         android:layout_width="104dp"
         android:layout_height="45dp"
-        android:layout_above="@+id/button2"
+        android:layout_above="@+id/checkbtn"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="248dp"
@@ -95,7 +95,7 @@
         android:textSize="18sp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/checkbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"

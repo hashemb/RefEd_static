@@ -10,6 +10,7 @@
     <string name="wrong">خاطئ</string>
     <string name="hint">تلميح</string>
     <string name="check">فحص</string>
+    <string name="arabic">عربى</string>
 
     <string name="username_prompt">Enter Your Username</string>
     <string name="password_prompt">Enter Your Password</string>
@@ -17,6 +18,12 @@
     <string name="signup">Sign Up</string>
     <string name="app_name">RefEd</string>
     <string name="continue1">استمر</string>
+
+    <string name="mod1">النسب والعلاقات التناسبية</string>
+    <string name="mod2"> نظام الرقم</string>
+    <string name="mod3">التعبير والمعادلات</string>
+    <string name="mod4">الهندسة</string>
+    <string name="mod5"> الإحصاء والاحتمالات</string>
 
     <string name="math">الرياضيات</string>
     <string name="topic1">نسب بسيطة</string>
@@ -101,11 +108,7 @@
     <string name="q4">السؤال رقم 4</string>
     <string name="q5">السؤال رقم 5</string>
     <string name="q6">السؤال رقم 6</string>
-    <string name="mod1">النسب والعلاقات التناسبية</string>
-    <string name="mod2"> نظام الرقم</string>
-    <string name="mod3">التعبير والمعادلات</string>
-    <string name="mod4">الهندسة</string>
-    <string name="mod5"> الإحصاء والاحتمالات</string>
+
     <string name="t1q1">يبين الجدول التالي كمية الألعاب المتوفرة في مدرسة محلية.</string>
     <string name="t1q1_2">"ما هي نسبة ألعاب الطاولة على العاب الشطرنج؟</string>
     <string name="hint1">تلميح:عد كمية ألعاب الطاولة وألعاب الشطرنج سيساعدك في العثور على النسبة بينهما.</string>
@@ -563,348 +566,330 @@
     <string name="ans663">|-5| &gt; 3</string>
     <string name="ans664">|-5| &gt; |-3|</string>
 
-    <string name="t27q1">Connect the following decimals to their percents.</string>
-    <string name="hint67">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans671">53%</string>
-    <string name="ans672">62%</string>
-    <string name="ans673">5%</string>
-    <string name="ans674">0.3%</string>
+    <string name="t27q1">في العبارات التالية، حدد المعاملات وحدد الخيار الذي يحتوي على كافة المعاملات بشكل صحيح.</string>
+    <string name="hint67">تلميح: المعاملات هي أرقام المعادلة، دون المتغيرات.</string>
+    <string name="ans671">2، -3،4،5،8 </string>
+    <string name="ans672">4، -9،8</string>
+    <string name="ans673">2، -3،4، -9،5،8</string>
+    <string name="ans674">2، -3،4،4، -9،5،8</string>
 
-    <string name="t27q2">Connect the following decimals to their percents.</string>
-    <string name="hint68">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans681">53%</string>
-    <string name="ans682">62%</string>
-    <string name="ans683">5%</string>
-    <string name="ans684">0.3%</string>
+    <string name="t27q2"> في العبارات التالية، حدد المتغيرات وحدد الخيار الذي يسرد كافة المتغيرات بشكل صحيح.</string>
+    <string name="hint68">تلميح: المتغيرات هي أرقام غير معروفة في التعبير.</string>
+    <string name="ans681">س، ص، س، س، ص</string>
+    <string name="ans682">2، -3،4، -9،5،8</string>
+    <string name="ans683">x، y، -9،5،8</string>
+    <string name="ans684">2X، -3y، 4X، 5X، 8Y</string>
 
-    <string name="t27q3">Connect the following decimals to their percents.</string>
-    <string name="hint69">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans691">53%</string>
-    <string name="ans692">62%</string>
-    <string name="ans693">5%</string>
-    <string name="ans694">0.3%</string>
+    <string name="t27q3"> في العبارات التالية، حدد الحدود وحدد الخيار الذي يسرد كافة الحدود بشكل صحيح.</string>
+    <string name="hint69">تلميح: حدود المعادلة يمكن أن تكون متغيرات، أرقام، أو أعداد مضروبة في متغيرات.</string>
+    <string name="ans691"> 2، -3،4، -9،5،8</string>
+    <string name="ans692"> X، Y، X، X، Y</string>
+    <string name="ans693">2X، -3y، 4،4x، -9،5x، 8Y</string>
+    <string name="ans694">2X، -3y، 4X، 5X، 8Y</string>
 
-    <string name="t28q1">Connect the following decimals to their percents.</string>
-    <string name="hint70">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans701">53%</string>
-    <string name="ans702">62%</string>
-    <string name="ans703">5%</string>
-    <string name="ans704">0.3%</string>
+    <string name="t28q1">في المعادلة التالية، طبق طريقة الاستبدال لتقييم المعادلة.</string>
+    <string name="hint70">تلميح: بدل "س" ب 5 و واحسب الناتج.</string>
 
-    <string name="t28q2">Connect the following decimals to their percents.</string>
-    <string name="hint71">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans711">53%</string>
-    <string name="ans712">62%</string>
-    <string name="ans713">5%</string>
-    <string name="ans714">0.3%</string>
+    <string name="t28q2"> في المعادلة التالية، طبق طريقة الاستبدال لتقييم المعادلة.</string>
+    <string name="hint71">تلميح: بدل "س" ب 6 واحسب المعادلة.</string>
 
-    <string name="t28q3">Connect the following decimals to their percents.</string>
-    <string name="hint72">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans721">53%</string>
-    <string name="ans722">62%</string>
-    <string name="ans723">5%</string>
-    <string name="ans724">0.3%</string>
+    <string name="t28q3">.في المعادلة التالية، طبق طريقة الاستبدال لتقييم المعادلة.</string>
+    <string name="hint72">تلميح: بدل "ص" بـ 10 واحسب الناتج.</string>
 
-    <string name="t28q4">Connect the following decimals to their percents.</string>
-    <string name="hint73">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans731">53%</string>
-    <string name="ans732">62%</string>
-    <string name="ans733">5%</string>
-    <string name="ans734">0.3%</string>
+    <string name="t28q4"> في المعادلة التالية، طبق طريقة الاستبدال لتقييم المعادلة. ثم حدد الإجابة الصحيحة.</string>
+    <string name="hint73">تلميح: بدل "س" بـ 10 و "ص" بـ 1 واحسب المعادلة.</string>
+    <string name="ans731">50</string>
+    <string name="ans732">77</string>
+    <string name="ans733">51</string>
+    <string name="ans734">63</string>
 
-    <string name="t28q5">Connect the following decimals to their percents.</string>
-    <string name="hint74">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans741">53%</string>
-    <string name="ans742">62%</string>
-    <string name="ans743">5%</string>
-    <string name="ans744">0.3%</string>
+    <string name="t28q5"> في المعادلة التالية، طبق طريقة الاستبدال لتقييم المعادلة. ثم حدد الإجابة الصحيحة.</string>
+    <string name="hint74">تلميح: بدل "س" بـ 7، "ذ" بـ 3 و "ض" بـ 2، واحسب المعادلة.</string>
+    <string name="ans741">32</string>
+    <string name="ans742">52</string>
+    <string name="ans743">31</string>
+    <string name="ans744">28</string>
 
-    <string name="t29q1">Connect the following decimals to their percents.</string>
-    <string name="hint75">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans751">53%</string>
-    <string name="ans752">62%</string>
-    <string name="ans753">5%</string>
-    <string name="ans754">0.3%</string>
+    <string name="t29q1">ماذا يحدث لقيمة التعبير س + 2 عندما س تزداد؟</string>
+    <string name="hint75">تلميح: جربها! استبدل "س" بمقدار 1. ثم استبدل "س" بـ 2، على سبيل المثال. ماذا يحدث للجواب؟</string>
+    <string name="ans751">  يزيد</string>
+    <string name="ans752"> يقل</string>
+    <string name="ans753">يبقى على حاله</string>
 
-    <string name="t29q2">Connect the following decimals to their percents.</string>
-    <string name="hint76">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans761">53%</string>
-    <string name="ans762">62%</string>
-    <string name="ans763">5%</string>
-    <string name="ans764">0.3%</string>
+    <string name="t29q2"> ماذا يحدث لقيمة التعبير 3X-1 عندما س تزداد؟</string>
+    <string name="hint76">تلميح: جربها! استبدل "س" بمقدار 1. ثم استبدل "س" بـ 2، على سبيل المثال. ماذا يحدث للجواب؟</string>
+    <string name="ans761"> يزيد</string>
+    <string name="ans762">يقلل</string>
+    <string name="ans763"> يبقى على حاله</string>
 
-    <string name="t29q3">Connect the following decimals to their percents.</string>
-    <string name="hint77">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans771">53%</string>
-    <string name="ans772">62%</string>
-    <string name="ans773">5%</string>
-    <string name="ans774">0.3%</string>
+    <string name="t29q3">ماذا يحدث لقيمة التعبير -3x-1 عندما يزيد x؟</string>
+    <string name="hint77">تلميح: جربها! استبدل "س" بمقدار 1. ثم استبدل "س" بـ 2، على سبيل المثال. ماذا يحدث للجواب؟</string>
+    <string name="ans771"> يزيد</string>
+    <string name="ans772"> يقل</string>
+    <string name="ans773">يبقى على حاله</string>
 
-    <string name="t30q1">Connect the following decimals to their percents.</string>
-    <string name="hint78">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans781">53%</string>
-    <string name="ans782">62%</string>
-    <string name="ans783">5%</string>
-    <string name="ans784">0.3%</string>
+    <string name="t30q1">ماذا يحدث لقيمة 15 / س عندما يزيد س؟</string>
+    <string name="hint78">تلميح: جربها! استبدل "س" بمقدار 1. ثم استبدل "س" بـ 2، على سبيل المثال. ماذا يحدث للجواب؟</string>
+    <string name="ans781"> يزيد</string>
+    <string name="ans782"> يقلل</string>
+    <string name="ans783"> يبقى على حاله</string>
 
-    <string name="t30q2">Connect the following decimals to their percents.</string>
-    <string name="hint79">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans791">53%</string>
-    <string name="ans792">62%</string>
-    <string name="ans793">5%</string>
-    <string name="ans794">0.3%</string>
+    <string name="t30q2"> ماذا يحدث لقيمة x / 5 عندما يزيد x؟</string>
+    <string name="hint79">تلميح: جربها! استبدل "س" بمقدار 1. ثم استبدل "س" بـ 2، على سبيل المثال. ماذا يحدث للجواب؟</string>
+    <string name="ans791"> يزيد</string>
+    <string name="ans792"> يقلل</string>
+    <string name="ans793"> يبقى على حاله</string>
 
-    <string name="t30q3">Connect the following decimals to their percents.</string>
-    <string name="hint80">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans801">53%</string>
-    <string name="ans802">62%</string>
-    <string name="ans803">5%</string>
-    <string name="ans804">0.3%</string>
+    <string name="t30q3"> ماذا يحدث لقيمة 6X- 5 عندما تنخفض x؟</string>
+    <string name="hint80">تلميح: جربها! استبدل "س" بمقدار 1. ثم استبدل "س" بـ 2، على سبيل المثال. ماذا يحدث للجواب؟</string>
+    <string name="ans801"> يزيد</string>
+    <string name="ans802"> يقلل</string>
+    <string name="ans803"> يبقى على حاله</string>
 
-    <string name="t31q1">Connect the following decimals to their percents.</string>
-    <string name="hint81">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans811">53%</string>
-    <string name="ans812">62%</string>
-    <string name="ans813">5%</string>
-    <string name="ans814">0.3%</string>
+    <string name="t31q1">يعمل والد إيما كبائع فاكهة في خيمة محلية  لبيع الأناناس والموز. يربح 2 $ لكل قطعة أناناس مباعة، و
+        3 $ لكل كيس من الموز يباع. إذا كان "س" يمثل عدد من الأناناس، و "ص" يمثل عدد الموز، ما التعبير الذي يمثل مقدار الربح لوالد إيما في المجموع؟
+    </string>
+    <string name="hint81">تلميح: يتم تحديد أرباحه بحساب مجموع كمية الأناناس التي تم بيعها ضرب تكلفتها الفردية وكمية أكياس الموز ضرب تكلفتها الفردية.</string>
+    <string name="ans811">3x+2y</string>
+    <string name="ans812">3x-2y</string>
+    <string name="ans813">2x+3y</string>
+    <string name="ans814">2x-3y</string>
 
-    <string name="t31q2">Connect the following decimals to their percents.</string>
-    <string name="hint82">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans821">53%</string>
-    <string name="ans822">62%</string>
-    <string name="ans823">5%</string>
-    <string name="ans824">0.3%</string>
+    <string name="t31q2">. يوم أمس، باع والد إيما 15 قطعة أناناس  و 25 كيسا من الموز. كم ربح؟
+تذكر أن كل الأناناس تكاليف $ 2 و كل كيس من الموز يكلف $ 3.
+    </string>
+    <string name="hint82">تلميح: يتم تحديد أرباحه بحساب مجموع كمية الأناناس التي تم بيعها ضرب تكلفتها الفردية وكمية أكياس الموز ضرب تكلفتها الفردية.</string>
+    <string name="ans821">حصل على $ 95.</string>
+    <string name="ans822">حصل $ 105.</string>
+    <string name="ans823">  حصل على 40 $.</string>
+    <string name="ans824">حصل على 150 $.</string>
 
-    <string name="t31q3">Connect the following decimals to their percents.</string>
-    <string name="hint83">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans831">53%</string>
-    <string name="ans832">62%</string>
-    <string name="ans833">5%</string>
-    <string name="ans834">0.3%</string>
+    <string name="t31q3"> والد إيما لديه موظف يعمل معه في خيمته. راتبه يختلف وفقا لكمية الفواكه التي يبيعها. لكل أناناس يبيعها يكسب $ 0.50، ولكل كيس من الموز يبيعه يكسب $ 0.75. راتبه يختلف وفقا ل+ 0.75y التعبير 0.50x.
+إذا باع 5 أناناس و 10 أكياس من الموز، ماذا كان راتبه؟
+تذكر أن "س" يمثل الأناناس، "ص" يمثل أكياس من الموز. تكلفة قطعة الأناناس $ 2 و كل كيس من الموز يكلف $ 3.
+    </string>
+    <string name="hint83">تلميح: في المعادلة 0.50x + 0.75y، بدل "س" بمقدار الأناناس الذي باعه و "ص" بمقدار أكياس الموز التي  باعها.</string>
+    <string name="ans831">  كان راتبه $ 7.50.</string>
+    <string name="ans832"> كان راتبه $ 10.</string>
+    <string name="ans833"> كان راتبه $ 12.50.</string>
+    <string name="ans834">كان راتبه $ 11.25.</string>
 
-    <string name="t31q4">Connect the following decimals to their percents.</string>
-    <string name="hint84">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans841">53%</string>
-    <string name="ans842">62%</string>
-    <string name="ans843">5%</string>
-    <string name="ans844">0.3%</string>
+    <string name="t31q4"> يوم أمس، باع والد إيما الأناناس وأكياس الموز. حصل على 2 $ لكل الأناناس و 3 $ لكل كيس من الموز. اكتسب الموظف 0.50 $ لكل أناناس و0.75 $ لكل كيس من الموز. ما هو أفضل تركيب يمثل مجموع مكاسب والد إيما و موظفه في المجموع؟</string>
+    <string name="hint84">تلميح: "س" يمثل الأناناس و "ص" يمثل الموز. مجموع مكاسب والد إيما و موظفه سيشكل معاملات التعبير.</string>
+    <string name="ans841">2X + 3Y + 0.50x + 0.75y</string>
+    <string name="ans842">2.50x + 3.75y</string>
+    <string name="ans843">5X + 3Y</string>
+    <string name="ans844">3.75x + 2.50y</string>
 
-    <string name="t32q1">Connect the following decimals to their percents.</string>
-    <string name="hint85">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans851">53%</string>
-    <string name="ans852">62%</string>
-    <string name="ans853">5%</string>
-    <string name="ans854">0.3%</string>
+    <string name="t32q1">اكتب تعبير عن الجمل التالية:</string>
+    <string name="hint851"> تذكر عدم استخدام علامة "X" للضرب، حيث سيتم استخدام x للمتغيرات.</string>
+    <string name="hint852"> تذكر عدم استخدام علامة "X" للضرب، حيث سيتم استخدام x للمتغيرات.</string>
+    <string name="hint853">تلميح: "أكثر من" يعني إضافة.</string>
+    <string name="hint854">تلميح: يمكن أن تتمثل علامة القسمة على شكل كسر أو بعلامة "➗"</string>
+    <string name="hint855">تلميح: كلمة "جداء" تدل على الضرب.</string>
+    <string name="hint856">تلميح: كلمة "حاصل" تدل الانقسام.</string>
 
-    <string name="t33q1">Connect the following decimals to their percents.</string>
-    <string name="hint86">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans861">53%</string>
-    <string name="ans862">62%</string>
-    <string name="ans863">5%</string>
-    <string name="ans864">0.3%</string>
+    <string name="t33q1">اليوم، محمد لعب كرة القدم في الصباح وبعد الظهر.
+        في الصباح، سجل محمد 10 أهداف. و في فترة ما بعد الظهر، وسجل س الأهداف. اكتب تعبير عن المبلغ الإجمالي للأهداف التي سجلها اليوم.
+    </string>
+    <string name="hint86">تلميح: اكتب التعبير الذي يظهر جمع أهداف.</string>
 
-    <string name="t33q2">Connect the following decimals to their percents.</string>
-    <string name="hint87">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans871">53%</string>
-    <string name="ans872">62%</string>
-    <string name="ans873">5%</string>
-    <string name="ans874">0.3%</string>
+    <string name="t33q2"> قبل أن تغادر المنزل لملاقاة أصدقائك، تقرر صنع شطيرة لكل منهما.
+        كل ساندويتش تأخذ قطعتين من الخبز. اكتب تعبيراً يمثل الكمية الإجمالية لقطع الخبز التي ستحتاجها ل x من الأصدقاء.
+    </string>
+    <string name="hint87">تلميح: اكتب تركيبا يظهر ضرب قطع الخبز بعدد الأصدقاء.</string>
 
-    <string name="t33q3">Connect the following decimals to their percents.</string>
-    <string name="hint88">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans881">53%</string>
-    <string name="ans882">62%</string>
-    <string name="ans883">5%</string>
-    <string name="ans884">0.3%</string>
+    <string name="t33q3">إيما وآمنة كانتا تعملان على وحدة الرياضيات لممارسة مهاراتهم في الرياضيات.
+        أكملت إيما x مسألة، وانتهت أمينة ب 5 أقل من إيما. اكتب تعبيرا لتمثيل كمية المسائل التي انتهت منها آمنة.
+    </string>
+    <string name="hint88">تلميح: كتابة التعبير الذي يظهر الفرق (الطرح) بين كمية المسائل التي انهتها أمينة و إيما.</string>
 
-    <string name="t33q4">Connect the following decimals to their percents.</string>
-    <string name="hint89">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans891">53%</string>
-    <string name="ans892">62%</string>
-    <string name="ans893">5%</string>
-    <string name="ans894">0.3%</string>
+    <string name="t33q4"> جلبت مدرسة اللغة الإنجليزية لديك حقيبة ضخمة من الشوكولاتة لصفك، الذي يحتوي على 20 طالبا. وقالت
+        انها لا تعرف كم عدد قطع الشوكولاتة تحتوي الحقيبة، ولكنها تريد أن تكتب تعبير يساعدها على توزيع قطع من
+        الشوكولاتة بالتساوي بين زملائك، باستخدام حرف Y لتمثيل المبلغ الإجمالي لقطع الشوكولاتة في كيس.هل يمكنك مساعدتها؟
+    </string>
+    <string name="hint89">تلميح: المساواة في توزيع الشوكولاته بين الطلاب تدل على القسمة.</string>
 
-    <string name="t34q1">Connect the following decimals to their percents.</string>
-    <string name="hint90">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans901">53%</string>
-    <string name="ans902">62%</string>
-    <string name="ans903">5%</string>
-    <string name="ans904">0.3%</string>
+    <string name="t34q1">في التعبير التالي، تطبيق توزيعية لإنشاء تعبير يعادل:</string>
+    <string name="hint90">تلميح: التوزيع يتمثل في ضرب كل مصطلح للتعبير بشكل منفصل ثم إضافة الجداءات.</string>
 
-    <string name="t34q2">Connect the following decimals to their percents.</string>
-    <string name="hint91">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans911">53%</string>
-    <string name="ans912">62%</string>
-    <string name="ans913">5%</string>
-    <string name="ans914">0.3%</string>
+    <string name="t34q2"> في التعبير التالي، تطبيق التوزيع لإنشاء تعبير يعادل:</string>
+    <string name="hint91">تلميح: التوزيع يتمثل في ضرب كل حد للتعبير بشكل منفصل ثم إضافة الجداءات.</string>
 
-    <string name="t34q3">Connect the following decimals to their percents.</string>
-    <string name="hint92">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans921">53%</string>
-    <string name="ans922">62%</string>
-    <string name="ans923">5%</string>
-    <string name="ans924">0.3%</string>
+    <string name="t34q3"> (سؤال تحدي) في التعبير التالي، اعثر على أكبر عامل مشترك بين جميع المعاملات لتطبيق التوزيع:</string>
 
-    <string name="t34q4">Connect the following decimals to their percents.</string>
-    <string name="hint93">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans931">53%</string>
-    <string name="ans932">62%</string>
-    <string name="ans933">5%</string>
-    <string name="ans934">0.3%</string>
+    <string name="t34q4"> (سؤال تحدي) في التعبير التالي، اعثر على أكبر عامل مشترك بين جميع المعاملات لتطبيق التوزيع:</string>
+    <string name="hint93">تلميح: العثور على أكبر عامل مشترك بين جميع المعاملات، اعزلها واقسم كل الحدود منها. تذكر أن تبحث عن أكبر عامل.</string>
 
-    <string name="t35q1">Connect the following decimals to their percents.</string>
-    <string name="hint94">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans941">53%</string>
-    <string name="ans942">62%</string>
-    <string name="ans943">5%</string>
-    <string name="ans944">0.3%</string>
+    <string name="t35q1">يوجد في الصورة أدناه عدة أشكال ملونة. حدد الخيار الذي يجمع بين الأشكال المتشابهة بشكل صحيح.</string>
+    <string name="hint94">تلميح: لتكون مجموعة بشكل صحيح، يجب أن تكون الأشكال المتساوية إلى جانب بعضها.</string>
+    <string name="ans941">a</string>
+    <string name="ans942">b</string>
+    <string name="ans943">c</string>
+    <string name="ans944">d</string>
 
-    <string name="t35q2">Connect the following decimals to their percents.</string>
-    <string name="hint95">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans951">53%</string>
-    <string name="ans952">62%</string>
-    <string name="ans953">5%</string>
-    <string name="ans954">0.3%</string>
+    <string name="t35q2">  الآن، افعل الشيء نفسه عن طريق الجمع بين الحدود المتماثلة لإنشاء تعبير يعادل:</string>
+    <string name="hint95">تلميح: لتكون مجموعة بشكل صحيح، يجب أن تكون المتغيرات المتشابهة على نفس الجانب.</string>
+    <string name="ans951">12+3p</string>
+    <string name="ans952">16p</string>
+    <string name="ans953">12+4p</string>
+    <string name="ans954">12p+2p</string>
 
-    <string name="t35q3">Connect the following decimals to their percents.</string>
-    <string name="hint96">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans961">53%</string>
-    <string name="ans962">62%</string>
-    <string name="ans963">5%</string>
-    <string name="ans964">0.3%</string>
+    <string name="t35q3"> اجمع بين الشروط المتماثلة لإنشاء تعبير يعادل:</string>
+    <string name="hint96">تلميح: لتكون مجموعة بشكل صحيح، يجب أن تكون المتغيرات المتشابهة على نفس الجانب.</string>
+    <string name="ans961">8a+4b</string>
+    <string name="ans962">12a+4b</string>
+    <string name="ans963">12a-2b</string>
+    <string name="ans964">8a-2b</string>
 
-    <string name="t35q4">Connect the following decimals to their percents.</string>
-    <string name="hint97">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans971">53%</string>
-    <string name="ans972">62%</string>
-    <string name="ans973">5%</string>
-    <string name="ans974">0.3%</string>
+    <string name="t35q4"> قرر محمد وإيما ممارسة الرياضيات ومهارات القراءة معا. يمثل المتغير م مجموع مشاكل الرياضيات التي حلتها إيما، وتمثل ب عدد الكتب التي قرأتها إيما. إذا حل محمد ضعفي مسائل الرياضيات التي حلتها إيما وقرأ كتاب واحد أكثر من إيما، ما أفضل تعبير يمثل عدد المسائل الرياضية التي حلها والكتب التي قرأها في المجموع؟ (تنبيه التحدي!)</string>
+    <string name="hint97">تلميح: لحل هذه المشكلة، فكر في ما يمثل كل حرف، و لا تنسى أن تضم الحدود المتشابهة.</string>
+    <string name="ans971"> م + ب + 2M + ب + 1</string>
+    <string name="ans972"> 3M + 2B + 1 </string>
+    <string name="ans973">)3M - ب + 1</string>
+    <string name="ans974"> 3M + 2B</string>
 
-    <string name="t36q1">Connect the following decimals to their percents.</string>
-    <string name="hint98">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans981">53%</string>
-    <string name="ans982">62%</string>
-    <string name="ans983">5%</string>
-    <string name="ans984">0.3%</string>
+    <string name="t36q1">حدد التعبير الذي يعادل س + 2Y + 3X-ي</string>
+    <string name="hint98">تلميح: امزج الحدود بإضافة أو طرح المعاملات. إذا لم يكن هناك عدد قبل المتغير، ذلك يعني المعامل "1".</string>
+    <string name="ans981">4X + 3Y</string>
+    <string name="ans982">س (1 + 2Y + 3 ص)</string>
+    <string name="ans983">4X + ذ</string>
+    <string name="ans984">4X-ي</string>
 
-    <string name="t36q2">Connect the following decimals to their percents.</string>
-    <string name="hint99">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans991">53%</string>
-    <string name="ans992">62%</string>
-    <string name="ans993">5%</string>
-    <string name="ans994">0.3%</string>
+    <string name="t36q2"> ما هي التعبيرات التي تكافئ 3 (س + 4-2x)؟</string>
+    <string name="hint99">لا شيء مما بالأعلى</string>
+    <string name="ans991">3X + 12-6x </string>
+    <string name="ans992">3X + 4X</string>
+    <string name="ans993">-3x + 12 </string>
+    <string name="ans994">لا شيء مما بالأعلى</string>
 
-    <string name="t37q1">Connect the following decimals to their percents.</string>
-    <string name="hint100">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1001">53%</string>
-    <string name="ans1002">62%</string>
-    <string name="ans1003">5%</string>
-    <string name="ans1004">0.3%</string>
+    <string name="t37q1">اعثر على قيمة x في المعادلات التالية:</string>
+    <string name="hint1001">تلميح: لحل هذه المشكلة، اعزل المتغير "س" عن طريق نقل عدد 10 إلى الجانب الأيمن وتغيير علامته. الرقم "10" سيصبح "-10".</string>
+    <string name="hint1002">تلميح: لحل هذه المشكلة، اعزل المتغير "س" عن طريق نقل عدد 5 إلى الجانب الأيمن وتغيير علامته. الضرب يصبح قسمة.</string>
+    <string name="hint1003">تتلميح: لحل هذه المشكلة، اعزل المتغير "س" عن طريق نقل العدد 3 إلى الجانب الأيمن وتغيير علامته. الرقم "3" سيصبح "-3". ثم، انقل الرقم "4" إلى الجانب الأيمن كذلك. والضرب يصبح قسمة.</string>
+    <string name="hint1004">تلميح: لحل هذه المشكلة، اعزل متغير "س" عن طريق تحريك عدد 5 إلى الجانب الأيمن وتغيير علامتها. الرقم "5" ستصبح "-5". ثم، نقل الرقم "2" إلى الجانب الأيمن كذلك. والضرب يصبح قسمة.</string>
+    <string name="hint1005">تلميح: لحل هذه المشكلة، اعزل المتغير "س" عن طريق تحريك عدد 17/05 إلى الجانب الأيمن وتغيير علامته. الرقم "17/05" سيصبح "-5/17".</string>
+    <string name="hint1006">تلميح: تلميح: لحل هذه المشكلة، اعزل المتغير "س" عن طريق تحريك العدد 4.5 إلى الجانب الأيمن وتغيير علامته. الرقم "4.5" سيصبح "-4.5". لا ننسى تغيير علامة "-x" للعثور على "س".</string>
+    <string name="hint1007">تلميح: لحل هذه المشكلة، اعزل المتغير "س" عن طريق نقل العدد 4.34 إلى الجانب الأيسر وتغيير علامته. الرقم "4.34" سيصبح "-4.34".</string>
 
-    <string name="t38q1">Connect the following decimals to their percents.</string>
-    <string name="hint101">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1011">53%</string>
-    <string name="ans1012">62%</string>
-    <string name="ans1013">5%</string>
-    <string name="ans1014">0.3%</string>
+    <string name="t38q1">اعثر على قيمة x في المعادلات التالية:</string>
+    <string name="hint1011">تلميح: لحل هذه المسألة، اعزل المتغير "ص" عن طريق تحريك العدد 6 إلى الجانب الأيمن وتغيير علامته. وسوف تصبح قسمة.</string>
+    <string name="hint1012">تلميح: لحل هذه المشكلة، اعزل المتغير "ص" عن طريق التبديل "6" و "ص". العملية "36/6" سوف تعطيك قيمة "ص".</string>
+    <string name="hint1013">تلميح: لحل هذه المشكلة، اعزل المتغير "ص" عن طريق تحريك العدد 8 إلى الجانب الأيمن وتغيير علامته. وسوف تصبح قسمة.</string>
+    <string name="hint1014">تلميح: لحل هذه المشكلة، اعزل المتغير "ص" عن طريق تحريك العدد 6.5 إلى الجانب الأيمن وتغيير علامته. والضرب يصبح قسمة.</string>
+    <string name="hint1015">تلميح: لحل هذه المشكلة، اعزل المتغير "ص" عن طريق نقل العدد 3 إلى الجانب الأيمن وتغيير علامته. والضرب يصبح قسمة.</string>
+    <string name="hint1016">تلميح: لحل هذه المشكلة، اعزل المتغير "ص" عن طريق نقل العدد 3 إلى الجانب الأيمن وتغيير علامته. والضرب يصبح قسمة.
+ تبسيط الكسر.</string>
+    <string name="hint1017">تلميح: لحل هذه المشكلة، اعزل المتغير "ص" عن طريق نقل العدد 3 إلى الجانب الأيمن وتغيير علامته. وسوف تصبح قسمة.</string>
 
-    <string name="t39q1">Connect the following decimals to their percents.</string>
-    <string name="hint102">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1021">53%</string>
-    <string name="ans1022">62%</string>
-    <string name="ans1023">5%</string>
-    <string name="ans1024">0.3%</string>
+    <string name="t39q1">أمينة محمد وإيما كانوا يعملون على حل مسألة حسابية. كل منهم حل معادلة مختلفة. بعد أن انتهوا من الحل، قرروا مراجعة الحلول. اعثر على الخطأ في كل من الحلول.</string>
+    <string name="hint102">تلميح: تظهر هذه المشكلة طريقة أخرى لإيجاد قيمة المتغيرات. الخطوة 1 هي إيجاد القاسم المشترك بين 3Y و 18. الخطوة 2 هي حل المعادلة على كلا الجانبين.ماهي الخطوة الغير صحيحة؟</string>
+    <string name="ans1021">الخطوة 1 غير صحيحة</string>
+    <string name="ans1022">الخطوة 2 غير صحيحة </string>
+    <string name="ans1023">لا توجد أخطاء</string>
 
-    <string name="t40q1">Connect the following decimals to their percents.</string>
-    <string name="hint103">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1031">53%</string>
-    <string name="ans1032">62%</string>
-    <string name="ans1033">5%</string>
-    <string name="ans1034">0.3%</string>
+    <string name="t40q1">كان يوم ممطر وقرر محمد ألا يلعب في  الخارج. بدلا من ذلك، قرر أن يرسم حيوانه المفضل. لاحظ محمد أن بعض أقلام الرصاص الملونة مفقودة. كان لدى محمد في البداية 15 قلما ملوناً والآن لديه 12 قلم. حدد التعبير الذي يمثل كمية الأقلام التي خسرها محمد (ٍس).</string>
+    <string name="hint103">تلميح: "س" يمثل كمية الأقلام الملونة المفقودة، والتي هي ببساطة الفرق بين كمية الأقلام التي لديه في البداية وكمية الأقلام الملونة التي لديه الآن.</string>
+    <string name="ans1031"> س = 15-12</string>
+    <string name="ans1032"> 12X = 15</string>
+    <string name="ans1033">س + 12 = 15</string>
+    <string name="ans1034">  س = 12/15</string>
 
-    <string name="t40q2">Connect the following decimals to their percents.</string>
-    <string name="hint104">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1041">53%</string>
-    <string name="ans1042">62%</string>
-    <string name="ans1043">5%</string>
-    <string name="ans1044">0.3%</string>
+    <string name="t40q2">حافلة إلى عاصمة البلاد التي أنت فيها تمر بالقرب من منزلك كل ثلاثة أيام. اليوم هو اليوم الأول من الشهر ورأيت مرور الحافلة قبل بضع دقائق. إذا كان هذا الشهر 30 يوما في المجموع، أية معادلة تمثل عدد المرات التي سيمر الباص بها (ص)؟</string>
+    <string name="hint104">تلميح: عدد المرات التي سيمر الباص بها هو تقسيم مجموع الأيام على 3. تذكر أن اليوم لا يحتسب!</string>
+    <string name="ans1041"> ص = 30/3</string>
+    <string name="ans1042">  ص = (30/3) -1 </string>
+    <string name="ans1043"> 30y = 3</string>
+    <string name="ans1044">  (30-1) ص = 3</string>
 
-    <string name="t40q3">Connect the following decimals to their percents.</string>
-    <string name="hint105">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1051">53%</string>
-    <string name="ans1052">62%</string>
-    <string name="ans1053">5%</string>
-    <string name="ans1054">0.3%</string>
+    <string name="t40q3">.قرر محمد وجون التنافس بالركض في 2 دقيقة. ركض محمد 290 متر في 2 دقيقة، ولكن جون ركض أكثر من محمد. في نهاية الدقائق 2، كانت المسافة بينهما 50 مترا. ما التعبير الذي يمثل المسافة التي ركضها جون (د)؟</string>
+    <string name="hint105">تلميح: جون ركض 50 مترا أكثر من محمد.</string>
+    <string name="ans1051"> د = 290-50</string>
+    <string name="ans1052">  د = 290/50</string>
+    <string name="ans1053">  د = 290 + 50</string>
+    <string name="ans1054">  د = 50/290</string>
 
-    <string name="t40q4">Connect the following decimals to their percents.</string>
-    <string name="hint106">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1061">53%</string>
-    <string name="ans1062">62%</string>
-    <string name="ans1063">5%</string>
-    <string name="ans1064">0.3%</string>
+    <string name="t40q4"> تركيا هي دولة تقع في جنوب شرق أوروبا وغرب آسيا، يسمى أعلى جبل فيها جبل أرارات. ويطلق على أعلى جبل في العالم جبل ايفرست، وهو يقع في الحدود بين الصين ونيبال، وارتفاعه 8848 م. إذا كان ارتفاع جبل ارارات هو 3،711 أقصر من جبل ايفرست، حدد المعادلة التي تمثل ارتفاعه بشكل أفضل (أ).</string>
+    <string name="hint106">تلميح: جبل أرارات ارتفاعه أقل بـ 3711 متر من جبل ايفرست.</string>
+    <string name="ans1061">  و= 8848/3711</string>
+    <string name="ans1062"> و= 8848/5137</string>
+    <string name="ans1063"> و= 8،848-3،711</string>
+    <string name="ans1064">   8848 &lt;و&lt;3711</string>
 
-    <string name="t40q5">Connect the following decimals to their percents.</string>
-    <string name="hint107">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1071">53%</string>
-    <string name="ans1072">62%</string>
-    <string name="ans1073">5%</string>
-    <string name="ans1074">0.3%</string>
+    <string name="t40q5"> روسيا هي أكبر دولة في العالم. مساحتها تبلغ 17125200 km2. كندا هي ثاني أكبر بلد في العالم، ومساحتها تبلغ 9984670 km2.
+إذا كان x يمثل الفرق بين الدولتين، اكتب معادلة لإظهار ذلك.
+    </string>
+    <string name="hint107">تلميح: "الفرق" تعني طرح الأصغر من الأكبر. في هذه الحالة، مساحة روسيا ناقص مساحة كندا.</string>
 
-    <string name="t41q1">Connect the following decimals to their percents.</string>
-    <string name="hint108">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1081">53%</string>
-    <string name="ans1082">62%</string>
-    <string name="ans1083">5%</string>
-    <string name="ans1084">0.3%</string>
+    <string name="t41q1">المتراجحة هي العلاقة بين تعبيرين ليسا على متساويين، وتمثل بالرمز "≠ ".
+        يمكن للمتراجحة أيضا أن تكون "أكبر من"، أو "أصغر من". و نمثل "أكبر من" بالرمزو "" و "أقل من" بالرمز "&gt;". في المتراجحة التالية، اختر قيمة x التي تجعلها محققة.
+    </string>
+    <string name="hint108">للعثور على الخيار الذي يحقق المتراجحة، استخدم أسلوب التعويض عن طريق وضع كل قيمة في المعادلة.
+مثال:
+6X&gt; 10
+إذا كان x = 2
+6 (2)&gt; 10
+12&gt; 10
+الجواب: إذا كان x = 2، تتحقق المتراجحة.
+</string>
+    <string name="ans1081"> إذا كان x = 2، س تتحقق المتراجحة.</string>
+    <string name="ans1082"> إذا كان x = 5، س تتحقق المتراجحة.</string>
+    <string name="ans1083">إذا كان x = 9، س تتحقق المتراجحة.</string>
+    <string name="ans1084"> إذا كان x = 10 *، س تتحقق المتراجحة.</string>
 
-    <string name="t41q2">Connect the following decimals to their percents.</string>
-    <string name="hint109">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1091">53%</string>
-    <string name="ans1092">62%</string>
-    <string name="ans1093">5%</string>
-    <string name="ans1094">0.3%</string>
+    <string name="t41q2"> أي من قيم س تحقق المتراجحة التالية؟</string>
+    <string name="hint109">تلميح: بدل "س" من قبل القيم المقترحة في كل خيار لاختبار المتراجحة.</string>
+    <string name="ans1091"> إذا كان x = 48، تتحقق المتراجحة.</string>
+    <string name="ans1092">إذا كان x = 12، تتحقق المتراجحة.</string>
+    <string name="ans1093">إذا كان x = 96، تتحقق المتراجحة.</string>
+    <string name="ans1094"> إذا كان x = 108، تتحقق المتراجحة.</string>
 
-    <string name="t41q3">Connect the following decimals to their percents.</string>
-    <string name="hint110">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1101">53%</string>
-    <string name="ans1102">62%</string>
-    <string name="ans1103">5%</string>
-    <string name="ans1104">0.3%</string>
+    <string name="t41q3">  ولد والد أمينة في عام 1968. حدد المتراجحة التي تمثل جميع السنوات قبل أن يولد.</string>
+    <string name="hint110">تلميح: "&lt;" يعني "أقل من"، &lt;" يعني "أكبر من"، و "=" يعني "يساوي". اختر الرمز الذي يمثل أفضل علاقة بين 1968 والأرقام الأصغر من 1968.</string>
+    <string name="ans1101"> س&lt;1968</string>
+    <string name="ans1102">  س&lt; 1968</string>
+    <string name="ans1103"> س / 2&lt; 1968</string>
+    <string name="ans1104">س = 1968</string>
 
-    <string name="t41q4">Connect the following decimals to their percents.</string>
-    <string name="hint111">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1111">53%</string>
-    <string name="ans1112">62%</string>
-    <string name="ans1113">5%</string>
-    <string name="ans1114">0.3%</string>
+    <string name="t41q4"> عند الاستماع إلى الأخبار على الراديو، سمع محمد أن أعلى درجة حرارة ستكون 35C
+        وأن أدنى درجة حرارة ستكون 20C. إذا ر تمثل درجة الحرارة، ما المتراجحة التي تمثل تفاوت درجات الحرارة بشكل أفضل؟
+    </string>
+    <string name="hint111">تلميح: "تي" يجب أن يكون أكبر من 25 وأصغر من 35. </string>
+    <string name="ans1111">25 &lt;ر &lt;35 </string>
+    <string name="ans1112"> 35 &lt;ر &lt;25</string>
+    <string name="ans1113">  ر = 35</string>
+    <string name="ans1114"> ر = 25</string>
 
-    <string name="t41q5">Connect the following decimals to their percents.</string>
-    <string name="hint112">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1121">53%</string>
-    <string name="ans1122">62%</string>
-    <string name="ans1123">5%</string>
-    <string name="ans1124">0.3%</string>
+    <string name="t41q5"> بين 1912 و 1956، تم تقسيم بلد اسمه المغرب بين المناطق الفرنسية والإسبانية. إذا كان المتغير م يمثل
+        السنوات التي كان المغرب مقسم فيها، اختر ما يمثل تلك الفترة بأفضل شكل.
+    </string>
+    <string name="hint112">تلميح: هذه الفترة بين 1912 و 1956.</string>
+    <string name="ans1121">  1956 &lt;م &lt;1912</string>
+    <string name="ans1122">  1912 = م = 1956</string>
+    <string name="ans1123">  1912 &lt;م &lt;1956</string>
+    <string name="ans1124"> 1956 / م &lt;1912</string>
 
-    <string name="t42q1">Connect the following decimals to their percents.</string>
-    <string name="hint113">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1131">53%</string>
-    <string name="ans1132">62%</string>
-    <string name="ans1133">5%</string>
-    <string name="ans1134">0.3%</string>
+    <string name="t42q1">كنت تعرف التفاوت حرف. "&lt;" يعني "أكبر من"، "&lt;" يعني "أقل من" "\u2266 "يعني" أكبر من أو يساوي "و" \u2266 "تعني" أقل من أو يساوي ". يمكننا أن نمثل المتراجحة على مستقيمات الأعداد. على مستقيم الأعداد التالي، حدد الخيار الذي يمثل المتراجحة.
+    </string>
+    <string name="hint113">تلميح: الدائرة البيضاء تعني لم يتم تضمين الرقم في المتراجحة. هنا، ابحث عن التعبير التي يظهر أرقام أكبر من 2.</string>
+    <string name="ans1131">2&gt; س</string>
+    <string name="ans1132">س = 2</string>
+    <string name="ans1133">س &lt;2</string>
+    <string name="ans1134">2\u2265  س</string>
 
-    <string name="t42q2">Connect the following decimals to their percents.</string>
-    <string name="hint114">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1141">53%</string>
-    <string name="ans1142">62%</string>
-    <string name="ans1143">5%</string>
-    <string name="ans1144">0.3%</string>
+    <string name="t42q2">. بناء على مستقيم الأعداد التالي، حدد الخيار الذي يعبر عن المتراجحة.</string>
+    <string name="hint114">تلميح: الدائرة الحمراء تعني يتم تضمين الرقم في المتراجحة. هنا، ابحث عن التعبير التي يظهر أرقام أصغر أو تساوي 3.</string>
+    <string name="ans1141">  &lt;> 3</string>
+    <string name="ans1142">س &lt;3</string>
+    <string name="ans1143">  x\u2266 3 </string>
+    <string name="ans1144"> -4 &lt;x\u2266 3</string>
 
-    <string name="t42q3">Connect the following decimals to their percents.</string>
-    <string name="hint115">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1151">53%</string>
-    <string name="ans1152">62%</string>
-    <string name="ans1153">5%</string>
-    <string name="ans1154">0.3%</string>
+    <string name="t42q3"> بناء على مستقيم الأعداد التالي، حدد الخيار الذي يعبر عن المتراجحة.</string>
+    <string name="hint115">تلميح: الدائرة الحمراء تعني يتم تضمين الرقم في المتراجحة. هنا، ابحث عن التعبير الذي يظهر أرقام أكبر أو تساوي -1.</string>
+    <string name="ans1151">  x\u2265 1</string>
+    <string name="ans1152">  x\u2265 -1 </string>
+    <string name="ans1153">س &lt;-1</string>
+    <string name="ans1154">x\u2266-1</string>
 
     <string name="t43q1">Connect the following decimals to their percents.</string>
     <string name="hint116">Multiplying a decimal by 100 converts it to its percent.</string>

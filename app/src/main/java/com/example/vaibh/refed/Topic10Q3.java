@@ -1,29 +1,17 @@
 package com.example.vaibh.refed;
 
 
-import android.app.ProgressDialog;
 import android.content.Intent;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.TextView;
 import android.widget.Toast;
 import android.view.Gravity;
 import android.widget.LinearLayout;
 import android.widget.ImageView;
-
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 
 
 public class Topic10Q3 extends AppCompatActivity
@@ -64,7 +52,7 @@ public class Topic10Q3 extends AppCompatActivity
 
 
         // Check the entries
-        checkbtn = findViewById(R.id.button2);
+        checkbtn = findViewById(R.id.checkbtn);
         entry1 = findViewById(R.id.editText1);
 
 

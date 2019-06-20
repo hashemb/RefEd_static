@@ -27,8 +27,17 @@ public class MathModule1_Part1 extends AppCompatActivity
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
+            final Intent intent = getIntent();
+            final String name = intent.getStringExtra("Name");
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_math_module1__part1);
+
+            if (name.equals(getString(R.string.arabic)))
+            {
+                setContentView(R.layout.arabic_lesson);
+            } else
+            {
+                setContentView(R.layout.activity_math_module1__part1);
+            }
 
 
             // This allows for correct formatting of arabic text within the ListViews
@@ -37,17 +46,20 @@ public class MathModule1_Part1 extends AppCompatActivity
 
 
             // Retrieve the name of the module selected in Activity_Math
-            final Intent intent = getIntent();
-            String name = intent.getStringExtra("Name");
-            Toast.makeText(getApplicationContext(),name,Toast.LENGTH_LONG).show();
             final String topics[];
+
+            // Set the page heading text with the selected module's name
             TextView topicName = findViewById(R.id.textView3);
             topicName.setText(name);
+
+            // Storing string resources in variables.
             String mod1 = getString(R.string.mod1);
             String mod2 = getString(R.string.mod2);
             String mod3 = getString(R.string.mod3);
             String mod4 = getString(R.string.mod4);
             String mod5 = getString(R.string.mod5);
+            String mod6 = getString(R.string.arabic);
+
             String topic1 = getString(R.string.topic1);
             String topic2 = getString(R.string.topic2);
             String topic3 = getString(R.string.topic3);
@@ -196,7 +208,7 @@ public class MathModule1_Part1 extends AppCompatActivity
                     {
                         uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.intro_part4);
                     }
-                } else {
+                } else if (name.equals(mod5)) {
                     final String statistics[] = {topic59, topic60, topic61, topic62, topic63, topic64, topic65,
                             topic66, topic67, topic68, topic69, topic70, topic71, topic72, topic73};
                     topics = new String[statistics.length];
@@ -212,47 +224,78 @@ public class MathModule1_Part1 extends AppCompatActivity
                     {
                         uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.intro_part5);
                     }
+                } else {
+                    final String arabic[] = {"Ba (بـ)", "Nun (ن)", "Ta (ت)", "Tha (ث)", "Ya (ـي)"};
+                    topics = new String[arabic.length];
+                    for (int i = 0; i < arabic.length; i++) {
+                        topics[i] = arabic[i];
+                    }
+                    achievmentAdapters = topics;
                 }
 
-            ListView listModules = findViewById(R.id.lvParts);
-            VideoView vvIntro = findViewById(R.id.vvIntro);
-            vvIntro.setVideoPath(uri.toString());
-            vvIntro.requestFocus();
-            vvIntro.start();
 
-            if (lang.equals("Arabic"))
-            {
-                CustomAdapterAchievementsAr achievementAdapter = new CustomAdapterAchievementsAr(this, achievmentAdapters);
-                listModules.setAdapter(achievementAdapter);
+            if (!(name.equals(mod6))) {
+                VideoView vvIntro = findViewById(R.id.vvIntro);
+                vvIntro.setVideoPath(uri.toString());
+                vvIntro.requestFocus();
+                vvIntro.start();
             }
-            else
-            {
-                CustomAdapterAchievements achievementAdapter = new CustomAdapterAchievements(this, achievmentAdapters);
-                listModules.setAdapter(achievementAdapter);
-            }
+
+
+            ListView listModules = findViewById(R.id.lvParts);
+            CustomAdapterAchievements achievementAdapter = new CustomAdapterAchievements(this, achievmentAdapters);
+            listModules.setAdapter(achievementAdapter);
 
             listModules.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     String module = String.valueOf(parent.getItemAtPosition(position));
-                    Toast.makeText(getApplicationContext(),topics[position],Toast.LENGTH_LONG).show();
-                    Intent i = new Intent(getApplicationContext(),BRatio1.class);
-                    i.putExtra("Topic",topics[position]);
-                    i.putExtra("Lang", lang);
-                    startActivity(i);
+                    if (topics[position].equals("Ba (بـ)"))
+                    {
+                        Intent i = new Intent(getApplicationContext(),ArabicLesson.class);
+                        i.putExtra("Topic",topics[position]);
+                        i.putExtra("Lang", lang);
+                        startActivity(i);
+                    }
+                    else if (topics[position].equals("Nun (ن)"))
+                    {
+                        Intent i = new Intent(getApplicationContext(),ArabicLesson.class);
+                        i.putExtra("Topic",topics[position]);
+                        i.putExtra("Lang", lang);
+                        startActivity(i);
+                    }
+                    else if (topics[position].equals("Ta (ت)"))
+                    {
+                        Intent i = new Intent(getApplicationContext(),ArabicLesson.class);
+                        i.putExtra("Topic",topics[position]);
+                        i.putExtra("Lang", lang);
+                        startActivity(i);
+                    }
+                    else if (topics[position].equals("Tha (ث)"))
+                    {
+                        Intent i = new Intent(getApplicationContext(),ArabicLesson.class);
+                        i.putExtra("Topic",topics[position]);
+                        i.putExtra("Lang", lang);
+                        startActivity(i);
+                    }
+                    else if (topics[position].equals("Ya (ـي)"))
+                    {
+                        Intent i = new Intent(getApplicationContext(),ArabicLesson.class);
+                        i.putExtra("Topic",topics[position]);
+                        i.putExtra("Lang", lang);
+                        startActivity(i);
+                    }
+                    else {
+                        Intent i = new Intent(getApplicationContext(), BRatio1.class);
+                        i.putExtra("Topic", topics[position]);
+                        i.putExtra("Lang", lang);
+                        startActivity(i);
+                    }
                 }
             });
         }
 
 
 
-    @Override protected void onResume()
-    {
-        super.onResume();
-        VideoView vvIntro = findViewById(R.id.vvIntro);
-        vvIntro.setVideoPath(uri.toString());
-        vvIntro.requestFocus();
-        vvIntro.start();
 
-    }
 }

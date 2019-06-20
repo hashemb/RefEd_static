@@ -11,6 +11,13 @@
     <string name="correct">Correct</string>
     <string name="check">Check</string>
     <string name="wrong">Incorrect</string>
+    <string name="arabic">Arabic</string>
+
+    <string name="mod1">Ratios and Proportional Relationships</string>
+    <string name="mod2">The Number System</string>
+    <string name="mod3">Expressions and Equations</string>
+    <string name="mod4">Geometry</string>
+    <string name="mod5">Statistics and Probability</string>
 
     <string name="username_prompt">Enter Your Username</string>
     <string name="password_prompt">Enter Your Password</string>
@@ -102,11 +109,7 @@
     <string name="q4">Question 4</string>
     <string name="q5">Question 5</string>
     <string name="q6">Question 6</string>
-    <string name="mod1">Ratios and Proportional Relationships</string>
-    <string name="mod2">The Number System</string>
-    <string name="mod3">Expressions and Equations</string>
-    <string name="mod4">Geometry</string>
-    <string name="mod5">Statistics and Probability</string>
+
 
     <string name="t1q1">1.The table below shows the amount of games available at a local school.</string>
     <string name="t1q1_2">What is the ratio of board games to chess games?</string>
@@ -601,355 +604,359 @@ The absolute value of -5 is greater than the value of number 3.
     <string name="ans663">|-5| &gt; 3</string>
     <string name="ans664">|-5| &gt; |-3|</string>
 
-    <string name="t27q1">Connect the following decimals to their percents.</string>
-    <string name="hint67">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans671">53%</string>
-    <string name="ans672">62%</string>
-    <string name="ans673">5%</string>
-    <string name="ans674">0.3%</string>
+    <string name="t27q1">In the following expressions, identify their coefficients and select the option that correctly lists all coefficients.</string>
+    <string name="hint67">coefficients are the numbers of the equation, without the variables.</string>
+    <string name="ans671">2,-3,4,5,8</string>
+    <string name="ans672">4,-9,8</string>
+    <string name="ans673">2,-3,4,-9,5,8</string>
+    <string name="ans674">2,-3,4,4,-9,5,8</string>
 
-    <string name="t27q2">Connect the following decimals to their percents.</string>
-    <string name="hint68">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans681">53%</string>
-    <string name="ans682">62%</string>
-    <string name="ans683">5%</string>
-    <string name="ans684">0.3%</string>
+    <string name="t27q2">In the following expressions,  identify their variables and select the option that correctly lists all variables. </string>
+    <string name="hint68">variables are the unknown numbers in the expression.</string>
+    <string name="ans681">x,y,x,x,y</string>
+    <string name="ans682">2,-3,4,-9,5,8</string>
+    <string name="ans683">x,y,-9,5,8</string>
+    <string name="ans684">2x,-3y,4x,5x,8y</string>
 
-    <string name="t27q3">Connect the following decimals to their percents.</string>
-    <string name="hint69">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans691">53%</string>
-    <string name="ans692">62%</string>
-    <string name="ans693">5%</string>
-    <string name="ans694">0.3%</string>
+    <string name="t27q3">In the following expressions,  identify their terms and select the option that correctly lists all terms. </string>
+    <string name="hint69">equation terms can be a variable, a number, or a number multiplied by the variable. </string>
+    <string name="ans691">2,-3,4,-9,5,8</string>
+    <string name="ans692">X,y,x,x,y</string>
+    <string name="ans693">2x,-3y,4,4x,-9,5x,8y</string>
+    <string name="ans694">2x,-3y,4x,5x,8y</string>
 
-    <string name="t28q1">Connect the following decimals to their percents.</string>
-    <string name="hint70">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans701">53%</string>
-    <string name="ans702">62%</string>
-    <string name="ans703">5%</string>
-    <string name="ans704">0.3%</string>
+    <string name="t28q1">In the following equation, apply the substitution method to evaluate the equation.</string>
+    <string name="hint70">substitute “x” by 5 and calculate the equation.</string>
 
-    <string name="t28q2">Connect the following decimals to their percents.</string>
-    <string name="hint71">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans711">53%</string>
-    <string name="ans712">62%</string>
-    <string name="ans713">5%</string>
-    <string name="ans714">0.3%</string>
+    <string name="t28q2">In the following equation, apply the substitution method to evaluate the equation.</string>
+    <string name="hint71">substitute “x” by 6 and calculate the equation.</string>
 
-    <string name="t28q3">Connect the following decimals to their percents.</string>
-    <string name="hint72">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans721">53%</string>
-    <string name="ans722">62%</string>
-    <string name="ans723">5%</string>
-    <string name="ans724">0.3%</string>
+    <string name="t28q3">In the following equation, apply the substitution method to evaluate the equation. </string>
+    <string name="hint72">substitute “y” by 10 and calculate the equation.</string>
 
-    <string name="t28q4">Connect the following decimals to their percents.</string>
-    <string name="hint73">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans731">53%</string>
-    <string name="ans732">62%</string>
-    <string name="ans733">5%</string>
-    <string name="ans734">0.3%</string>
+    <string name="t28q4">In the following equation, apply the substitution method to evaluate the equation. Then, select the correct answer.</string>
+    <string name="hint73">substitute “x” by 10 and “y” by 1 and calculate the equation.</string>
+    <string name="ans731">50</string>
+    <string name="ans732">77</string>
+    <string name="ans733">51</string>
+    <string name="ans734">63</string>
 
-    <string name="t28q5">Connect the following decimals to their percents.</string>
-    <string name="hint74">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans741">53%</string>
-    <string name="ans742">62%</string>
-    <string name="ans743">5%</string>
-    <string name="ans744">0.3%</string>
+    <string name="t28q5">In the following equation, apply the substitution method to evaluate the equation. Then, select the correct answer.</string>
+    <string name="hint74">substitute “x” by 7, “y” by 3 and “z” by 2, and calculate the equation.</string>
+    <string name="ans741">32</string>
+    <string name="ans742">52</string>
+    <string name="ans743">31</string>
+    <string name="ans744">28</string>
 
-    <string name="t29q1">Connect the following decimals to their percents.</string>
-    <string name="hint75">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans751">53%</string>
-    <string name="ans752">62%</string>
-    <string name="ans753">5%</string>
-    <string name="ans754">0.3%</string>
+    <string name="t29q1">What happens to the value of the expression x+2 when x increases?</string>
+    <string name="hint75"> test it out! Replace “x” by 1. Then, replace “x” by 2, for example. What happens to the solution?
+    </string>
+    <string name="ans751">It increases</string>
+    <string name="ans752">It decreases</string>
+    <string name="ans753">It stays the same</string>
 
-    <string name="t29q2">Connect the following decimals to their percents.</string>
-    <string name="hint76">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans761">53%</string>
-    <string name="ans762">62%</string>
-    <string name="ans763">5%</string>
-    <string name="ans764">0.3%</string>
+    <string name="t29q2">What happens to the value of the expression 3x-1 when x increases?</string>
+    <string name="hint76"> test it out! Replace “x” by 1. Then, replace “x” by 2, for example. What happens to the solution?</string>
+    <string name="ans761">It increases</string>
+    <string name="ans762">It decreases</string>
+    <string name="ans763">It stays the same</string>
 
-    <string name="t29q3">Connect the following decimals to their percents.</string>
-    <string name="hint77">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans771">53%</string>
-    <string name="ans772">62%</string>
-    <string name="ans773">5%</string>
-    <string name="ans774">0.3%</string>
+    <string name="t29q3">What happens to the value of the expression -3x-1 when x increases?</string>
+    <string name="hint77">test it out! Replace “x” by 1. Then, replace “x” by 2, for example. What happens to the solution?</string>
+    <string name="ans771">It increases</string>
+    <string name="ans772">It decreases</string>
+    <string name="ans773">It stays the same</string>
 
-    <string name="t30q1">Connect the following decimals to their percents.</string>
-    <string name="hint78">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans781">53%</string>
-    <string name="ans782">62%</string>
-    <string name="ans783">5%</string>
-    <string name="ans784">0.3%</string>
+    <string name="t30q1">What happens to the value of 15/x when x increases?</string>
+    <string name="hint78">test it out! Replace “x” by 1. Then, replace “x” by 2, for example. What happens to the solution?</string>
+    <string name="ans781">It increases</string>
+    <string name="ans782">It decreases</string>
+    <string name="ans783">It stays the same</string>
 
-    <string name="t30q2">Connect the following decimals to their percents.</string>
-    <string name="hint79">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans791">53%</string>
-    <string name="ans792">62%</string>
-    <string name="ans793">5%</string>
-    <string name="ans794">0.3%</string>
+    <string name="t30q2">What happens to the value of x/5 when x increases?</string>
+    <string name="hint79">test it out! Replace “x” by 1. Then, replace “x” by 2, for example. What happens to the solution?</string>
+    <string name="ans791">It increases</string>
+    <string name="ans792">It decreases</string>
+    <string name="ans793">It stays the same</string>
 
-    <string name="t30q3">Connect the following decimals to their percents.</string>
-    <string name="hint80">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans801">53%</string>
-    <string name="ans802">62%</string>
-    <string name="ans803">5%</string>
-    <string name="ans804">0.3%</string>
+    <string name="t30q3">What happens to the value of 6x-5 when x decreases</string>
+    <string name="hint80">test it out! Replace “x” by 1. Then, replace “x” by 2, for example. What happens to the solution?</string>
+    <string name="ans801">It increases</string>
+    <string name="ans802">It decreases</string>
+    <string name="ans803">It stays the same</string>
 
-    <string name="t31q1">Connect the following decimals to their percents.</string>
-    <string name="hint81">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans811">53%</string>
-    <string name="ans812">62%</string>
-    <string name="ans813">5%</string>
-    <string name="ans814">0.3%</string>
+    <string name="t31q1">Emma’s father works as a fruit vendor in a local tent. He sells pineapples and bananas.
+        He gains $2 for each pineapple sold, and $3 for each bag of bananas. If “x” represents the number of
+        pineapples, and “y” represents the number of bananas, which expression represents how much Emma’s father gains in total?
+    </string>
+    <string name="hint81">his gains are defined by the sum of amount of pineapples sold times its individual cost and the amount of bags of bananas sold times its individual cost.</string>
+    <string name="ans811">3x+2y</string>
+    <string name="ans812">3x-2y</string>
+    <string name="ans813">2x+3y</string>
+    <string name="ans814">2x-3y</string>
 
-    <string name="t31q2">Connect the following decimals to their percents.</string>
-    <string name="hint82">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans821">53%</string>
-    <string name="ans822">62%</string>
-    <string name="ans823">5%</string>
-    <string name="ans824">0.3%</string>
+    <string name="t31q2">Yesterday, Emma’s father sold 15 pineapples and 25 bags of bananas. How much did he gain?
+Remember that each pineapple costs $2 and each bag of bananas costs $3.
+    </string>
+    <string name="hint82">His gains are defined by the sum of amount of pineapples sold times its individual cost and the amount of bags of bananas sold times its individual cost. </string>
+    <string name="ans821">He gained $95.</string>
+    <string name="ans822">He gained $105.</string>
+    <string name="ans823">He gained $40.</string>
+    <string name="ans824">He gained $150. </string>
 
-    <string name="t31q3">Connect the following decimals to their percents.</string>
-    <string name="hint83">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans831">53%</string>
-    <string name="ans832">62%</string>
-    <string name="ans833">5%</string>
-    <string name="ans834">0.3%</string>
+    <string name="t31q3"> Emma’s father has one employee who works with him in his tent. His salary varies according to the amount of fruits he sells.
+        For each pineapple he sells, he gains $0.50, and for each bag of bananas he sells, he gains $0.75. If he sells pineapples and bananas, his salary varies according to the expression 0.50x+0.75y. If yesterday he sold 5 pineapples and 10 bags of bananas, what was his salary?
+Remember that “x” represents pineapples, “y” represents bags of bananas, and that each pineapples cost $2 and each bag of bananas costs $3.
+    </string>
+    <string name="hint83"> In the equation 0.50x+0.75y, substitute “x” by the amount of pineapples he sold and “y” by the amount of bags of bananas he sold. </string>
+    <string name="ans831">His salary was $7.50.</string>
+    <string name="ans832">His salary was $10.</string>
+    <string name="ans833">His salary was $12.50.</string>
+    <string name="ans834">His salary was $11.25.</string>
 
-    <string name="t31q4">Connect the following decimals to their percents.</string>
-    <string name="hint84">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans841">53%</string>
-    <string name="ans842">62%</string>
-    <string name="ans843">5%</string>
-    <string name="ans844">0.3%</string>
+    <string name="t31q4">Yesterday, Emma’s father sold pineapples and bags of bananas. He gained $2 for each pineapple and $3 for each bag of bananas. His employee gained $0.50 for each pineapple and $0.75 for each bag of bananas. After combining the numbers of pineapples and bananas they sold, which expression best represents their gains in total?
+    </string>
+    <string name="hint84">“x” represents pineapples and “y” represents bananas. The sum of Emma’s father and her employee’s gains will form the coefficients of the expression. </string>
+    <string name="ans841">2x+3y+0.50x+0.75y</string>
+    <string name="ans842">2.50x+3.75y</string>
+    <string name="ans843">5x+3y</string>
+    <string name="ans844">3.75x+2.50y</string>
 
-    <string name="t32q1">Connect the following decimals to their percents.</string>
-    <string name="hint85">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans851">53%</string>
-    <string name="ans852">62%</string>
-    <string name="ans853">5%</string>
-    <string name="ans854">0.3%</string>
+    <string name="t32q1">Write an expression for the following sentences:</string>
+    <string name="hint851">remember not to use the “x” sign for multiplication, as it will be used for the variable x. </string>
+    <string name="hint852">remember not to use the “x” sign for multiplication, as it will be used for the variable x. </string>
+    <string name="hint853">“more than” means addition.  </string>
+    <string name="hint854">division could be represented by a fraction or the division sign, “÷”</string>
+    <string name="hint855">the word “product” denotes multiplication.</string>
+    <string name="hint856">the word “quotient” denotes division.</string>
 
-    <string name="t33q1">Connect the following decimals to their percents.</string>
-    <string name="hint86">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans861">53%</string>
-    <string name="ans862">62%</string>
-    <string name="ans863">5%</string>
-    <string name="ans864">0.3%</string>
 
-    <string name="t33q2">Connect the following decimals to their percents.</string>
-    <string name="hint87">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans871">53%</string>
-    <string name="ans872">62%</string>
-    <string name="ans873">5%</string>
-    <string name="ans874">0.3%</string>
+    <string name="t33q1">Today, Mohammed played soccer together in the morning and in the afternoon. In the morning, Mohammed scored 10 goals.
+        In the afternoon, he scored x goals. Write an expression for the total amount of goals he scored today.
+    </string>
+    <string name="hint86">write an expression that shows addition of goals.</string>
 
-    <string name="t33q3">Connect the following decimals to their percents.</string>
-    <string name="hint88">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans881">53%</string>
-    <string name="ans882">62%</string>
-    <string name="ans883">5%</string>
-    <string name="ans884">0.3%</string>
+    <string name="t33q2">Before leaving home to meet with your friends, you decide to make a sandwich for each of them.
+        Each sandwich takes 2 pieces of bread. Write an expression that represents the total amount of pieces of bread you will need for x friends.
+    </string>
+    <string name="hint87">write and expression that shows multiplication of pieces of bread times number of friends. </string>
 
-    <string name="t33q4">Connect the following decimals to their percents.</string>
-    <string name="hint89">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans891">53%</string>
-    <string name="ans892">62%</string>
-    <string name="ans893">5%</string>
-    <string name="ans894">0.3%</string>
+    <string name="t33q3"> Emma and Amena have been working on the math module to practice their math skills. Emma has completed x problems, and
+        Amena has completed 5 less than Emma. Write an expression to represent the amount of problems Amena has completed.
+    </string>
+    <string name="hint88">write an expression that shows the difference (subtraction) between the amount of problems Amena completed and Emma completed.</string>
 
-    <string name="t34q1">Connect the following decimals to their percents.</string>
-    <string name="hint90">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans901">53%</string>
-    <string name="ans902">62%</string>
-    <string name="ans903">5%</string>
-    <string name="ans904">0.3%</string>
+    <string name="t33q4">Your English teacher has brought a huge bag of chocolate bars for your class, which has 20 students.
+        She doesn’t know how many chocolate bars the bag has, but she wants to write an expression that will help her distribute the chocolate
+        bars equally among your classmates, using the letter y to represent the total amount of chocolate bars in the bag. Can you help her?
+    </string>
+    <string name="hint89">equal distribution of chocolate among students denotes division. </string>
 
-    <string name="t34q2">Connect the following decimals to their percents.</string>
-    <string name="hint91">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans911">53%</string>
-    <string name="ans912">62%</string>
-    <string name="ans913">5%</string>
-    <string name="ans914">0.3%</string>
+    <string name="t34q1">In the following expression, apply the distributive property to create an equivalent expression:</string>
+    <string name="hint90">The distributive property consists in multiplying each term of the expression separately and then adding the products.</string>
 
-    <string name="t34q3">Connect the following decimals to their percents.</string>
-    <string name="hint92">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans921">53%</string>
-    <string name="ans922">62%</string>
-    <string name="ans923">5%</string>
-    <string name="ans924">0.3%</string>
+    <string name="t34q2">In the following expression, apply the distributive property to create an equivalent expression:</string>
+    <string name="hint91">The distributive property consists in multiplying each term of the expression separately and then adding the products.</string>
 
-    <string name="t34q4">Connect the following decimals to their percents.</string>
-    <string name="hint93">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans931">53%</string>
-    <string name="ans932">62%</string>
-    <string name="ans933">5%</string>
-    <string name="ans934">0.3%</string>
+    <string name="t34q3">(Challenge question!) In the following expression, find the greatest common factor among all coefficients to apply the distributive property:</string>
 
-    <string name="t35q1">Connect the following decimals to their percents.</string>
-    <string name="hint94">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans941">53%</string>
-    <string name="ans942">62%</string>
-    <string name="ans943">5%</string>
-    <string name="ans944">0.3%</string>
+    <string name="t34q4"> (Challenge question!) In the following expression, find the greatest common factor among all coefficients to apply the distributive property:</string>
+    <string name="hint93">Find the greatest common factor among all coefficients, isolate it and divide all terms by it. Remember to look for the greatest factor.</string>
 
-    <string name="t35q2">Connect the following decimals to their percents.</string>
-    <string name="hint95">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans951">53%</string>
-    <string name="ans952">62%</string>
-    <string name="ans953">5%</string>
-    <string name="ans954">0.3%</string>
+    <string name="t35q1">The image below has several colorful shapes. Select the option that combines the like shapes properly. </string>
+    <string name="hint94"> to be combined properly, equal shapes must be on the same side.</string>
+    <string name="ans941">a</string>
+    <string name="ans942">b</string>
+    <string name="ans943">c</string>
+    <string name="ans944">d</string>
 
-    <string name="t35q3">Connect the following decimals to their percents.</string>
-    <string name="hint96">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans961">53%</string>
-    <string name="ans962">62%</string>
-    <string name="ans963">5%</string>
-    <string name="ans964">0.3%</string>
+    <string name="t35q2"> Now, do the same by combining like terms to create an equivalent expression:</string>
+    <string name="hint95">to be combined properly, terms of equal variables must be on the same side.</string>
+    <string name="ans951">12+3p</string>
+    <string name="ans952">16p</string>
+    <string name="ans953">12+4p</string>
+    <string name="ans954">12p+2p</string>
 
-    <string name="t35q4">Connect the following decimals to their percents.</string>
-    <string name="hint97">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans971">53%</string>
-    <string name="ans972">62%</string>
-    <string name="ans973">5%</string>
-    <string name="ans974">0.3%</string>
+    <string name="t35q3">Combine like terms to create an equivalent expression:</string>
+    <string name="hint96">to be combined properly, terms of equal variables must be on the same side.</string>
+    <string name="ans961">8a+4b</string>
+    <string name="ans962">12a+4b</string>
+    <string name="ans963">12a-2b</string>
+    <string name="ans964">8a-2b</string>
 
-    <string name="t36q1">Connect the following decimals to their percents.</string>
-    <string name="hint98">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans981">53%</string>
-    <string name="ans982">62%</string>
-    <string name="ans983">5%</string>
-    <string name="ans984">0.3%</string>
+    <string name="t35q4">Mohammed and Emma decided to practice their math and reading skills together. The variable m represents the amount of math problems Emma solved, and the letter b represents the number of books Emma read. If Mohammed solved twice more math problems than Emma and read one more book than Emma, what expression best represents the number of math problems they solved and books they read in total? (challenge alert!)
+    </string>
+    <string name="hint97"> to solve this problem, think about what each letter represents, and don’t forget to combine like terms.</string>
+    <string name="ans971">m + b + 2m + b + 1</string>
+    <string name="ans972">3m + 2b + 1</string>
+    <string name="ans973">3m - b + 1</string>
+    <string name="ans974">3m + 2b</string>
 
-    <string name="t36q2">Connect the following decimals to their percents.</string>
-    <string name="hint99">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans991">53%</string>
-    <string name="ans992">62%</string>
-    <string name="ans993">5%</string>
-    <string name="ans994">0.3%</string>
+    <string name="t36q1">Select the expression that is equivalent to x+2y+3x-y</string>
+    <string name="hint98"> Combine like terms by adding or subtracting coefficients. If there is no number before a variable, it means “1”. </string>
+    <string name="ans981">4x+3y</string>
+    <string name="ans982">x(1+2y+3-y)</string>
+    <string name="ans983">4x+y</string>
+    <string name="ans984">4x-y</string>
 
-    <string name="t37q1">Connect the following decimals to their percents.</string>
-    <string name="hint100">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1001">53%</string>
-    <string name="ans1002">62%</string>
-    <string name="ans1003">5%</string>
-    <string name="ans1004">0.3%</string>
+    <string name="t36q2">Which expressions are equivalent to 3(x+4-2x)?</string>
+    <string name="hint99">In this problem, you must apply both the distribution and combination properties. You can select more than one option.</string>
+    <string name="ans991">3x+12-6x</string>
+    <string name="ans992">3x+4x</string>
+    <string name="ans993">-3x+12</string>
+    <string name="ans994">None of the above</string>
 
-    <string name="t38q1">Connect the following decimals to their percents.</string>
-    <string name="hint101">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1011">53%</string>
-    <string name="ans1012">62%</string>
-    <string name="ans1013">5%</string>
-    <string name="ans1014">0.3%</string>
+    <string name="t37q1">Find the value of x in the following equations:</string>
+    <string name="hint1001">To solve this problem, isolate the variable “x” by moving number 10 to the right side and changing its sign. Number “10” will become “-10”. </string>
+    <string name="hint1002">To solve this problem, isolate the variable “x” by moving number 5 to the right side and changing its operation. Multiplication becomes division.</string>
+    <string name="hint1003"> To solve this problem, isolate the variable “x” by moving number 3  to the right side and changing its sign. Number “3” will become “-3”. Then, move number “4” to the right side as well. Multiplication will become division.</string>
+    <string name="hint1004">To solve this problem, isolate the variable “x” by moving number 5 to the right side and changing its sign. Number “5” will become “-5”. Then, move number “2” to the right side as well. Division will become multiplication. </string>
+    <string name="hint1005"> To solve this problem, isolate the variable “x” by moving number 5/17 to the right side and changing its sign. Number “5/17” will become “-5/17”. </string>
+    <string name="hint1006"> To solve this problem, isolate the variable “x” by moving number 4.5 to the right side and changing its sign. Number “4.5” will become “-4.5”. Don’t forget to change the sign of “-x” to find “x”.</string>
+    <string name="hint1007">To solve this problem, isolate the variable “x” by moving number 4.34 to the left side and changing its sign. Number “4.34” will become “-4.34”.</string>
 
-    <string name="t39q1">Connect the following decimals to their percents.</string>
-    <string name="hint102">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1021">53%</string>
-    <string name="ans1022">62%</string>
-    <string name="ans1023">5%</string>
-    <string name="ans1024">0.3%</string>
+    <string name="t38q1">Find the value of y in the following equations:</string>
+    <string name="hint1011">To solve this problem, isolate the variable “y” by moving number 6 to the right side and changing its operation. Division will become multiplication.</string>
+    <string name="hint1012">To solve this problem, isolate the variable “y” by switching “6” and “y”. The operation “36/6” will give you the value of “y”. </string>
+    <string name="hint1013">To solve this problem, isolate the variable “y” by moving number 8 to the right side and changing its operation. Division will become multiplication. </string>
+    <string name="hint1014">To solve this problem, isolate the variable “y” by moving number 6.5 to the right side and changing its operation. Multiplication will become division.</string>
+    <string name="hint1015"> To solve this problem, isolate the variable “y” by moving number 3 to the right side and changing its operation.  Multiplication will become division.</string>
+    <string name="hint1016">To solve this problem, isolate the variable “y” by moving number 3 to the right side and changing its operation.  Multiplication will become division. Simplify the fraction.</string>
+    <string name="hint1017">To solve this problem, isolate the variable “y” by moving number 3 to the right side and changing its operation. Division will become multiplication. </string>
 
-    <string name="t40q1">Connect the following decimals to their percents.</string>
-    <string name="hint103">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1031">53%</string>
-    <string name="ans1032">62%</string>
-    <string name="ans1033">5%</string>
-    <string name="ans1034">0.3%</string>
+    <string name="t39q1">Amena, Mohammed and Emma were working on a math problem. Each one solved a different equation. After all three of them were done,
+        they decided to review their solution. On each of their solutions, find the mistake.
+    </string>
+    <string name="hint102">This problem shows another way of finding the value of variables. Step 1 is finding a common divisor between 3y and 18.
+        Step 2 is solving the equation on both sides. Which step is incorrect?
+    </string>
+    <string name="ans1021">Step 1 is incorrect</string>
+    <string name="ans1022">Step 2 is incorrect</string>
+    <string name="ans1023">There are no mistakes</string>
 
-    <string name="t40q2">Connect the following decimals to their percents.</string>
-    <string name="hint104">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1041">53%</string>
-    <string name="ans1042">62%</string>
-    <string name="ans1043">5%</string>
-    <string name="ans1044">0.3%</string>
+    <string name="t40q1">It was a rainy day and Mohammed decided not to play outside. Instead, he decided to draw his favorite animal. However, he noticed some colored pencils were missing.
+        Mohammed initially had 15 colored pencils and now he has 12 pencils. Select the expression that represents the amount of pencils Mohammed lost (x).
+    </string>
+    <string name="hint103">“x” represents the amount of colored pencils Mohammed lost, which is simply the difference between
+        the amount of colored pencils he initially had and the amount of colored pencils he now has.
+    </string>
+    <string name="ans1031">x=15-12</string>
+    <string name="ans1032">12x=15</string>
+    <string name="ans1033">x+12=15</string>
+    <string name="ans1034">x=12/15</string>
 
-    <string name="t40q3">Connect the following decimals to their percents.</string>
-    <string name="hint105">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1051">53%</string>
-    <string name="ans1052">62%</string>
-    <string name="ans1053">5%</string>
-    <string name="ans1054">0.3%</string>
+    <string name="t40q2">A bus to the capital of your current country passes by a road near your house every three days. Today is the first day of the month and you saw the bus passing
+        by a few minutes ago. If this month has 30 days in total, what equation represents the amount of times the bus will pass by (y)?
+    </string>
+    <string name="hint104">the amount of times the bus will pass by is the division of the total amount of days by 3. Remember that today does not count!</string>
+    <string name="ans1041">y=30/3</string>
+    <string name="ans1042">y=(30/3)-1</string>
+    <string name="ans1043">30y=3</string>
+    <string name="ans1044">(30-1)y=3</string>
 
-    <string name="t40q4">Connect the following decimals to their percents.</string>
-    <string name="hint106">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1061">53%</string>
-    <string name="ans1062">62%</string>
-    <string name="ans1063">5%</string>
-    <string name="ans1064">0.3%</string>
+    <string name="t40q3">Mohammed and John decided to compete on how much they could run in 2 minutes. Mohammed ran 290 meters in 2 minutes, but John ran more than Mohammed.
+        At the end of the 2 minutes, the distance between them was 50 meters. What expression represents the distance John ran (d)?
+    </string>
+    <string name="hint105"> John ran 50 meters more than Mohammed.</string>
+    <string name="ans1051">d=290-50</string>
+    <string name="ans1052">d=290/50</string>
+    <string name="ans1053">d=290+50</string>
+    <string name="ans1054">d=50/290</string>
 
-    <string name="t40q5">Connect the following decimals to their percents.</string>
-    <string name="hint107">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1071">53%</string>
-    <string name="ans1072">62%</string>
-    <string name="ans1073">5%</string>
-    <string name="ans1074">0.3%</string>
+    <string name="t40q4">Turkey is a country located in Southeastern Europe and Western Asia, and its highest mountain is called Mount Ararat. The highest
+        mountain in the world is called Mount Everest, it is located in the border between China and Nepal, and it measures 8,848 m.
+        If Mount Ararat is 3,711 shorter than Mount Everest, select the equation that best represents its height (a).
+    </string>
+    <string name="hint106">Mount Ararat measures 3,711 meters less than Mount Everest.</string>
+    <string name="ans1061">a=8,848/3,711</string>
+    <string name="ans1062">a=8,848/5,137</string>
+    <string name="ans1063">a=8,848-3,711</string>
+    <string name="ans1064">8,848&lt;a&lt;3,711</string>
 
-    <string name="t41q1">Connect the following decimals to their percents.</string>
-    <string name="hint108">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1081">53%</string>
-    <string name="ans1082">62%</string>
-    <string name="ans1083">5%</string>
-    <string name="ans1084">0.3%</string>
+    <string name="t40q5">Russia is the largest country in the world. Its area measures 17,125,200 km2. Canada is the second largest country in the world, and its area measures 9,984,670 km2.
+If x represents the difference between the two largest countries of the world, write an equation to show it .</string>
+    <string name="hint107">“Difference” means subtraction of the greater minus the smaller. In this case, Russia’s area minus Canada’s area.</string>
 
-    <string name="t41q2">Connect the following decimals to their percents.</string>
-    <string name="hint109">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1091">53%</string>
-    <string name="ans1092">62%</string>
-    <string name="ans1093">5%</string>
-    <string name="ans1094">0.3%</string>
+    <string name="t41q1">An inequality is the relation between two expressions that are not equal, and is represented by the symbol “≠”. An inequality could also be
+        “greater than”, or “less than”. We represent “greater than” with the symbol “&gt;”
+        and “less than” with the symbol “&lt;”. In the following inequality, choose the value of x that satisfies it.
+    </string>
+    <string name="hint108">To find which alternative satisfies the inequality, use the substitution method by plugging in each value into the equation.
+Example:
+6x&gt;10
+If x=2
+6(2)&gt;10
+12>10
+</string>
+    <string name="ans1081">If x=2, x satisfies the inequality.</string>
+    <string name="ans1082">If x=5, x satisfies the inequality.</string>
+    <string name="ans1083">If x=9, x satisfies the inequality.</string>
+    <string name="ans1084">If x=10, x satisfies the inequality.</string>
 
-    <string name="t41q3">Connect the following decimals to their percents.</string>
-    <string name="hint110">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1101">53%</string>
-    <string name="ans1102">62%</string>
-    <string name="ans1103">5%</string>
-    <string name="ans1104">0.3%</string>
+    <string name="t41q2">Which of the x-values satisfy the following inequality?</string>
+    <string name="hint109"> substitute “x” by the values proposed in each alternative to test the inequalities. </string>
+    <string name="ans1091">If x=48, x satisfies the inequality.</string>
+    <string name="ans1092">If x=12, x satisfies the inequality.</string>
+    <string name="ans1093">If x=96, x satisfies the inequality.</string>
+    <string name="ans1094">If x=108, x satisfies the inequality.</string>
 
-    <string name="t41q4">Connect the following decimals to their percents.</string>
-    <string name="hint111">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1111">53%</string>
-    <string name="ans1112">62%</string>
-    <string name="ans1113">5%</string>
-    <string name="ans1114">0.3%</string>
+    <string name="t41q3">Amena’s father was born in 1968. Select the inequality that represents all years before he was born.</string>
+    <string name="hint110">“&lt;” means “less than”, “&gt;” means “greater than”, and “=” means “equal”. Choose the symbol that best
+        represents the relationship between numbers 1968 and years smaller than 1968.
+    </string>
+    <string name="ans1101">x&lt;1968</string>
+    <string name="ans1102">x&gt;1968</string>
+    <string name="ans1103">x/2&gt;1968</string>
+    <string name="ans1104">x=1968</string>
 
-    <string name="t41q5">Connect the following decimals to their percents.</string>
-    <string name="hint112">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1121">53%</string>
-    <string name="ans1122">62%</string>
-    <string name="ans1123">5%</string>
-    <string name="ans1124">0.3%</string>
+    <string name="t41q4">When listening to the news on the radio, Mohammed heard that the highest temperature would be 35C
+        and the lowest temperature would be 20C. If t represents temperature, what inequality best expresses the temperature range?
+    </string>
+    <string name="hint111"> “t” must be greater than 25 and smaller than 35. </string>
+    <string name="ans1111">25&lt;t&lt;35</string>
+    <string name="ans1112">35&lt;t&lt;25</string>
+    <string name="ans1113">t=35</string>
+    <string name="ans1114">t=25</string>
 
-    <string name="t42q1">Connect the following decimals to their percents.</string>
-    <string name="hint113">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1131">53%</string>
-    <string name="ans1132">62%</string>
-    <string name="ans1133">5%</string>
-    <string name="ans1134">0.3%</string>
+    <string name="t41q5">Between 1912 and 1956, a country called Morocco was divided between French and Spanish zones.
+        If the variable m represents the years Morocco was divided, select the alternative that best represents this period.
+    </string>
+    <string name="hint112">this period has to be between 1912 and 1956. </string>
+    <string name="ans1121">1956&lt;m&lt;1912</string>
+    <string name="ans1122">1912=m=1956</string>
+    <string name="ans1123">1912&lt;m&lt;1956</string>
+    <string name="ans1124">1956/m&lt;1912</string>
 
-    <string name="t42q2">Connect the following decimals to their percents.</string>
-    <string name="hint114">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1141">53%</string>
-    <string name="ans1142">62%</string>
-    <string name="ans1143">5%</string>
-    <string name="ans1144">0.3%</string>
+    <string name="t42q1">You already know the inequalities symbols. “&gt;” means “greater than”, “&lt;” means “less than”, “\u2265”
+        means “greater than or equal to” and “\u2266” means “less than or equal to”. We can represent
+        inequalities on number lines. Based on the following number line, select the option that represents its inequality.
+    </string>
+    <string name="hint113">The white circle means the number is not included in the inequality. Here, look for an expression that shows numbers greater than 2. </string>
+    <string name="ans1131">x&gt;2</string>
+    <string name="ans1132">x=2</string>
+    <string name="ans1133">x&lt;2</string>
+    <string name="ans1134">X\u2265 2</string>
 
-    <string name="t42q3">Connect the following decimals to their percents.</string>
-    <string name="hint115">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1151">53%</string>
-    <string name="ans1152">62%</string>
-    <string name="ans1153">5%</string>
-    <string name="ans1154">0.3%</string>
+    <string name="t42q2">Based on the following number line, select the option that represents its inequality.</string>
+    <string name="hint114">The red circle means the number is included in the inequality. Here, look for an expression that shows numbers smaller or equal to 3. </string>
+    <string name="ans1141">x&gt;3</string>
+    <string name="ans1142">x&lt;3</string>
+    <string name="ans1143">x\u2266 3</string>
+    <string name="ans1144">-4&lt;x\u2266 3</string>
 
-    <string name="t43q1">Connect the following decimals to their percents.</string>
-    <string name="hint116">Multiplying a decimal by 100 converts it to its percent.</string>
-    <string name="ans1161">53%</string>
-    <string name="ans1162">62%</string>
-    <string name="ans1163">5%</string>
-    <string name="ans1164">0.3%</string>
+    <string name="t42q3">Based on the following number line, select the option that represents its inequality.</string>
+    <string name="hint115">The red circle means the number is included in the inequality. Here, look for an expression that shows numbers greater or equal to -1. </string>
+    <string name="ans1151">  x\u2265 1</string>
+    <string name="ans1152">  x\u2265 -1 </string>
+    <string name="ans1153">x &lt;-1</string>
+    <string name="ans1154">x\u2266-1</string>
+
+    <string name="t43q1"> Based on the following number line, select the option that represents its inequality.</string>
+    <string name="hint116">The red circle means the number is included in the inequality. Here, look for an expression that shows numbers greater or equal to -1.</string>
+    <string name="ans1161">x\u2265 1</string>
+    <string name="ans1162">x\u2265-1</string>
+    <string name="ans1163">x&lt;-1</string>
+    <string name="ans1164">x\u2266-1</string>
 
     <string name="t43q2">Connect the following decimals to their percents.</string>
     <string name="hint117">Multiplying a decimal by 100 converts it to its percent.</string>

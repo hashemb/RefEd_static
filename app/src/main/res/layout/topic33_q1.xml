@@ -1,6 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vaibh.refed.Topic1Q1">
 
-</android.support.constraint.ConstraintLayout>
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="wrap_content"
+        android:layout_height="184dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="14dp"
+        android:gravity="center_horizontal|center"
+        android:text="@string/t33q1"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/buttonHint1"
+        android:layout_width="104dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/checkbtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="248dp"
+        android:layout_marginEnd="249dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/hint" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="544dp"
+        android:layout_height="127dp"
+        android:layout_above="@+id/imgImage"
+        android:layout_below="@+id/txtContent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/topic33q1_pic" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="121dp"
+        android:layout_height="241dp"
+        android:layout_above="@+id/buttonHint1"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignStart="@+id/imgImage"
+        android:layout_alignEnd="@+id/imgImage"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="22dp"
+        android:ems="10"
+        android:hint="1"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/checkbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="256dp"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="105dp"
+        android:text="@string/check" />
+
+
+</RelativeLayout>

@@ -38,7 +38,8 @@ public class Activity_Math extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity__math);
 
-        final String mathMods[] = {getString(R.string.mod1), getString(R.string.mod2), getString(R.string.mod3), getString(R.string.mod4), getString(R.string.mod5)};
+        final String mathMods[] = {getString(R.string.mod1), getString(R.string.mod2), getString(R.string.mod3), getString(R.string.mod4),
+                getString(R.string.mod5), getString(R.string.arabic)};
 
         ListView listModules = findViewById(R.id.lvParts);
 

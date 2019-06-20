@@ -35,6 +35,8 @@
         <activity android:name=".Achievements" android:screenOrientation="sensorPortrait" />
         <activity android:name=".ModulesPage" android:screenOrientation="sensorPortrait" />
         <activity android:name=".Activity_Math" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".ArabicLesson" android:screenOrientation="sensorPortrait" />
+        <activity android:name=".ArabicVid" android:screenOrientation="landscape" />
         <activity android:name=".MathModule1_Part1"/>
         <activity android:name=".BRatio1" android:screenOrientation="sensorPortrait" />
         <activity android:name=".Topic1Q1" android:screenOrientation="sensorPortrait" />
