@@ -222,7 +222,7 @@ public class MathModule1_Part1 extends AppCompatActivity
                     }
                     else
                     {
-                        uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.intro_part5);
+                        uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.ar_intro_part5);
                     }
                 } else {
                     final String arabic[] = {"Ba (بـ)", "Nun (ن)", "Ta (ت)", "Tha (ث)", "Ya (ـي)"};
