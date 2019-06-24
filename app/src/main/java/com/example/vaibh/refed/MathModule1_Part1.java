@@ -243,8 +243,16 @@ public class MathModule1_Part1 extends AppCompatActivity
 
 
             ListView listModules = findViewById(R.id.lvParts);
-            CustomAdapterAchievements achievementAdapter = new CustomAdapterAchievements(this, achievmentAdapters);
-            listModules.setAdapter(achievementAdapter);
+            if (lang.equals("Arabic"))
+            {
+                CustomAdapterAchievementsAr achievementAdapter = new CustomAdapterAchievementsAr(this, achievmentAdapters);
+                listModules.setAdapter(achievementAdapter);
+            }
+            else
+            {
+                CustomAdapterAchievements achievementAdapter = new CustomAdapterAchievements(this, achievmentAdapters);
+                listModules.setAdapter(achievementAdapter);
+            }
 
             listModules.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override

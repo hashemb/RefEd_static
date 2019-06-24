@@ -33,7 +33,7 @@ public class ArabicLesson extends AppCompatActivity
 
         // Retrieve the name of the module selected in Activity_Math
         final Intent intent = getIntent();
-        final String topic = intent.getStringExtra("Topic");
+        final String name = intent.getStringExtra("Topic");
 
         // This allows for correct formatting of arabic text within the ListViews
         final Intent intent1 = getIntent();
@@ -56,7 +56,8 @@ public class ArabicLesson extends AppCompatActivity
             for (int i = 0; i < question.length; i++) {
                 questions[i] = question[i];
             }
-            topicName.setText(topic);
+            //Set page heading
+            topicName.setText(name);
 
         achievmentAdapters = questions;
         ListView listModules = findViewById(R.id.lvParts);
@@ -81,51 +82,11 @@ public class ArabicLesson extends AppCompatActivity
                    String topicQ = String.valueOf(parent.getItemAtPosition(position));
                    Toast.makeText(getApplicationContext(), topicQ, Toast.LENGTH_LONG).show();
                    Intent i;
-
-                   if (topic.equals("Ba (بـ)"))
-                   {
-                       if (topicQ.equals(getString(R.string.video1)))
-                       {
-                           i = new Intent(ArabicLesson.this, ArabicVid.class);
-                           i.putExtra("Lang", lang);
-                           startActivity(i);
-                       }
-                       else if (topicQ.equals(getString(R.string.q2)))
-                       {
-                           i = new Intent(ArabicLesson.this, Topic1Q2.class);
-                           //i.putExtra("Name", topic);
-                           startActivity(i);
-                       }
-                       else
-                       {
-                           i = new Intent(ArabicLesson.this, Topic1Q3.class);
-                           //i.putExtra("Name", topic);
-                           startActivity(i);
-                       }
-                   }
-                   else if (topic.equals(getString(R.string.topic2)))
-                   {
-                       if (topicQ.equals(getString(R.string.q1)))
-                       {
-                           i = new Intent(ArabicLesson.this, Topic2Q1.class);
-                           startActivity(i);
-                       }
-                       else if (topicQ.equals(getString(R.string.q2)))
-                       {
-                           i = new Intent(ArabicLesson.this, Topic2Q2.class);
-                           startActivity(i);
-                       }
-                       else
-                       {
-                           i = new Intent(ArabicLesson.this, Topic2Q3.class);
-                           startActivity(i);
-                       }
-                   }
-
-                   else
-                   {
-                       int o;
-                   }
+                   i = new Intent(ArabicLesson.this, ArabicVid.class);
+                   i.putExtra("Lang", lang);
+                   i.putExtra("Topic",questions[position]);
+                   i.putExtra("Name",name);
+                   startActivity(i);
 
                }
            }
