@@ -56,7 +56,7 @@ public class Topic27Vid1 extends AppCompatActivity {
 
     public void playVideo(View v)
     {
-        int video = R.raw.sv_part2_cartesianplane;
+        int video = R.raw.sv_part3_coefficients_variables_terms;
         if (lang.equals("Arabic"))
         {
             video = R.raw.sv_part2_cartesianplane_ar;
