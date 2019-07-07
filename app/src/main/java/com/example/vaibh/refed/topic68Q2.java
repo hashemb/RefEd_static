@@ -4,7 +4,7 @@ package com.example.vaibh.refed;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Topic68Q2 extends AppCompatActivity {
+public class topic68Q2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState)

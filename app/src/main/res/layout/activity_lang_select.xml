@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:background="#cce6ff"
-android:fillViewport="true">
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="#73cd6a"
-    tools:context="com.example.vaibh.refed.Login">
 
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cce6ff"
+    android:fillViewport="true">
 
     <TextView
         android:id="@+id/arQ"
@@ -46,7 +41,7 @@ android:fillViewport="true">
         android:layout_below="@+id/arQ"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="174dp"
+        android:layout_marginStart="11dp"
         android:layout_marginTop="63dp"
         android:layout_marginEnd="39dp"
         android:orientation="horizontal">
@@ -69,22 +64,22 @@ android:fillViewport="true">
             android:layout_alignEnd="@+id/radBtEng"
             android:layout_alignParentStart="true"
             android:onClick="radioButtonClickedAr"
-            android:text="اللغة العربية الفصحى" />
+            android:text="العربية" />
 
     </RadioGroup>
 
     <Button
         android:id="@+id/btnContinue"
-        android:layout_width="136dp"
-        android:layout_height="75dp"
-        android:layout_below="@+id/radBtEng"
+        android:layout_width="152dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/radGroup"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="245dp"
-        android:layout_marginTop="87dp"
-        android:layout_marginEnd="222dp"
-        android:layout_marginBottom="454dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="65dp"
         android:text="@string/continue1" />
 
     <TextView
@@ -100,6 +95,4 @@ android:fillViewport="true">
         android:textStyle="bold" />
 
 
-
 </RelativeLayout>
-</ScrollView>

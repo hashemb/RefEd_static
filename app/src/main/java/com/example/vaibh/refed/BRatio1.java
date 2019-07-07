@@ -2101,7 +2101,7 @@ public class BRatio1 extends AppCompatActivity
                         }
                         else if (topicQ.equals(getString(R.string.q2)))
                         {
-                            i = new Intent(BRatio1.this, Topic68Q2.class);
+                            i = new Intent(BRatio1.this, topic68Q2.class);
                             i.putExtra("Lang", lang);
                             startActivity(i);
                         }
